@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://cc1y2h6djp4xp"]
+
+[ext_resource type="Script" uid="uid://xhw13exwvctc" path="res://main.gd" id="1_g2sh7"]
+[ext_resource type="Script" uid="uid://cdu5tlyk72uu4" path="res://addons/gecs/ecs/world.gd" id="1_mkwj3"]
+[ext_resource type="PackedScene" uid="uid://dpmn6auqphm12" path="res://scenes/presentation/player_view.tscn" id="1_u2ps8"]
+[ext_resource type="Script" uid="uid://darlrdwscqt4b" path="res://entities/player/player_entity.gd" id="3_g2sh7"]
+[ext_resource type="Script" uid="uid://c61r1o3dfba1" path="res://systems/input/player_input_system.gd" id="9_r5e0p"]
+[ext_resource type="Script" uid="uid://bstd1d5raxuj1" path="res://systems/movement/movement_system.gd" id="10_rsnit"]
+[ext_resource type="Script" uid="uid://62olg8eh0lsh" path="res://systems/presentation/player_presentation_system.gd" id="11_o04ol"]
+
+[sub_resource type="Environment" id="Environment_u2ps8"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lrteg"]
+size = Vector2(100, 100)
+
+[node name="Capernaum" type="Node3D" unique_id=976800065]
+script = ExtResource("1_g2sh7")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1998322990]
+environment = SubResource("Environment_u2ps8")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=69800417]
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1919242186]
+mesh = SubResource("PlaneMesh_lrteg")
+
+[node name="Sea of Galilee" type="MeshInstance3D" parent="." unique_id=1324701175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6.1982117, 98.42877)
+mesh = SubResource("PlaneMesh_lrteg")
+
+[node name="Presentation" type="Node" parent="." unique_id=522909114]
+
+[node name="PlayerView" parent="Presentation" unique_id=998676259 instance=ExtResource("1_u2ps8")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2814451, 0)
+
+[node name="Buildings" type="Node" parent="." unique_id=423316688]
+
+[node name="House_01" type="MeshInstance3D" parent="Buildings" unique_id=1538297791]
+
+[node name="ECS" type="Node" parent="." unique_id=1087717547]
+
+[node name="World" type="Node" parent="ECS" unique_id=692568026]
+unique_name_in_owner = true
+script = ExtResource("1_mkwj3")
+entity_nodes_root = NodePath("../Entities")
+system_nodes_root = NodePath("../Systems")
+metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
+
+[node name="Entities" type="Node" parent="ECS" unique_id=1737344123]
+
+[node name="PlayerEntity" type="Node" parent="ECS/Entities" unique_id=1400622176]
+script = ExtResource("3_g2sh7")
+metadata/_custom_type_script = "uid://darlrdwscqt4b"
+
+[node name="Systems" type="Node" parent="ECS" unique_id=1123901021]
+
+[node name="PlayerInputSystem" type="Node" parent="ECS/Systems" unique_id=1072334009]
+script = ExtResource("9_r5e0p")
+group = "input"
+metadata/_custom_type_script = "uid://c61r1o3dfba1"
+
+[node name="MovementSystem" type="Node" parent="ECS/Systems" unique_id=1000825849]
+script = ExtResource("10_rsnit")
+group = "gameplay"
+metadata/_custom_type_script = "uid://bstd1d5raxuj1"
+
+[node name="PlayerPresentationSystem" type="Node" parent="ECS/Systems" unique_id=643500246]
+script = ExtResource("11_o04ol")
+group = "physics"
+metadata/_custom_type_script = "uid://62olg8eh0lsh"

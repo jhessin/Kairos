@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ud2xs0rlkvfv"]
+
+[ext_resource type="Script" uid="uid://darlrdwscqt4b" path="res://entities/player/player_entity.gd" id="1_dr74t"]
+
+[node name="EPlayer_tscn" type="Node" unique_id=1313184949]
+script = ExtResource("1_dr74t")
+metadata/_custom_type_script = "uid://darlrdwscqt4b"
