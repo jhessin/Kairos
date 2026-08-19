@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://bh4jxaa6vkr7q"]
+
+[ext_resource type="Script" uid="uid://xhw13exwvctc" path="res://main.gd" id="1_tefeu"]
+[ext_resource type="Script" uid="uid://cdu5tlyk72uu4" path="res://addons/gecs/ecs/world.gd" id="2_o6xl0"]
+[ext_resource type="Script" uid="uid://cnw2lf14edh3q" path="res://systems/player_input_system.gd" id="3_tipki"]
+[ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/movement_system.gd" id="4_85g3d"]
+[ext_resource type="Script" uid="uid://btcw2g5ldvtvj" path="res://systems/godot_movement_system.gd" id="5_choun"]
+[ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
+size = Vector3(100, 1, 100)
+
+[sub_resource type="BoxMesh" id="BoxMesh_prxtw"]
+size = Vector3(100, 1, 100)
+
+[node name="Node" type="Node3D" unique_id=1914103312]
+script = ExtResource("1_tefeu")
+
+[node name="World" type="Node" parent="." unique_id=1204015448]
+script = ExtResource("2_o6xl0")
+entity_nodes_root = NodePath("Entities")
+system_nodes_root = NodePath("Systems")
+metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
+
+[node name="Systems" type="Node" parent="World" unique_id=617874267]
+
+[node name="PlayerInputSystem" type="Node" parent="World/Systems" unique_id=540705423]
+script = ExtResource("3_tipki")
+group = "physics"
+metadata/_custom_type_script = "uid://cnw2lf14edh3q"
+
+[node name="MovementSystem" type="Node" parent="World/Systems" unique_id=1554304383]
+script = ExtResource("4_85g3d")
+group = "physics"
+metadata/_custom_type_script = "uid://ct3epth68vefy"
+
+[node name="GodotMovementSystem" type="Node" parent="World/Systems" unique_id=1292469078]
+script = ExtResource("5_choun")
+group = "physics"
+metadata/_custom_type_script = "uid://btcw2g5ldvtvj"
+
+[node name="Entities" type="Node" parent="World" unique_id=1105179887]
+
+[node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
+
+[node name="Environment" type="Node" parent="." unique_id=1156814316]
+
+[node name="Ground" type="StaticBody3D" parent="Environment" unique_id=1825366205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Ground" unique_id=1298423580]
+shape = SubResource("BoxShape3D_lrteg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/Ground" unique_id=1768666215]
+mesh = SubResource("BoxMesh_prxtw")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment" unique_id=482761869]
+transform = Transform3D(1, 0, 0, 0, 0.8004987, 0.5993345, 0, -0.5993345, 0.8004987, 0, 4.3461843, 0)

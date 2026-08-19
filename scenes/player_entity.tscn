@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://eia7i60vn1mw"]
+
+[ext_resource type="Script" uid="uid://ca8msholbyioc" path="res://entities/player_entity.gd" id="1_8b1co"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lrteg"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_prxtw"]
+
+[node name="PlayerEntity" type="Node3D" unique_id=732831921]
+script = ExtResource("1_8b1co")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1658826216]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1685726583]
+shape = SubResource("CapsuleShape3D_lrteg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1773617601]
+mesh = SubResource("CapsuleMesh_prxtw")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=1160166903]
+transform = Transform3D(1, 0, 0, 0, 0.9396926, 0.34202012, 0, -0.34202012, 0.9396926, 0, 4, 8)
+current = true
