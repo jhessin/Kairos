@@ -10,13 +10,14 @@ func deps() -> Dictionary[int, Array]:
 # themselves or add other systems etc. System order matters.
 func query() -> QueryBuilder:
 	# process_empty = false # Do we want this to run every frame even with no entities?
-	return q.with_all([C_Movement, C_GodotCharacterBody]) # return the query here
+	return q.with_all([C_Movement, C_GodotCharacterBody, C_GroundState]) # return the query here
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var movement := entity.get_component(C_Movement) as C_Movement
 		var godot_body := entity.get_component(C_GodotCharacterBody) as C_GodotCharacterBody
+		var ground_state := entity.get_component(C_GroundState) as C_GroundState
 
 		var body := godot_body.body
 
@@ -28,3 +29,4 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		body.move_and_slide()
 
 		movement.velocity = body.velocity
+		ground_state.is_on_floor = body.is_on_floor()
