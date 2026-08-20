@@ -55,10 +55,12 @@ metadata/_custom_type_script = "uid://c77vubib03gf3"
 
 [node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
 script = ExtResource("8_choun")
+group = "physics"
 metadata/_custom_type_script = "uid://1dcwygyabhph"
 
 [node name="GodotRotationSystem" type="Node" parent="World/Systems" unique_id=1642946638]
 script = ExtResource("9_ya4ey")
+group = "physics"
 metadata/_custom_type_script = "uid://5rb0oh16hhdi"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]

@@ -7,17 +7,15 @@ func deps() -> Dictionary[int, Array]:
 
 
 func query() -> QueryBuilder:
-	return q.with_all([C_Rotation, C_GodotCharacterBody])
+	return q.with_all([C_Rotation, C_GodotVisual])
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var rotation := entity.get_component(C_Rotation) as C_Rotation
-		var godot_body := entity.get_component(C_GodotCharacterBody) as C_GodotCharacterBody
+		var godot_visual := entity.get_component(C_GodotVisual) as C_GodotVisual
 
-		var body := godot_body.body
-
-		if not is_instance_valid(body):
+		if not is_instance_valid(godot_visual.visual):
 			continue
 
-		body.rotation.y = rotation.yaw
+		godot_visual.visual.rotation.y = rotation.yaw
