@@ -5,7 +5,9 @@
 [ext_resource type="Script" uid="uid://cnw2lf14edh3q" path="res://systems/player_input_system.gd" id="3_tipki"]
 [ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/movement_system.gd" id="4_85g3d"]
 [ext_resource type="Script" uid="uid://btcw2g5ldvtvj" path="res://systems/godot_movement_system.gd" id="5_choun"]
+[ext_resource type="Script" uid="uid://coxd424hg41ca" path="res://systems/camera_system.gd" id="6_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
+[ext_resource type="Script" uid="uid://c77vubib03gf3" path="res://systems/godot_camera_system.gd" id="7_tipki"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -29,6 +31,11 @@ script = ExtResource("3_tipki")
 group = "physics"
 metadata/_custom_type_script = "uid://cnw2lf14edh3q"
 
+[node name="CameraSystem" type="Node" parent="World/Systems" unique_id=29954087]
+script = ExtResource("6_o6xl0")
+group = "physics"
+metadata/_custom_type_script = "uid://coxd424hg41ca"
+
 [node name="MovementSystem" type="Node" parent="World/Systems" unique_id=1554304383]
 script = ExtResource("4_85g3d")
 group = "physics"
@@ -38,6 +45,11 @@ metadata/_custom_type_script = "uid://ct3epth68vefy"
 script = ExtResource("5_choun")
 group = "physics"
 metadata/_custom_type_script = "uid://btcw2g5ldvtvj"
+
+[node name="GodotCameraSystem" type="Node" parent="World/Systems" unique_id=756005017]
+script = ExtResource("7_tipki")
+group = "physics"
+metadata/_custom_type_script = "uid://c77vubib03gf3"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 

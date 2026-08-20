@@ -3,7 +3,9 @@ class_name PlayerEntity
 extends Entity
 
 @onready var character_body: CharacterBody3D = $CharacterBody3D
-@onready var camera: Camera3D = $CharacterBody3D/Camera3D
+@onready var camera_rig: Node3D = $CharacterBody3D/CameraRig
+@onready var spring_arm: SpringArm3D = $CharacterBody3D/CameraRig/SpringArm3D
+@onready var camera: Camera3D = $CharacterBody3D/CameraRig/SpringArm3D/Camera3D
 
 
 func define_components() -> Array:
@@ -14,6 +16,7 @@ func define_components() -> Array:
 		C_GodotCharacterBody.new(),
 		C_GroundState.new(),
 		C_GodotCamera.new(),
+		C_CameraState.new(),
 	]
 
 
@@ -26,6 +29,8 @@ func on_ready() -> void:
 		godot_body.body = character_body
 
 	if godot_camera:
+		godot_camera.rig = camera_rig
+		godot_camera.spring_arm = spring_arm
 		godot_camera.camera = camera
 
 	if camera:

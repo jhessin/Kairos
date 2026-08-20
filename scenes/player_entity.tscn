@@ -17,6 +17,11 @@ shape = SubResource("CapsuleShape3D_lrteg")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1773617601]
 mesh = SubResource("CapsuleMesh_prxtw")
 
-[node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=1160166903]
-transform = Transform3D(1, 0, 0, 0, 0.9396926, 0.34202012, 0, -0.34202012, 0.9396926, 0, 4, 8)
+[node name="CameraRig" type="Node3D" parent="CharacterBody3D" unique_id=1446119756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CharacterBody3D/CameraRig" unique_id=351603188]
+spring_length = 8.0
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/CameraRig/SpringArm3D" unique_id=1160166903]
 current = true
