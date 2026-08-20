@@ -17,6 +17,8 @@ func define_components() -> Array:
 		C_GroundState.new(),
 		C_GodotCamera.new(),
 		C_CameraState.new(),
+		C_Facing.new(),
+		C_Rotation.new(),
 	]
 
 

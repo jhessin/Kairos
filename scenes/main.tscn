@@ -8,6 +8,8 @@
 [ext_resource type="Script" uid="uid://coxd424hg41ca" path="res://systems/camera_system.gd" id="6_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
 [ext_resource type="Script" uid="uid://c77vubib03gf3" path="res://systems/godot_camera_system.gd" id="7_tipki"]
+[ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
+[ext_resource type="Script" uid="uid://5rb0oh16hhdi" path="res://systems/godot_rotation_system.gd" id="9_ya4ey"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -50,6 +52,14 @@ metadata/_custom_type_script = "uid://btcw2g5ldvtvj"
 script = ExtResource("7_tipki")
 group = "physics"
 metadata/_custom_type_script = "uid://c77vubib03gf3"
+
+[node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
+script = ExtResource("8_choun")
+metadata/_custom_type_script = "uid://1dcwygyabhph"
+
+[node name="GodotRotationSystem" type="Node" parent="World/Systems" unique_id=1642946638]
+script = ExtResource("9_ya4ey")
+metadata/_custom_type_script = "uid://5rb0oh16hhdi"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
