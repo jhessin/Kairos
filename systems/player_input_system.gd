@@ -10,6 +10,12 @@ func query() -> QueryBuilder:
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
+	if Input.is_action_just_pressed('ui_cancel'):
+		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+
+	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
 	for entity in entities:
 		var player := entity.get_component(C_Player) as C_Player
 		var intent := entity.get_component(C_MovementIntent) as C_MovementIntent
@@ -24,6 +30,7 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 			intent.direction = Vector3.ZERO
 			continue
 
+		# Get the user input
 		var input_2d := Input.get_vector('move_left', 'move_right', 'move_backward', 'move_forward')
 
 		var camera_forward := -camera.global_transform.basis.z
