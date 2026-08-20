@@ -25,10 +25,10 @@ func process(entities: Array[Entity], _components: Array, delta: float) -> void:
 
 		var target_yaw := atan2(target_direction.x, target_direction.z)
 
-		var angle_difference_value := angle_difference(rotation.yaw, target_yaw)
+		var difference := angle_difference(rotation.yaw, target_yaw)
 
 		var max_rotation := facing.rotation_speed * delta
 
-		angle_difference_value = clamp(angle_difference_value, -max_rotation, max_rotation)
+		difference = clamp(difference, -max_rotation, max_rotation)
 
-		rotation.yaw += angle_difference_value
+		rotation.yaw += difference
