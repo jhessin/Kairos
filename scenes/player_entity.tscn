@@ -1,10 +1,16 @@
 [gd_scene format=3 uid="uid://eia7i60vn1mw"]
 
 [ext_resource type="Script" uid="uid://ca8msholbyioc" path="res://entities/player_entity.gd" id="1_8b1co"]
+[ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="2_6nmcj"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lrteg"]
 
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_tipki"]
+albedo_texture = ExtResource("2_6nmcj")
+z_clip_scale = 0.01
+
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_prxtw"]
+material = SubResource("ORMMaterial3D_tipki")
 
 [node name="PlayerEntity" type="Node3D" unique_id=732831921]
 script = ExtResource("1_8b1co")
@@ -15,6 +21,7 @@ script = ExtResource("1_8b1co")
 shape = SubResource("CapsuleShape3D_lrteg")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1773617601]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 mesh = SubResource("CapsuleMesh_prxtw")
 
 [node name="CameraRig" type="Node3D" parent="CharacterBody3D" unique_id=1446119756]
