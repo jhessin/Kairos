@@ -6,7 +6,7 @@ extends System
 # themselves or add other systems etc. System order matters.
 func query() -> QueryBuilder:
 	# process_empty = false # Do we want this to run every frame even with no entities?
-	return q.with_all([C_Player, C_MovementIntent, C_GodotCamera]) # return the query here
+	return q.with_all([C_Player, C_MovementIntent, C_MovementMode, C_GodotCamera]) # return the query here
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
@@ -19,6 +19,7 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 	for entity in entities:
 		var player := entity.get_component(C_Player) as C_Player
 		var intent := entity.get_component(C_MovementIntent) as C_MovementIntent
+		var movement_mode := entity.get_component(C_MovementMode) as C_MovementMode
 		var godot_camera := entity.get_component(C_GodotCamera) as C_GodotCamera
 
 		if not player.is_local:
@@ -48,3 +49,8 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 			direction = direction.normalized()
 
 		intent.direction = direction
+
+		if Input.is_action_pressed('move_run'):
+			movement_mode.current = C_MovementMode.Mode.RUN
+		else:
+			movement_mode.current = C_MovementMode.Mode.WALK

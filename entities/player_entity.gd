@@ -15,6 +15,8 @@ func define_components() -> Array:
 		C_Player.new(),
 		C_MovementIntent.new(),
 		C_Movement.new(),
+		C_MovementMode.new(),
+		C_MovementConfig.new(),
 		C_GodotCharacterBody.new(),
 		C_GroundState.new(),
 		C_GodotCamera.new(),
