@@ -10,11 +10,17 @@
 [ext_resource type="Script" uid="uid://c77vubib03gf3" path="res://systems/godot_camera_system.gd" id="7_tipki"]
 [ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
 [ext_resource type="Script" uid="uid://5rb0oh16hhdi" path="res://systems/godot_rotation_system.gd" id="9_ya4ey"]
+[ext_resource type="Script" uid="uid://c4sclfhce2qqb" path="res://systems/movement_mode_system.gd" id="10_ya4ey"]
+[ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
 
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_ya4ey"]
+albedo_texture = ExtResource("12_eb6dy")
+
 [sub_resource type="BoxMesh" id="BoxMesh_prxtw"]
+material = SubResource("ORMMaterial3D_ya4ey")
 size = Vector3(100, 1, 100)
 
 [node name="Node" type="Node3D" unique_id=1914103312]
@@ -62,6 +68,11 @@ metadata/_custom_type_script = "uid://1dcwygyabhph"
 script = ExtResource("9_ya4ey")
 group = "physics"
 metadata/_custom_type_script = "uid://5rb0oh16hhdi"
+
+[node name="MovementModeSystem" type="Node" parent="World/Systems" unique_id=149002249]
+script = ExtResource("10_ya4ey")
+group = "physics"
+metadata/_custom_type_script = "uid://c4sclfhce2qqb"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
