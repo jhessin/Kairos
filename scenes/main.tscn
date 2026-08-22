@@ -14,6 +14,8 @@
 [ext_resource type="Script" uid="uid://b3dg3oprljpdd" path="res://systems/animation_state_system.gd" id="11_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 [ext_resource type="Script" uid="uid://ck6i2cb8oxxy" path="res://systems/godot_animation_system.gd" id="12_jkv2x"]
+[ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="13_jbj1t"]
+[ext_resource type="PackedScene" path="res://scenes/archaeology_site.tscn" id="15_muem4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -84,10 +86,17 @@ metadata/_custom_type_script = "uid://c77vubib03gf3"
 script = ExtResource("12_jkv2x")
 metadata/_custom_type_script = "uid://ck6i2cb8oxxy"
 
+[node name="InteractionSystem" type="Node" parent="World/Systems" unique_id=1902652156]
+script = ExtResource("13_jbj1t")
+metadata/_custom_type_script = "uid://1swoocl5chp2"
+
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
+
+[node name="ArchaeologySite" parent="World/Entities" unique_id=631812826 instance=ExtResource("15_muem4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.411146)
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 
