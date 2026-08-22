@@ -10,7 +10,7 @@ func query() -> QueryBuilder:
 	return q.with_all([C_MovementMode, C_MovementConfig, C_MovementIntent])
 
 
-func process(entities: Array[Entity], components: Array, delta: float) -> void:
+func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var movement_mode := entity.get_component(C_MovementMode) as C_MovementMode
 		var movement_config := entity.get_component(C_MovementConfig) as C_MovementConfig
