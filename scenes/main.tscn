@@ -11,7 +11,9 @@
 [ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
 [ext_resource type="Script" uid="uid://5rb0oh16hhdi" path="res://systems/godot_rotation_system.gd" id="9_ya4ey"]
 [ext_resource type="Script" uid="uid://c4sclfhce2qqb" path="res://systems/movement_mode_system.gd" id="10_ya4ey"]
+[ext_resource type="Script" uid="uid://b3dg3oprljpdd" path="res://systems/animation_state_system.gd" id="11_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
+[ext_resource type="Script" uid="uid://ck6i2cb8oxxy" path="res://systems/godot_animation_system.gd" id="12_jkv2x"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -44,20 +46,19 @@ script = ExtResource("6_o6xl0")
 group = "physics"
 metadata/_custom_type_script = "uid://coxd424hg41ca"
 
+[node name="MovementModeSystem" type="Node" parent="World/Systems" unique_id=149002249]
+script = ExtResource("10_ya4ey")
+group = "physics"
+metadata/_custom_type_script = "uid://c4sclfhce2qqb"
+
 [node name="MovementSystem" type="Node" parent="World/Systems" unique_id=1554304383]
 script = ExtResource("4_85g3d")
 group = "physics"
 metadata/_custom_type_script = "uid://ct3epth68vefy"
 
-[node name="GodotMovementSystem" type="Node" parent="World/Systems" unique_id=1292469078]
-script = ExtResource("5_choun")
-group = "physics"
-metadata/_custom_type_script = "uid://btcw2g5ldvtvj"
-
-[node name="GodotCameraSystem" type="Node" parent="World/Systems" unique_id=756005017]
-script = ExtResource("7_tipki")
-group = "physics"
-metadata/_custom_type_script = "uid://c77vubib03gf3"
+[node name="AnimationStateSystem" type="Node" parent="World/Systems" unique_id=652275757]
+script = ExtResource("11_a8y0u")
+metadata/_custom_type_script = "uid://b3dg3oprljpdd"
 
 [node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
 script = ExtResource("8_choun")
@@ -69,10 +70,19 @@ script = ExtResource("9_ya4ey")
 group = "physics"
 metadata/_custom_type_script = "uid://5rb0oh16hhdi"
 
-[node name="MovementModeSystem" type="Node" parent="World/Systems" unique_id=149002249]
-script = ExtResource("10_ya4ey")
+[node name="GodotMovementSystem" type="Node" parent="World/Systems" unique_id=1292469078]
+script = ExtResource("5_choun")
 group = "physics"
-metadata/_custom_type_script = "uid://c4sclfhce2qqb"
+metadata/_custom_type_script = "uid://btcw2g5ldvtvj"
+
+[node name="GodotCameraSystem" type="Node" parent="World/Systems" unique_id=756005017]
+script = ExtResource("7_tipki")
+group = "physics"
+metadata/_custom_type_script = "uid://c77vubib03gf3"
+
+[node name="GodotAnimationSystem" type="Node" parent="World/Systems" unique_id=432579851]
+script = ExtResource("12_jkv2x")
+metadata/_custom_type_script = "uid://ck6i2cb8oxxy"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
