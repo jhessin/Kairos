@@ -1,15 +1,7 @@
----
-title: MMO Story
-description:
-  Here are the characters and overarching story of the game as of now. This is
-  subject to change.
-layout: post
-date: 2026-08-12 10:21
-categories: post articles
-permalink: bible_mmo/story
----
+# MMO Story
 
-{{ page.description }}
+Here are the characters and overarching story of the game as of now. This is
+subject to change.
 
 ## Characters
 

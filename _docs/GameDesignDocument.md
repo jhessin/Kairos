@@ -1,10 +1,4 @@
----
-title: MMO Game Design Document
-layout: post
-date: 2026-08-12 10:21
-categories: post articles
-permalink: bible_mmo/gdd
----
+# MMO Game Design Document
 
 ## **Project Title:** _Chronicles of the Ancient Near East_
 
@@ -171,7 +165,7 @@ for people to quantum-sync with versions of themselves in an alternate reality
 that is several thousand years in the past. This way the player will understand
 the language of their host and be able to progress in the game.
 
-[For more or the game's story click here](story)
+[For more or the game's story click here](./story.md)
 
 ### **8.3 Quests**
 
