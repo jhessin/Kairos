@@ -12,6 +12,80 @@ z_clip_scale = 0.01
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_prxtw"]
 material = SubResource("ORMMaterial3D_tipki")
 
+[sub_resource type="Animation" id="Animation_6nmcj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_pywmm"]
+resource_name = "idle"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.76666665, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.05, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_iv4wl"]
+resource_name = "run"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.26666668, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.1, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hl74m"]
+resource_name = "walk"
+length = 0.75
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.36666667, 0.76666665),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.07, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nk4n4"]
+_data = {
+&"RESET": SubResource("Animation_6nmcj"),
+&"idle": SubResource("Animation_pywmm"),
+&"run": SubResource("Animation_iv4wl"),
+&"walk": SubResource("Animation_hl74m")
+}
+
 [node name="PlayerEntity" type="Node3D" unique_id=732831921]
 script = ExtResource("1_8b1co")
 
@@ -33,3 +107,6 @@ spring_length = 8.0
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D/CameraRig/SpringArm3D" unique_id=1160166903]
 current = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody3D" unique_id=1625621268]
+libraries/ = SubResource("AnimationLibrary_nk4n4")

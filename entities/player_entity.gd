@@ -4,6 +4,7 @@ extends Entity
 
 @onready var character_body: CharacterBody3D = $CharacterBody3D
 @onready var visual: Node3D = $CharacterBody3D/Visual
+@onready var animation_player: AnimationPlayer = $CharacterBody3D/AnimationPlayer
 
 @onready var camera_rig: Node3D = $CharacterBody3D/CameraRig
 @onready var spring_arm: SpringArm3D = $CharacterBody3D/CameraRig/SpringArm3D
@@ -17,13 +18,15 @@ func define_components() -> Array:
 		C_Movement.new(),
 		C_MovementMode.new(),
 		C_MovementConfig.new(),
+		C_AnimationState.new(),
 		C_GodotCharacterBody.new(),
-		C_GroundState.new(),
 		C_GodotCamera.new(),
+		C_GodotVisual.new(),
+		C_GodotAnimation.new(),
+		C_GroundState.new(),
 		C_CameraState.new(),
 		C_Facing.new(),
 		C_Rotation.new(),
-		C_GodotVisual.new(),
 	]
 
 
@@ -32,6 +35,7 @@ func on_ready() -> void:
 	var godot_body := get_component(C_GodotCharacterBody) as C_GodotCharacterBody
 	var godot_camera := get_component(C_GodotCamera) as C_GodotCamera
 	var godot_visual := get_component(C_GodotVisual) as C_GodotVisual
+	var godot_animation := get_component(C_GodotAnimation) as C_GodotAnimation
 
 	if godot_body:
 		godot_body.body = character_body
@@ -43,6 +47,9 @@ func on_ready() -> void:
 
 	if godot_visual:
 		godot_visual.visual = visual
+
+	if godot_animation:
+		godot_animation.animation_player = animation_player
 
 	if camera:
 		camera.current = true
