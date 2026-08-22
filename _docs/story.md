@@ -5,13 +5,24 @@ subject to change.
 
 ## Characters
 
+### The Player: The Resonance
+
+The players are called Resonants - They have been identified through various
+brain scans to have a high quantum synchronization with historical figures found
+through "The Resonance" - An ancient artifact that has recently been unearthed
+that allows quantum physicist to synchronize the brain waves of some people with
+their counterpart in another reality.
+
+As you progress through the game you will have the ability to meet other
+Resonants.
+
 ### Research Organization Leadership
 
 #### Dr. Miriam Halevi - Director of Quantum Anthropology
 
 A renowned scholar who pioneered the theory that consciousness can be
 harmonized across temporal realities. Born in Haifa, educated at MIT, Miriam
-blends anthropology with cutting‑edge physics. She founded the Quantum‑Sync
+blends anthropology with cutting‑edge physics. She founded the Kairos
 Initiative after discovering anomalous linguistic resonance patterns in
 ancient inscriptions.
 
