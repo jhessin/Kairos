@@ -14,8 +14,10 @@
 [ext_resource type="Script" uid="uid://b3dg3oprljpdd" path="res://systems/animation_state_system.gd" id="11_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 [ext_resource type="Script" uid="uid://ck6i2cb8oxxy" path="res://systems/godot_animation_system.gd" id="12_jkv2x"]
-[ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="13_jbj1t"]
-[ext_resource type="PackedScene" path="res://scenes/archaeology_site.tscn" id="15_muem4"]
+[ext_resource type="Script" uid="uid://xrte7mkld8g6" path="res://systems/interaction_input_system.gd" id="13_jkv2x"]
+[ext_resource type="Script" uid="uid://cwaao7344k2yj" path="res://systems/godot_interaction_system.gd" id="14_dp3eg"]
+[ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
+[ext_resource type="PackedScene" uid="uid://c7qrt4kv1txbo" path="res://scenes/interaction_test.tscn" id="17_0ld40"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -60,6 +62,7 @@ metadata/_custom_type_script = "uid://ct3epth68vefy"
 
 [node name="AnimationStateSystem" type="Node" parent="World/Systems" unique_id=652275757]
 script = ExtResource("11_a8y0u")
+group = "physics"
 metadata/_custom_type_script = "uid://b3dg3oprljpdd"
 
 [node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
@@ -84,10 +87,22 @@ metadata/_custom_type_script = "uid://c77vubib03gf3"
 
 [node name="GodotAnimationSystem" type="Node" parent="World/Systems" unique_id=432579851]
 script = ExtResource("12_jkv2x")
+group = "physics"
 metadata/_custom_type_script = "uid://ck6i2cb8oxxy"
 
-[node name="InteractionSystem" type="Node" parent="World/Systems" unique_id=1902652156]
-script = ExtResource("13_jbj1t")
+[node name="InteractionInputSystem" type="Node" parent="World/Systems" unique_id=135445347]
+script = ExtResource("13_jkv2x")
+group = "physics"
+metadata/_custom_type_script = "uid://xrte7mkld8g6"
+
+[node name="GodotInteractionSystem" type="Node" parent="World/Systems" unique_id=93918837]
+script = ExtResource("14_dp3eg")
+group = "physics"
+metadata/_custom_type_script = "uid://cwaao7344k2yj"
+
+[node name="InteractionSystem" type="Node" parent="World/Systems" unique_id=1403485592]
+script = ExtResource("14_jbj1t")
+group = "physics"
 metadata/_custom_type_script = "uid://1swoocl5chp2"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
@@ -95,8 +110,8 @@ metadata/_custom_type_script = "uid://1swoocl5chp2"
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
 
-[node name="ArchaeologySite" parent="World/Entities" unique_id=631812826 instance=ExtResource("15_muem4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.411146)
+[node name="InteractionTest" parent="World/Entities" unique_id=1392036640 instance=ExtResource("17_0ld40")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28252125, 0.49999952, 4.7162337)
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 

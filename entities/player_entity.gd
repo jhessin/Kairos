@@ -9,7 +9,8 @@ extends Entity
 @onready var camera_rig: Node3D = $CharacterBody3D/CameraRig
 @onready var spring_arm: SpringArm3D = $CharacterBody3D/CameraRig/SpringArm3D
 @onready var camera: Camera3D = $CharacterBody3D/CameraRig/SpringArm3D/Camera3D
-@onready var interaction_prompt: Label = $InteractionUI/Prompt
+
+@onready var interaction_area: Area3D = $CharacterBody3D/InteractionArea
 
 
 func define_components() -> Array:
@@ -29,6 +30,7 @@ func define_components() -> Array:
 		C_Facing.new(),
 		C_Rotation.new(),
 		C_Interaction.new(),
+		C_InteractionTarget.new(),
 		C_GodotInteraction.new(),
 	]
 
@@ -56,7 +58,7 @@ func on_ready() -> void:
 		godot_animation.animation_player = animation_player
 
 	if godot_interaction:
-		godot_interaction.prompt_label = interaction_prompt
+		godot_interaction.area = interaction_area
 
 	if camera:
 		camera.current = true

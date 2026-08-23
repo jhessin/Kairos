@@ -1,4 +1,5 @@
 class_name C_GodotInteraction
 extends Component
 
-var prompt_label: Label
+var area: Area3D
+var prompt: Label

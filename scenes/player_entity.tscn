@@ -86,6 +86,9 @@ _data = {
 &"walk": SubResource("Animation_hl74m")
 }
 
+[sub_resource type="SphereShape3D" id="SphereShape3D_lrteg"]
+radius = 3.0
+
 [node name="PlayerEntity" type="Node3D" unique_id=732831921]
 script = ExtResource("1_8b1co")
 
@@ -111,12 +114,7 @@ current = true
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody3D" unique_id=1625621268]
 libraries/ = SubResource("AnimationLibrary_nk4n4")
 
-[node name="InteractionUI" type="CanvasLayer" parent="." unique_id=874242138]
-layer = 10
+[node name="InteractionArea" type="Area3D" parent="CharacterBody3D" unique_id=932128702]
 
-[node name="Prompt" type="Label" parent="InteractionUI" unique_id=232614662]
-visible = false
-offset_left = 20.0
-offset_top = 20.0
-offset_right = 520.0
-offset_bottom = 60.0
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D/InteractionArea" unique_id=1109103245]
+shape = SubResource("SphereShape3D_lrteg")

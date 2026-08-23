@@ -1,0 +1,66 @@
+class_name GodotInteractionSystem
+extends System
+
+
+func query() -> QueryBuilder:
+	return q.with_all([C_Player, C_Interaction, C_InteractionTarget, C_GodotInteraction])
+
+
+func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
+	for entity in entities:
+		var player := entity.get_component(C_Player) as C_Player
+		var interaction := entity.get_component(C_Interaction) as C_Interaction
+		var target := entity.get_component(C_InteractionTarget) as C_InteractionTarget
+		var godot_interaction := entity.get_component(C_GodotInteraction) as C_GodotInteraction
+
+		if not player.is_local:
+			continue
+
+		if not is_instance_valid(godot_interaction.area):
+			continue
+
+		var bodies := godot_interaction.area.get_overlapping_bodies()
+
+		var closest_entity: Entity
+		var closest_distance := INF
+
+		for body in bodies:
+			var possible_entity := _find_entity(body)
+
+			if possible_entity == null:
+				continue
+
+			var interactable := possible_entity.get_component(C_Interactable) as C_Interactable
+
+			if interactable == null:
+				continue
+
+			if not interactable.enabled:
+				continue
+
+			var distance := body.global_position.distance_to(godot_interaction.area.global_position)
+
+			if distance < closest_distance:
+				closest_distance = distance
+				closest_entity = possible_entity
+
+		if closest_entity != null:
+			target.is_valid = true
+			target.entity = closest_entity
+			interaction.target = closest_entity
+		else:
+			target.is_valid = false
+			target.entity = null
+			interaction.target = null
+
+
+func _find_entity(node: Node) -> Entity:
+	var current := node
+
+	while current != null:
+		if current is Entity:
+			return current
+
+		current = current.get_parent()
+
+	return null
