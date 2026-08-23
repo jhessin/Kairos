@@ -2,7 +2,11 @@
 
 [ext_resource type="Script" uid="uid://b1eopa3lw50t1" path="res://entities/interaction_test_entity.gd" id="1_qv1cg"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ld40"]
+albedo_color = Color(0, 0, 0.827451, 1)
+
 [sub_resource type="BoxMesh" id="BoxMesh_xfoxw"]
+material = SubResource("StandardMaterial3D_0ld40")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 

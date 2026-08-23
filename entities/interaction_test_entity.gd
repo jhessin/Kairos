@@ -4,4 +4,9 @@ extends Entity
 
 
 func define_components() -> Array:
-	return [C_Interactable.new()]
+	var interactable := C_Interactable.new()
+
+	interactable.interaction_name = 'interact'
+	interactable.enabled = true
+
+	return [interactable]

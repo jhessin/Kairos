@@ -17,6 +17,7 @@
 [ext_resource type="Script" uid="uid://xrte7mkld8g6" path="res://systems/interaction_input_system.gd" id="13_jkv2x"]
 [ext_resource type="Script" uid="uid://cwaao7344k2yj" path="res://systems/godot_interaction_system.gd" id="14_dp3eg"]
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
+[ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="PackedScene" uid="uid://c7qrt4kv1txbo" path="res://scenes/interaction_test.tscn" id="17_0ld40"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
@@ -104,6 +105,11 @@ metadata/_custom_type_script = "uid://cwaao7344k2yj"
 script = ExtResource("14_jbj1t")
 group = "physics"
 metadata/_custom_type_script = "uid://1swoocl5chp2"
+
+[node name="GodotInteractionPromptSystem" type="Node" parent="World/Systems" unique_id=1180156018]
+script = ExtResource("16_0ld40")
+group = "physics"
+metadata/_custom_type_script = "uid://duckblxt1h8wb"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 

@@ -118,3 +118,20 @@ libraries/ = SubResource("AnimationLibrary_nk4n4")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D/InteractionArea" unique_id=1109103245]
 shape = SubResource("SphereShape3D_lrteg")
+
+[node name="InteractionUI" type="CanvasLayer" parent="." unique_id=1960380262]
+
+[node name="InteractionPrompt" type="Label" parent="InteractionUI" unique_id=89855109]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -56.0
+offset_right = 200.0
+offset_bottom = -6.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Press E to interact"
+horizontal_alignment = 1

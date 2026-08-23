@@ -3,7 +3,9 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [InteractionInputSystem, GodotInteractionSystem] }
+	return {
+		Runs.After: [InteractionInputSystem, GodotInteractionSystem, GodotInteractionPromptSystem]
+	}
 
 
 func query() -> QueryBuilder:
@@ -28,4 +30,12 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		if interaction.target == null:
 			continue
 
-		print("Interact with: ", interaction.target.name)
+		var interactable := (interaction.target.get_component(C_Interactable) as C_Interactable)
+
+		if interactable == null:
+			continue
+
+		if not interactable.enabled:
+			continue
+
+		print("Interact with: ", interaction.target.name, ' [', interactable.interaction_name, ']')

@@ -12,6 +12,8 @@ extends Entity
 
 @onready var interaction_area: Area3D = $CharacterBody3D/InteractionArea
 
+@onready var interaction_prompt: Label = $InteractionUI/InteractionPrompt
+
 
 func define_components() -> Array:
 	return [
@@ -32,6 +34,7 @@ func define_components() -> Array:
 		C_Interaction.new(),
 		C_InteractionTarget.new(),
 		C_GodotInteraction.new(),
+		C_InteractionPrompt.new(),
 	]
 
 
@@ -59,9 +62,13 @@ func on_ready() -> void:
 
 	if godot_interaction:
 		godot_interaction.area = interaction_area
+		godot_interaction.prompt = interaction_prompt
 
 	if camera:
 		camera.current = true
+
+	if interaction_prompt:
+		interaction_prompt.visible = false
 
 
 func on_update(_delta: float) -> void:

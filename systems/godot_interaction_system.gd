@@ -3,7 +3,9 @@ extends System
 
 
 func query() -> QueryBuilder:
-	return q.with_all([C_Player, C_Interaction, C_InteractionTarget, C_GodotInteraction])
+	return q.with_all(
+		[C_Player, C_Interaction, C_InteractionTarget, C_GodotInteraction, C_InteractionPrompt]
+	)
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
@@ -12,6 +14,7 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		var interaction := entity.get_component(C_Interaction) as C_Interaction
 		var target := entity.get_component(C_InteractionTarget) as C_InteractionTarget
 		var godot_interaction := entity.get_component(C_GodotInteraction) as C_GodotInteraction
+		var prompt := entity.get_component(C_InteractionPrompt) as C_InteractionPrompt
 
 		if not player.is_local:
 			continue
@@ -45,13 +48,23 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 				closest_entity = possible_entity
 
 		if closest_entity != null:
+			var interactable := (closest_entity.get_component(C_Interactable) as C_Interactable)
 			target.is_valid = true
 			target.entity = closest_entity
 			interaction.target = closest_entity
+
+			prompt.visible = true
+			prompt.target = closest_entity
+			prompt.text = "Press E to " + interactable.interaction_name
 		else:
 			target.is_valid = false
 			target.entity = null
+
 			interaction.target = null
+
+			prompt.visible = false
+			prompt.target = null
+			prompt.text = ''
 
 
 func _find_entity(node: Node) -> Entity:
