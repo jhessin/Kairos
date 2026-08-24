@@ -14,6 +14,10 @@ extends Entity
 
 @onready var interaction_prompt: Label = $InteractionUI/InteractionPrompt
 
+@onready var dialogue_panel: Control = $DialogueUI/DialoguePanel
+@onready var speaker_label: Label = $DialogueUI/DialoguePanel/SpeakerLabel
+@onready var dialogue_label: Label = $DialogueUI/DialoguePanel/DialogueLabel
+
 
 func define_components() -> Array:
 	return [
@@ -36,6 +40,8 @@ func define_components() -> Array:
 		C_GodotInteraction.new(),
 		C_InteractionPrompt.new(),
 		C_InteractionRequest.new(),
+		C_DialogueState.new(),
+		C_GodotDialogue.new(),
 	]
 
 
@@ -46,6 +52,7 @@ func on_ready() -> void:
 	var godot_visual := get_component(C_GodotVisual) as C_GodotVisual
 	var godot_animation := get_component(C_GodotAnimation) as C_GodotAnimation
 	var godot_interaction := get_component(C_GodotInteraction) as C_GodotInteraction
+	var godot_dialogue := get_component(C_GodotDialogue) as C_GodotDialogue
 
 	if godot_body:
 		godot_body.body = character_body
@@ -65,11 +72,19 @@ func on_ready() -> void:
 		godot_interaction.area = interaction_area
 		godot_interaction.prompt = interaction_prompt
 
+	if godot_dialogue:
+		godot_dialogue.panel = dialogue_panel
+		godot_dialogue.speaker_label = speaker_label
+		godot_dialogue.dialogue_label = dialogue_label
+
 	if camera:
 		camera.current = true
 
 	if interaction_prompt:
 		interaction_prompt.visible = false
+
+	if dialogue_panel:
+		dialogue_panel.visible = false
 
 
 func on_update(_delta: float) -> void:

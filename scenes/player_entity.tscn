@@ -135,3 +135,38 @@ grow_horizontal = 2
 grow_vertical = 0
 text = "Press E to interact"
 horizontal_alignment = 1
+
+[node name="DialogueUI" type="CanvasLayer" parent="." unique_id=139184041]
+
+[node name="DialoguePanel" type="Panel" parent="DialogueUI" unique_id=1914210833]
+visible = false
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -205.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="SpeakerLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=2109321570]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.46300003
+anchor_bottom = 0.312
+offset_right = -493.37604
+offset_bottom = -40.960003
+text = "Elder"
+
+[node name="DialogueLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=743598710]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.312
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 0.0399971
+grow_horizontal = 2
+grow_vertical = 2
+text = "Text = Welcome to Kairos."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

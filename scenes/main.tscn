@@ -20,8 +20,11 @@
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="PackedScene" uid="uid://c7qrt4kv1txbo" path="res://scenes/interaction_test.tscn" id="17_0ld40"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
+[ext_resource type="Script" uid="uid://bcpgtcln7mxux" path="res://systems/dialogue_system.gd" id="18_y6deb"]
+[ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot_dialogue_system.gd" id="19_og1vs"]
 [ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
 [ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
+[ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -119,6 +122,16 @@ script = ExtResource("17_gqmmt")
 group = "physics"
 metadata/_custom_type_script = "uid://cy8l5dppco2y0"
 
+[node name="DialogueSystem" type="Node" parent="World/Systems" unique_id=1240430989]
+script = ExtResource("18_y6deb")
+group = "physics"
+metadata/_custom_type_script = "uid://bcpgtcln7mxux"
+
+[node name="GodotDialogueSystem" type="Node" parent="World/Systems" unique_id=971836909]
+script = ExtResource("19_og1vs")
+group = "physics"
+metadata/_custom_type_script = "uid://chq0ex2mvmf30"
+
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
@@ -132,6 +145,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.480088, 0.672055, 0)
 
 [node name="Door" parent="World/Entities" unique_id=740234417 instance=ExtResource("21_jscy8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5539322, 1.3270164, -5.81835)
+
+[node name="Elder" parent="World/Entities" unique_id=2112413242 instance=ExtResource("24_og1vs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, 9.62509)
+dialogue_lines = null
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 

@@ -6,7 +6,7 @@ extends System
 # themselves or add other systems etc. System order matters.
 func query() -> QueryBuilder:
 	# process_empty = false # Do we want this to run every frame even with no entities?
-	return q.with_all([C_Player, C_MovementIntent, C_MovementMode, C_GodotCamera]) # return the query here
+	return q.with_all([C_Player, C_MovementIntent, C_MovementMode, C_GodotCamera, C_DialogueState]) # return the query here
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
@@ -21,6 +21,7 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		var intent := entity.get_component(C_MovementIntent) as C_MovementIntent
 		var movement_mode := entity.get_component(C_MovementMode) as C_MovementMode
 		var godot_camera := entity.get_component(C_GodotCamera) as C_GodotCamera
+		var dialogue := entity.get_component(C_DialogueState) as C_DialogueState
 
 		if not player.is_local:
 			continue
@@ -43,7 +44,10 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		camera_forward = camera_forward.normalized()
 		camera_right = camera_right.normalized()
 
-		var direction := Vector3(camera_right * input_2d.x + camera_forward * input_2d.y)
+		var direction := Vector3.ZERO
+
+		if not dialogue.active:
+			direction = Vector3(camera_right * input_2d.x + camera_forward * input_2d.y)
 
 		if direction.length_squared() > 1.0:
 			direction = direction.normalized()

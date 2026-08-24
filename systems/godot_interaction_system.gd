@@ -4,7 +4,14 @@ extends System
 
 func query() -> QueryBuilder:
 	return q.with_all(
-		[C_Player, C_Interaction, C_InteractionTarget, C_GodotInteraction, C_InteractionPrompt]
+		[
+			C_Player,
+			C_Interaction,
+			C_InteractionTarget,
+			C_GodotInteraction,
+			C_InteractionPrompt,
+			C_DialogueState,
+		]
 	)
 
 
@@ -15,8 +22,19 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		var target := entity.get_component(C_InteractionTarget) as C_InteractionTarget
 		var godot_interaction := entity.get_component(C_GodotInteraction) as C_GodotInteraction
 		var prompt := entity.get_component(C_InteractionPrompt) as C_InteractionPrompt
+		var dialogue := entity.get_component(C_DialogueState) as C_DialogueState
 
 		if not player.is_local:
+			continue
+
+		if dialogue.active:
+			target.is_valid = false
+			target.entity = null
+			interaction.target = null
+
+			prompt.visible = false
+			prompt.target = null
+			prompt.text = ''
 			continue
 
 		if not is_instance_valid(godot_interaction.area):
@@ -42,6 +60,9 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 				continue
 
 			var distance := body.global_position.distance_to(godot_interaction.area.global_position)
+
+			if distance > interaction.interaction_range:
+				continue
 
 			if distance < closest_distance:
 				closest_distance = distance
