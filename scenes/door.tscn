@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c3up4h0poxd8t"]
+
+[ext_resource type="Script" uid="uid://cdh1fwgkao122" path="res://entities/door_entity.gd" id="1_hpvv5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lrteg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_prxtw"]
+
+[node name="Door" type="Node3D" unique_id=740234417]
+script = ExtResource("1_hpvv5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1634243260]
+mesh = SubResource("BoxMesh_lrteg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=536418078]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2022655705]
+shape = SubResource("BoxShape3D_prxtw")

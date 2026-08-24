@@ -9,7 +9,7 @@ func deps() -> Dictionary[int, Array]:
 
 
 func query() -> QueryBuilder:
-	return q.with_all([C_Player, C_Interaction, C_InteractionTarget])
+	return q.with_all([C_Player, C_Interaction, C_InteractionTarget, C_InteractionRequest])
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
@@ -17,9 +17,14 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		var player := entity.get_component(C_Player) as C_Player
 		var interaction := entity.get_component(C_Interaction) as C_Interaction
 		var target := entity.get_component(C_InteractionTarget) as C_InteractionTarget
+		var request := entity.get_component(C_InteractionRequest) as C_InteractionRequest
 
 		if not player.is_local:
 			continue
+
+		request.requested = false
+		request.source = null
+		request.target = null
 
 		if not interaction.interact_pressed:
 			continue
@@ -38,4 +43,6 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 		if not interactable.enabled:
 			continue
 
-		print("Interact with: ", interaction.target.name, ' [', interactable.interaction_name, ']')
+		request.source = entity
+		request.target = interaction.target
+		request.requested = true

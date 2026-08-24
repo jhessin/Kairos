@@ -19,6 +19,9 @@
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="PackedScene" uid="uid://c7qrt4kv1txbo" path="res://scenes/interaction_test.tscn" id="17_0ld40"]
+[ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
+[ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
+[ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -111,6 +114,11 @@ script = ExtResource("16_0ld40")
 group = "physics"
 metadata/_custom_type_script = "uid://duckblxt1h8wb"
 
+[node name="InteractionBehaviorSystem" type="Node" parent="World/Systems" unique_id=1107971090]
+script = ExtResource("17_gqmmt")
+group = "physics"
+metadata/_custom_type_script = "uid://cy8l5dppco2y0"
+
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
@@ -118,6 +126,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
 
 [node name="InteractionTest" parent="World/Entities" unique_id=1392036640 instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28252125, 0.49999952, 4.7162337)
+
+[node name="InteractionMessage" parent="World/Entities" unique_id=964629141 instance=ExtResource("20_yc10j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.480088, 0.672055, 0)
+
+[node name="Door" parent="World/Entities" unique_id=740234417 instance=ExtResource("21_jscy8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5539322, 1.3270164, -5.81835)
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 
