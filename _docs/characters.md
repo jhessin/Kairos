@@ -90,6 +90,11 @@ interfaces with quantum‑sync hardware.
   the project to produce evidence that could prove the Bible's historical
   reliability, but worries about confirmation bias.
 
+- He has a theory that each quantum reality represents a different decision that
+  God has made as opposed to each decision that a person makes. He believes that
+  if we can synchronize with other realities it is because God has allowed it
+  and He wants to teach us something.
+
 ### Scientific Staff
 
 #### Dr. Asha Raman - Quantum Systems Engineer
@@ -404,3 +409,19 @@ Nora handles internal communications, documentation, and public‑facing materia
 - Religious Affiliation: Agnostic. She is deliberately on the fence and wants
   the public record to include evidence supporting and challenging the Bible
   rather than becoming religious advocacy.
+
+### Historical people
+
+#### Eliab
+
+The player's counterparts friend for the prologue/prototype. He is marries to
+Mara, and is an apprentice of Yosef.
+
+#### Mara
+
+Eliab's wife and Yosef's daughter. She doesn't speak much with the player as is
+the custom of the time.
+
+#### Yosef
+
+A craftsman who helps Eliab and the player learn the ins and outs of pottery.

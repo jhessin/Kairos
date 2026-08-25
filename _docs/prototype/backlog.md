@@ -5,6 +5,7 @@
 - Player controller polish
 - Interaction
 - Dialogue
+- Dialogue Branching (small)
 - Quest system
 - Modern hub
 - Capernaum
