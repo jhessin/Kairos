@@ -1,7 +1,8 @@
 # MMO Story
 
-Here are the characters and overarching story of the game as of now. This is
-subject to change.
+Here are the characters of the game as of now. This is subject to change. These
+characters will not be introduced all at once but will slowly appear over the
+course of the game.
 
 ## Characters
 
@@ -37,24 +38,6 @@ ancient inscriptions.
   the fence about whether biblical accounts reflect divine revelation or
   humanity's interpretation of extraordinary events.
 
-#### Prof. Daniel Kessler - Lead Physicist, Quantum-Sync Division
-
-A brilliant but eccentric physicist specializing in quantum entanglement and
-temporal coherence. Daniel’s theories were once considered fringe until Miriam
-recruited him. He designed the synchronization chamber used in the opening
-sequence.
-
-- Personality Profile:
-  - Energetic, scattered, brilliant
-  - Talks fast, jumps between ideas
-  - Loves explaining complex concepts with metaphors
-  - Motivated by proving quantum‑sync is not only possible but scalable
-  - Provides the player’s first technical briefing
-
-- Religious Affiliation: Agnostic. He is actively trying to disprove the Bible's
-  supernatural claims by looking for physical, quantum, or historical explanations
-  for apparent miracles.
-
 #### Dr. Evelyn Saroyan - Chief Archaeological Consultant
 
 A field archaeologist with 20 years of experience across Israel, Jordan, and
@@ -72,6 +55,24 @@ oversees artifact analysis and cultural reconstruction.
 - Religious Affiliation: Secular, culturally Christian. She approaches biblical
   claims skeptically and is interested in evidence that could disprove or
   corroborate the historical record.
+
+#### Prof. Daniel Kessler - Lead Physicist, Quantum-Sync Division
+
+A brilliant but eccentric physicist specializing in quantum entanglement and
+temporal coherence. Daniel’s theories were once considered fringe until Miriam
+recruited him. He designed the synchronization chamber used in the opening
+sequence.
+
+- Personality Profile:
+  - Energetic, scattered, brilliant
+  - Talks fast, jumps between ideas
+  - Loves explaining complex concepts with metaphors
+  - Motivated by proving quantum‑sync is not only possible but scalable
+  - Provides the player’s first technical briefing
+
+- Religious Affiliation: Agnostic. He is actively trying to disprove the Bible's
+  supernatural claims by looking for physical, quantum, or historical explanations
+  for apparent miracles.
 
 #### Dr. Marcus Ellington - Program Administrator, VR Integration
 

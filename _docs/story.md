@@ -1,5 +1,9 @@
 # Story
 
+Here is where we describe the general feel and basic script of each major
+cutscene of the game. This is a work in progress and the end product may not
+look exactly like this.
+
 ## First Cutscene
 
 Characters involved:
@@ -53,4 +57,4 @@ Saroyan: Miriam! Are you all right?
 
 Halevi slowly turns to Saroyan and the shock morphs into a wide smile.
 
-Halevi: Am I ever!
+Halevi: All right? Am I ever!
