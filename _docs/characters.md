@@ -103,6 +103,9 @@ and quantum computing makes her indispensable.
   - Rarely jokes, but smiles when systems behave
   - Motivated by pushing technology beyond theoretical limits
   - Provides the player with safety protocols and sync diagnostics
+  - Only speaks through an AI assistant named Sarah that is part of the quantum
+    computer. When she is directly addressed she blushes and types on her tablet
+    before Sarah speaks for her.
 
 - Religious Affiliation: Hindu. She is on the fence about the Bible's
   supernatural claims and is more interested in whether the evidence can
