@@ -81,6 +81,12 @@ The player learns:
 - How their VR HUD will display information that will help them stay in sync
   with their counterpart
 
+The player should enter a VR "White Room" where the HUD is explained in detail
+and they slowly get used to what the quantum computer shows them. The quantum
+computer has an AI (Sarah) that guides the player through a movement/interface
+tutorial including strength and dexterity checks. As the player finishes these
+checks the screen slowly fades to ACT III.
+
 ---
 
 ## ACT III — CAPERNAUM
