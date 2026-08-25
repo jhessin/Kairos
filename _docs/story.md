@@ -46,6 +46,11 @@ Halevi: Wait - Who are...you?
 
 Halevi stops speechless as she looks around at the fully functional temple
 around her. The camera follows revealing many ancient people going about their
-daily lives. Finally the camera comes back to Halevi.
+daily lives. Finally the camera comes back to Halevi-shock on her face as we see
+a flash of light around her and hear Saroyan's voice.
 
-Halevi:
+Saroyan: Miriam! Are you all right?
+
+Halevi slowly turns to Saroyan and the shock morphs into a wide smile.
+
+Halevi: Am I ever!
