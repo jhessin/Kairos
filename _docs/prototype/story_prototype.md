@@ -93,7 +93,7 @@ checks the screen slowly fades to ACT III.
 
 The player synchronizes with the ancient world.
 
-The player:
+The player (Eliab):
 
 1. Arrives in Capernaum
 2. Explores the village

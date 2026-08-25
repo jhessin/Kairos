@@ -21,11 +21,12 @@
 - Evelyn Saroyan (Archaeology)
 - Daniel Kessler (Physics)
 - Marcus Ellington (VR/Medical)
-- Asha Raman(Sarah)
-- Naomi Feld(Linguist)
-- Eliab
-- Mara
-- Yosef
+- Asha Raman (Sarah)
+- Naomi Feld (Linguist)
+- Eliab (Player counterpart)
+- Yohanan (Eliab's friend)
+- Mara (Eliab's wife)
+- Yosef (Eliab's father)
 - Bandit Leader
 - Bandit Lackey #1
 - Bandit Lackey #2
@@ -94,6 +95,12 @@
     Ideally the counterpart will keep going about their business while the player
     is not synchronizing and they won't necessarily be in the same place when the
     player jumps back in.
+  - When the player first desynchronizes (their synchronization reaches 0%). A
+    cutscene should play to indicate that the quantum reality is shifting around
+    to re-synchronize with the player to get back to a stable state this adds
+    many more questions for the NPC's to discuss later and adds re-playability.
+  - As the player's quantum level increases they will find they can deviate more
+    from their counterpart's actions without de-synchronization.
 - Quantum Anchor
   - The anchor should be something crafted by the player - this creates a
     continuity as it is found in the present day and the player can later

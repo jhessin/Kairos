@@ -1,12 +1,10 @@
-# MMO Story
+# MMO Characters
 
 Here are the characters of the game as of now. This is subject to change. These
 characters will not be introduced all at once but will slowly appear over the
 course of the game.
 
-## Characters
-
-### The Player: The Resonance
+## The Player: The Resonance
 
 The players are called Resonants - They have been identified through various
 brain scans to have a high quantum synchronization with historical figures found
@@ -17,9 +15,9 @@ their counterpart in another reality.
 As you progress through the game you will have the ability to meet other
 Resonants.
 
-### Research Organization Leadership
+## Research Organization Leadership
 
-#### Dr. Miriam Halevi - Director of Quantum Anthropology
+### Dr. Miriam Halevi - Director of Quantum Anthropology
 
 A renowned scholar who pioneered the theory that consciousness can be
 harmonized across temporal realities. Born in Haifa, educated at MIT, Miriam
@@ -38,7 +36,7 @@ ancient inscriptions.
   the fence about whether biblical accounts reflect divine revelation or
   humanity's interpretation of extraordinary events.
 
-#### Dr. Evelyn Saroyan - Chief Archaeological Consultant
+### Dr. Evelyn Saroyan - Chief Archaeological Consultant
 
 A field archaeologist with 20 years of experience across Israel, Jordan, and
 Turkey. Evelyn’s expertise ensures that the ancient world the player enters
@@ -56,7 +54,7 @@ oversees artifact analysis and cultural reconstruction.
   claims skeptically and is interested in evidence that could disprove or
   corroborate the historical record.
 
-#### Prof. Daniel Kessler - Lead Physicist, Quantum-Sync Division
+### Prof. Daniel Kessler - Lead Physicist, Quantum-Sync Division
 
 A brilliant but eccentric physicist specializing in quantum entanglement and
 temporal coherence. Daniel’s theories were once considered fringe until Miriam
@@ -74,7 +72,7 @@ sequence.
   supernatural claims by looking for physical, quantum, or historical explanations
   for apparent miracles.
 
-#### Dr. Marcus Ellington - Program Administrator, VR Integration
+### Dr. Marcus Ellington - Program Administrator, VR Integration
 
 The 'tech guy'. Formerly a VR systems architect for medical training
 simulations. Marcus manages logistics, funding, and the integration of VR
@@ -95,9 +93,9 @@ interfaces with quantum‑sync hardware.
   if we can synchronize with other realities it is because God has allowed it
   and He wants to teach us something.
 
-### Scientific Staff
+## Scientific Staff
 
-#### Dr. Asha Raman - Quantum Systems Engineer
+### Dr. Asha Raman - Quantum Systems Engineer
 
 Asha designs and maintains the quantum stabilizers that keep the player’s
 consciousness anchored during sync. Her background in electrical engineering
@@ -116,7 +114,7 @@ and quantum computing makes her indispensable.
   supernatural claims and is more interested in whether the evidence can
   distinguish revelation from cultural tradition.
 
-#### Dr. Leonid Markov - Computational Physicist
+### Dr. Leonid Markov - Computational Physicist
 
 A Russian computational theorist who models temporal drift and probability
 collapse. Leonid’s simulations predict how the player’s alternate‑self behaves
@@ -126,13 +124,13 @@ in the ancient world.
   - Stoic, dry humor, deeply rational
   - Speaks in short, efficient sentences
   - Motivated by solving “impossible” mathematical problems
-  - Warns the player about risks of desynchronization
+  - Warns the player about risks of de-synchronization
 
 - Religious Affiliation: Atheist. He is openly trying to disprove biblical
   miracles by demonstrating that apparently supernatural events can be modeled
   through natural causes.
 
-#### Dr. Naomi Feld - Linguistics & Ancient Language Specialist
+### Dr. Naomi Feld - Linguistics & Ancient Language Specialist
 
 Naomi is responsible for mapping linguistic structures between the player’s
 consciousness and their ancient counterpart. Her work ensures the player
@@ -148,7 +146,7 @@ understands Hebrew, Aramaic, and Greek upon arrival.
   historical and linguistic reliability and is willing to investigate evidence
   that could support its claims.
 
-#### Dr. Gamriel Ortiz - Cognitive Synchronization Researcher
+### Dr. Gabriel Ortiz - Cognitive Synchronization Researcher
 
 Gabriel studies how memory, identity, and consciousness behave during sync.
 He monitors the player’s mental stability and emotional responses.
@@ -161,9 +159,9 @@ He monitors the player’s mental stability and emotional responses.
 
 - Religious Affiliation: Catholic Christian. He hopes the project will uncover
   evidence supporting the Bible, especially its accounts of human encounters with
-  the divine, while remaining concerned about the participants' wellbeing.
+  the divine, while remaining concerned about the participants' well-being.
 
-#### Dr. Selene Park - Temporal Modeling Analyst
+### Dr. Selene Park - Temporal Modeling Analyst
 
 Selene analyzes how historical timelines respond to quantum interference.
 She ensures the player’s actions do not destabilize the ancient world.
@@ -178,7 +176,7 @@ She ensures the player’s actions do not destabilize the ancient world.
   neither proving nor disproving the Bible should be assumed before the evidence
   is examined.
 
-#### Dr. Victor Al-Masri - Cultural Reconstruction Specialist
+### Dr. Victor Al-Masri - Cultural Reconstruction Specialist
 
 Victor reconstructs ancient environments, social systems, and daily life
 using archaeological and textual evidence. His work shapes the devices
@@ -190,9 +188,9 @@ authenticity.
   - Motivated by recreating lost worlds with precision
   - Shows the player early environment prototypes
 
-### Archaeology & History Team
+## Archaeology & History Team
 
-#### Dr. Hannah Ben-Shahar - Field Archaeologist
+### Dr. Hannah Ben-Shahar - Field Archaeologist
 
 Hannah leads excavation teams and verifies artifact authenticity. She has
 spent years working in Capernaum, Megiddo, and the Judean desert.
@@ -203,7 +201,7 @@ spent years working in Capernaum, Megiddo, and the Judean desert.
   - Motivated by uncovering truths buried in the earth
   - Demonstrates artifact handling to the player
 
-#### Dr. Rowan McAdams - Material Culture Analyst
+### Dr. Rowan McAdams - Material Culture Analyst
 
 Rowan specializes in pottery, metallurgy, and textiles. Their expertise
 ensures that every object in the ancient world behaves realistically.
@@ -218,7 +216,7 @@ ensures that every object in the ancient world behaves realistically.
   material evidence should be allowed to challenge both religious and skeptical
   assumptions.
 
-#### Dr. Layla Haddad - Near Eastern Historian
+### Dr. Layla Haddad - Near Eastern Historian
 
 Layla contextualizes political, social, and religious systems of the Ancient
 Near East. She ensures narrative arcs align with real historical dynamics.
@@ -233,7 +231,7 @@ Near East. She ensures narrative arcs align with real historical dynamics.
   through archaeology alone and is willing to test claims that could either
   support or undermine biblical narratives.
 
-#### Dr. Isaac Romero - Artifact Restoration Lead
+### Dr. Isaac Romero - Artifact Restoration Lead
 
 Isaac restores damaged artifacts and trains the team in preservation
 techniques. His work directly informs the archaeology gameplay loop.
@@ -248,7 +246,7 @@ techniques. His work directly informs the archaeology gameplay loop.
   record will strengthen the case for the Bible's historical reliability, though
   he avoids forcing conclusions from incomplete artifacts.
 
-#### Dr. Sofia Kouris - Classical Studies & Greek Specialist
+### Dr. Sofia Kouris - Classical Studies & Greek Specialist
 
 Sofia focuses on Greek language, culture, and regional interactions. She
 ensures Greek‑speaking regions feel authentic.
@@ -263,16 +261,16 @@ ensures Greek‑speaking regions feel authentic.
   prove aspects of the Bible's historical context through language, culture, and
   comparative ancient sources.
 
-### Technical & Engineering Crew
+## Technical & Engineering Crew
 
-#### Alexi Novak - Systems Technician
+### Alexei Novak - Systems Technician
 
 Alexei maintains the hardware that keeps the sync chamber operational. He’s
 the one fixing things when alarms go off.
 
 - Personality Profile:
   - Practical, sarcastic, reliable
-  - Doesn’t like theory — only results
+  - Doesn't like theory — only results
   - Motivated by keeping the facility running smoothly
   - Appears during sync chamber prep scenes
 
@@ -280,7 +278,7 @@ the one fixing things when alarms go off.
   explanations whenever the project produces extraordinary results, preferring
   explanations that can be tested and reproduced.
 
-#### Priya Deshmukh - VR Hardware Engineer
+### Priya Deshmukh - VR Hardware Engineer
 
 Priya designs the neural‑interface VR components that merge with
 quantum‑sync technology.
@@ -294,7 +292,7 @@ quantum‑sync technology.
 - Religious Affiliation: Hindu. She is on the fence about the Bible and treats
   its supernatural claims as hypotheses rather than conclusions.
 
-#### Jonas Whitford - Network Architect
+### Jonas Whitford - Network Architect
 
 Jonas ensures the player’s real‑time data streams integrate with the
 quantum‑sync system.
@@ -309,7 +307,7 @@ quantum‑sync system.
   in evidence that could either prove or disprove biblical claims if it can be
   independently verified.
 
-#### Talia Greene - Simulation Environment Designer
+### Talia Greene - Simulation Environment Designer
 
 Talia builds the visual and interactive layers that overlay the ancient
 world during sync.
@@ -324,7 +322,7 @@ world during sync.
   fascinated by the possibility that the ancient world may contain evidence of
   experiences later described in biblical traditions.
 
-#### Omar Reyes - Security Systems Engineer
+### Omar Reyes - Security Systems Engineer
 
 Omar oversees physical and digital security for the facility.
 
@@ -338,9 +336,9 @@ Omar oversees physical and digital security for the facility.
   skeptical of efforts to treat the experiment as a straightforward proof of
   Christian theology.
 
-### Support & Operations
+## Support & Operations
 
-#### Sarah Lindholm - Logistics Coordinator
+### Sarah Lindholm - Logistics Coordinator
 
 Sarah manages schedules, equipment, and personnel movement.
 
@@ -354,7 +352,7 @@ Sarah manages schedules, equipment, and personnel movement.
   prove the Bible's historical credibility, while trying not to let her personal
   beliefs influence the logistics.
 
-#### Michael Trent - Field Operations Manager
+### Michael Trent - Field Operations Manager
 
 Michael coordinates field teams and oversees safety protocols.
 
@@ -368,7 +366,7 @@ Michael coordinates field teams and oversees safety protocols.
   Bible's reliability and sees the project as a chance to test historical claims
   under unusually direct conditions.
 
-#### Jade Kimura - Medical Officer
+### Jade Kimura - Medical Officer
 
 Jade monitors the physical health of sync participants.
 
@@ -382,7 +380,7 @@ Jade monitors the physical health of sync participants.
   what can be observed about human experience rather than deciding in advance
   whether biblical supernatural claims are true.
 
-#### Caleb Rourke - Safety & Compliance Officer
+### Caleb Rourke - Safety & Compliance Officer
 
 Caleb ensures the project meets ethical and legal standards.
 
@@ -396,7 +394,7 @@ Caleb ensures the project meets ethical and legal standards.
   proves the Bible is reliable, but his compliance role forces him to document
   contradictory evidence as well.
 
-#### Nora Vance - Communications Specialist
+### Nora Vance - Communications Specialist
 
 Nora handles internal communications, documentation, and public‑facing materials.
 
@@ -410,18 +408,22 @@ Nora handles internal communications, documentation, and public‑facing materia
   the public record to include evidence supporting and challenging the Bible
   rather than becoming religious advocacy.
 
-### Historical people
+## Historical people
 
-#### Eliab
+### Eliab
 
-The player's counterparts friend for the prologue/prototype. He is marries to
+The player's counterpart for the prologue/prototype. He is married to
 Mara, and is an apprentice of Yosef.
 
-#### Mara
+### Yohanan
+
+Eliab's best friend and sounding board. He is a hunter who gives Eliab combat training.
+
+### Mara
 
 Eliab's wife and Yosef's daughter. She doesn't speak much with the player as is
 the custom of the time.
 
-#### Yosef
+### Yosef
 
-A craftsman who helps Eliab and the player learn the ins and outs of pottery.
+A craftsman who helps Eliab learn the ins and outs of pottery.

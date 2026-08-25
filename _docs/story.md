@@ -11,6 +11,8 @@ Characters involved:
 1. Dr. Miriam Halevi (Physicist)
 2. Dr. Evelyn Saroyan (Archaeologist)
 
+### Scene 1
+
 The scene opens with the gentle tapping of a hammer on stone as light slowly
 creeps through into a dark room. Eventually a wall of stone falls in as a large
 cloud of dust floats across the screen. As the dust settles the figures of Dr.
@@ -58,3 +60,15 @@ Saroyan: Miriam! Are you all right?
 Halevi slowly turns to Saroyan and the shock morphs into a wide smile.
 
 Halevi: All right? Am I ever!
+
+### Scene 2
+
+Characters involved:
+
+1. Dr. Miriam Halevi (Physicist)
+2. Dr. Evelyn Saroyan (Archaeologist)
+3. Prof. Daniel Kessler (Theoretical Physicist)
+4. Dr. Marcus Ellington (VR tech/computer enthusiast)
+
+The setting is a basement lab with overstuffed filing cabinets and various
+whiteboards.

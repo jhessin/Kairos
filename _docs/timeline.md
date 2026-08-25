@@ -45,7 +45,7 @@ The player experiences:
 
 ↓
 
-- **Combat encounter**
+- **Combat training with Yohanan**
 
 ↓
 
@@ -57,7 +57,11 @@ The player experiences:
 
 ↓
 
-- **Discover first Word of Power**
+- **Discover first Word of Power which unlocks first Macro Grid**
+
+↓
+
+- **Combat encounter**
 
 ↓
 
