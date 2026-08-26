@@ -120,7 +120,18 @@ Daniel provides the scientific interpretation of synchronization.
 He is strongly interested in finding physical explanations for phenomena that
 appear supernatural.
 
-#### Dr. Asha Raman
+#### Dr. Marcus Ellington
+
+VR 'tech guy'.
+
+Marcus is the developer of the quantum computer that acts as a buffer between
+the player and the artifact. This acts as a safety feature and keeps the player
+from losing synchronization too quickly.
+
+He also provides understandable analogies to the player to help them understand
+the project.
+
+#### Dr. Asha Raman and Sarah
 
 Quantum Systems Engineer.
 
@@ -128,14 +139,8 @@ Asha maintains the systems that stabilize the player's synchronization.
 
 She provides the player's synchronization diagnostics and safety information.
 
-#### Dr. Naomi Feld
-
-Linguistics and Ancient Language Specialist.
-
-Naomi handles the linguistic connection between the Resonant and their counterpart.
-
-Her work explains why the player can understand the ancient world immediately
-after synchronization.
+She created "Sarah" - the quantum computers AI that primary interacts with the
+player while they are synchronized.
 
 ---
 
@@ -245,7 +250,7 @@ Miriam smiles.
 
 #### Miriam
 
-> "All right? Am I ever?"
+> "All right? Am I ever!"
 
 ---
 
@@ -468,9 +473,9 @@ grounded in the historical setting.
 After the initial tasks are completed, the player discovers something unusual.
 
 A historical object bears a symbol or mark that resembles the anomaly discovered
-by the Kairos Initiative.
+by the Kairos Initiative. (Maybe the very pot the player crafted)
 
-The player reports it.
+The AI (Sarah) reports it.
 
 The researchers begin monitoring the synchronization more closely.
 
@@ -544,6 +549,9 @@ The player discovers an ancient inscription associated with the disturbance.
 Naomi helps translate it.
 
 The player discovers the first **Word of Power**.
+
+אוֹר(OR) - Light, or Gather
+חֹשֶׁךְ(HSHK) - Dark, or Hide/Obscurity
 
 The Word has:
 
