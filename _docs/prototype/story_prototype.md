@@ -254,32 +254,34 @@ Miriam smiles.
 
 ---
 
-## 6. Act II — The Kairos Initiative
+### Scene 2 - The Team
 
-Miriam and Evelyn report the incident to the research team.
-
-Daniel and Marcus investigate the phenomenon.
+Halevi and Saroyan meet up with Dr. Marcus Ellington and Prof. Daniel Kessler to
+discuss how to recreate Halevi's experience.
 
 The researchers determine that Miriam briefly synchronized with another version
 of herself.
 
-The problem is that the synchronization was unstable.
+There is a bit of discussion about how Halevi synchronized with another
+version of her from the 'past' on a quantum level.
 
-Miriam's mind could not maintain the connection.
+Kessler postulates that her mind could not continue to synchronize with her
+counterpart because her mind and customs couldn't understand what she was experiencing.
 
-The team develops the concept of a **Resonant**.
+Kessler and Ellington have been working on building a quantum VR computer that
+can interface with the human mind and they postulate that they can create a
+buffer interface that would prevent this from happening in the future. However,
+Halevi cannot go back because she was so abruptly de-synchronized.
+
+Kessler: The bottom line is we need someone else that resonates with the
+artifact - a Resonant if you will.
+
+---
 
 A Resonant is someone whose neurological patterns are unusually compatible with
 a historical counterpart.
 
-The Initiative develops a quantum/VR interface designed to stabilize the
-synchronization process.
-
-The player is identified as a potential Resonant.
-
----
-
-## 7. The Player's Preparation
+## 6. Act II — The Kairos Initiative
 
 The player enters the Kairos facility.
 
