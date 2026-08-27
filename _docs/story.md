@@ -33,9 +33,9 @@ scanning device.
 Halevi: The quantum disturbance must be somewhere near here. These fluctuations
 are going crazy!
 
-Saroyan: You and your _mocking_ 'quantum fluctuations'? Don't you realize we are
-probably the first people to set foot in this room for thousands of years? If
-the inscriptions I found are correct this was the very temple where...
+Saroyan: You and your <--mockingly--> 'quantum fluctuations'? Don't you realize
+we are probably the first people to set foot in this room for thousands of
+years? If the inscriptions I found are correct this was the very temple where...
 
 Halevi: LOOK AT THIS!
 
