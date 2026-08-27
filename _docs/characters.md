@@ -54,7 +54,7 @@ oversees artifact analysis and cultural reconstruction.
   claims skeptically and is interested in evidence that could disprove or
   corroborate the historical record.
 
-### Prof. Daniel Kessler - Lead Physicist, Quantum-Sync Division
+### Dr. Daniel Kessler - Lead Physicist, Quantum-Sync Division
 
 A brilliant but eccentric physicist specializing in quantum entanglement and
 temporal coherence. Daniel’s theories were once considered fringe until Miriam
@@ -72,7 +72,7 @@ sequence.
   supernatural claims by looking for physical, quantum, or historical explanations
   for apparent miracles.
 
-### Dr. Marcus Ellington - Program Administrator, VR Integration
+### Prof. Marcus Ellington - Program Administrator, VR Integration
 
 The 'tech guy'. Formerly a VR systems architect for medical training
 simulations. Marcus manages logistics, funding, and the integration of VR

@@ -111,7 +111,7 @@ Evelyn provides the historical and archaeological grounding for the project.
 
 She is practical and skeptical and is concerned with preserving historical accuracy.
 
-#### Prof. Daniel Kessler
+#### Dr. Daniel Kessler
 
 Lead Physicist.
 
@@ -120,7 +120,7 @@ Daniel provides the scientific interpretation of synchronization.
 He is strongly interested in finding physical explanations for phenomena that
 appear supernatural.
 
-#### Dr. Marcus Ellington
+#### Prof. Marcus Ellington
 
 VR 'tech guy'.
 
@@ -256,7 +256,7 @@ Miriam smiles.
 
 ### Scene 2 - The Team
 
-Halevi and Saroyan meet up with Dr. Marcus Ellington and Prof. Daniel Kessler to
+Halevi and Saroyan meet up with Prof. Marcus Ellington and Dr. Daniel Kessler to
 discuss how to recreate Halevi's experience.
 
 The researchers determine that Miriam briefly synchronized with another version

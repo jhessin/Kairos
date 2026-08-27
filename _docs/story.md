@@ -67,8 +67,8 @@ Characters involved:
 
 1. Dr. Miriam Halevi (Physicist)
 2. Dr. Evelyn Saroyan (Archaeologist)
-3. Prof. Daniel Kessler (Theoretical Physicist)
-4. Dr. Marcus Ellington (VR tech/computer enthusiast)
+3. Dr. Daniel Kessler (Theoretical Physicist)
+4. Prof. Marcus Ellington (VR tech/computer enthusiast)
 
 The setting is a basement lab with overstuffed filing cabinets and various
 whiteboards. Halevi stares at an old broken jar with a very distinctive symbol
@@ -79,8 +79,8 @@ around... Then lets out her breath in exasperation.
 Saroyan: It's no use Miriam. Whatever happened is not happening again. We need
 another approach.
 
-The camera pans to Dr. Saroyan as she enters the room. Followed by Prof. Daniel
-Kessler and Dr. Marcus Ellington.
+The camera pans to Dr. Saroyan as she enters the room. Followed by Dr. Daniel
+Kessler and Prof. Marcus Ellington.
 
 Saroyan: I've invited our colleges here to offer up their expertise.
 
@@ -93,8 +93,9 @@ Evelyn has brought me up to speed, but I want to hear your version of events.
 What do you think happened when you first touched this artifact?
 
 Halevi: It was like I was in the past! I could experience everything - the
-sounds, the smells, the heat of the day. This girl started talking to me in
-another language, but I could still understand her somehow.
+sounds, the smells, the heat of the day, the other girl pulling on my arm. This
+girl started talking to me in another language, but I could still understand her
+somehow.
 
 At this Kessler raises an eyebrow.
 
@@ -123,10 +124,124 @@ Kessler: Say this is our timeline. From the beginning of the universe to now.
 He marks the left and right sides of the line. Then he draws a larger line
 underneath it.
 
-Kessler: This is another universe also from the beginning to now. Just
+Kessler: This is another timeline also from the beginning to now. Just
 decompressed if you will. If we could move from our timeline to the other one.
 
 He draws a straight line connecting the end of the shorter line to the middle of
 the longer one.
 
-Kessler: We would in fact be seeing a version of the past.
+Kessler: We would in fact be seeing a version of the past. Actually...
+
+He turns the paper around and stares at it intently.
+
+Kessler: That may be exactly what we are looking at. If Miriam was looking
+through the eyes of another person - someone on this other timeline the flow of
+time would not have been consistent with what she is used to. Her mind is much
+more used to our flow of time which is much faster. That would have caused the
+other timeline to reject her and kick her out if you will.
+
+Saroyan: That doesn't answer the question of why it happened in the first place.
+
+Kessler: That should be obvious. Marcus if you would?
+
+Marcus gets an object similar to a baseball out and places it on the table.
+Kessler taps it and brings up a holographic interface. Evelyn and Miriam's eyes
+widen.
+
+Kessler: This is something Marcus and I have been working on - it's just a
+prototype so stop gawking.
+
+He swipes through several models until he finds what looks like a group of
+pillars.
+
+Kessler: Ah - this is a quantum signature. This is actually a portion of _my_
+quantum signature. It's kind of like DNA but even more complex. Where no two
+people in our universe have the same DNA - no two people in ANY universe (at
+least in theory) have the same quantum signature. It has to do with how your
+subatomic structure vibrates. This is a very rudimentary model but it will help
+you to understand. If you look at this at a certain angle what do you see?
+
+Saroyan: <--She tilts her head a bit--> It looks like a QR code.
+
+Kessler: Exactly! And like a QR code that tells a computer a large chunk of
+information - this tells _reality_ everything about me. Things like my density,
+elasticity, tensile strength, sheer strength, stuff like that. But what you
+should understand is that it identifies all the parts of me that makes me - well
+_me_. Now this artifact seems to resonate a slightly different quantum frequency
+than anything else. That is what drew Miriam's attention to it. I hypothesize
+that this artifact actually exists in two different timelines - ours and this
+other one which co-insides with our past. When Miriam touched it for the first
+time it attuned her quantum signature with a counterpart in this other timeline.
+This didn't have anything to do with the artifact itself so much as the other
+timeline it is tied to.
+
+Saroyan: <--After a moment of thought--> So why doesn't it react that way with
+anyone else?
+
+Kessler: Because dear Evelyn, none of us have a counterpart that we resonate
+with. <--He thinks for a moment--> Ah - look at this.
+
+He rotates the QR code on its side so it looks like a bunch of pillars and with
+a gesture he flattens it.
+
+Kessler: What does this look like now?
+
+Saroyan: Well it looks like a regular bar code.
+
+Kessler: Exactly and it can look like many different bar codes depending on how
+I rotate it before turning it on its side. My theory is that one of these
+'barcodes' if you will for Dr. Halevi's quantum frequency is identical to this
+'Mary' in the other timeline so they found themselves overlapping.
+
+Halevi: It's a sound theory, and I concur, but it remains a theory unless we can
+reproduce results. How do I get back?
+
+Kessler: The short answer - _YOU_ don't. The reason you were kicked out if you
+will is because your quantum signature grounded you to this reality. It really
+is a **good** thing because if it hadn't your mind would probably have been
+destroyed by the other reality and you would be in a persisting vegetative state.
+No - what we need is someone who, like you, has a resonant person on the other
+side that they can sync with, but hasn't touched the artifact.
+
+Halevi: Then we have them touch the artifact and see what happens?
+
+Kessler: NO! Then we would be in the same place we are now - just with two
+useless subjects.
+
+Halevi huffs - indicating her dislike for being called a 'useless subject' -
+then she shrugs and moves on.
+
+Halevi: Okay - then what are we doing?
+
+Kessler eyes Ellington.
+
+Kessler: Marcus - I think I have found the perfect project for our newest friend.
+
+Ellington: You mean Sarah!
+
+Kessler rolls his eyes:
+
+Kessler: Yes - Sarah if you insist on calling it that absurd name.
+
+Ellington: Asha and I worked hard on that project and we would appreciate it if
+you would call _her_ by _her_ name!
+
+Halevi: What are we talking about?
+
+Kessler: It's a quantum computer that Marcus built with the help of Dr. Asha
+Raman. They built an AI into its core operating system and named it Sarah. Like
+that gives it an actual gender.
+
+Ellington: Studies have shown that a female persona is much more user friendly
+and acceptable. So **yes** it gives it a gender.
+
+Kessler: **ANY**way, the idea is to use the computer as a buffer between the
+subject's mind and the artifact so that their mind isn't completely overwhelmed
+by the other reality. We can ease them in so their quantum signature doesn't
+realize what is happening. We - or rather _they_ can explore and find out what
+is causing this phenomenon.
+
+Ellington: So the bottom line is we need someone new - who resonates with the
+artifacts other reality. A Resonant if you will.
+
+Kessler: That _is_ an apt description.
