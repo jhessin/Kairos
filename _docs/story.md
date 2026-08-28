@@ -46,7 +46,7 @@ The event establishes the first uncontrolled synchronization.
 
 Miriam does not return to normal after the experience. **She is in a coma, with her consciousness apparently trapped in her historical counterpart.** Evelyn brings in Daniel Kessler and Marcus Ellington.
 
-Daniel proposes that Miriam synchronized with a counterpart in an alternate reality whose timeline appears to correspond with humanity's distant past.
+Daniel performs some tests and determines that Miriam's quantum signature is slowly changing.
 
 Marcus and Asha have developed a quantum computer and AI interface called **Sarah** that can act as a buffer between a human mind and the Resonance.
 
