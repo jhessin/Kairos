@@ -2,7 +2,11 @@
 
 ## Target
 
-30–45 minute single-player vertical slice.
+**30–45 minute single-player vertical slice.**
+
+The prototype must prove the central Kairos experience:
+
+> **Live as a historical counterpart, maintain synchronization, investigate a timeline disturbance, survive the Grey Zone, and return with a discovery that advances the larger mystery.**
 
 ---
 
@@ -11,113 +15,185 @@
 ### World
 
 - Modern Kairos facility
-- White Room Tutorial
-- One historical environment
-  - Capernaum
+- White Room / synchronization tutorial
+- One historical environment: Capernaum
+- One small Grey Zone combat space
 
-### Characters
+### Modern Characters
 
-- Miriam Halevi (Physics)
-- Evelyn Saroyan (Archaeology)
-- Daniel Kessler (Physics)
-- Marcus Ellington (VR/Medical)
-- Asha Raman (Sarah)
-- Naomi Feld (Linguist)
-- Eliab (Player counterpart)
-- Yohanan (Eliab's friend)
-- Mara (Eliab's wife)
-- Yosef (Eliab's father)
-- Bandit Leader (Enemy)
-- Bandit Lackey #1
-- Bandit Lackey #2
-- Demons
+- Miriam Halevi — mentor / stranded Resonant hook
+- Evelyn Saroyan — archaeology
+- Daniel Kessler — physics
+- Marcus Ellington — VR / quantum-computer integration
+- Asha Raman — synchronization systems
+- Naomi Feld — linguistics
+- Sarah — AI interface to the quantum computer
 
-### Gameplay
+### Historical Characters
 
-- Movement
-  - WASD and Gamepad movement.
-  - The speed the player moves should change depending on the area they are in.
-    For exploration it will be a bit slower than in combat situations
-    (simulating an adrenaline rush).
-- Camera
-  - Smooth camera movement and transition from/to first person.
-- Interaction
-  - An interaction menu should pop up if the player is near more than one
-    intractable object.
-  - The arrows or D-Pad should be used to navigate this menu.
-- Dialogue
-  - The dialogue panel should have a skin and look polished.
-- Dialogue Options
-  - The player should be able to select from a list of responses.
-- Quest objectives
-  - The quest objectives should be shown in a list on the right side of the
-    screen.
-- Gathering
-  - Gathering should be a straight forward interaction.
-  - Sometimes it will be instantaneous (pick up a pot) and other times it will
-    involve a progress bar (mine clay).
-- Crafting
-  - The crafting interface should almost be mine-craft like in it's simplicity.
-    A grid for the materials and several other slots for tools and catalysts.
-- Combat
-  - Simple hack and slash. There should be at least three separate attack
-    animations for a standard combo.
-  - There should be a separate animation for each Word of Power grid.
-- Death
-  - Something to be avoided.
-  - Resets Sync level but not Quantum level.
-- Basic progression
-- Words of Power
-  - Must have more than one to show how the system changes with different words.
-- Macro Grid
-  - The first Macro Grid the player finds is a simple one.
-  - It gives +5 to Strength
-  - It uses Strength to determine it's effectiveness
-  - It has two slots surrounded by an if-else directive.
-  - IF ENEMY _blank_ ELSE _blank_
-  - This demonstrates that the same Word of Power can be used more than once.
-  - **אוֹר — Or** - light
-  - In the first slot this will be a light infused melee attack, and in the
-    second slot it will be a simple lay on hands type heal.
-- Archaeology
-  - This is not a true Gameplay mechanic. The player will feel led to the
-    location of the resonant artifact after he creates or finds the anchor. This
-    will effectively _move_ the artifact from it's original location to it's
-    final resting place where the main characters found it in the opening scene
-    creating a time loop.
-- Knowledge/Codex
-  - This will function as a basic log of tutorials, quest points, and events
-    that the player can look back on.
-  - This will also give 'meta' information that is provided by the players
-    counterpart. For example the codex will prompt the player telling them they
-    know Eliab and who he is to them.
-- Synchronization
-  - The player should be able to enter and exit synchronization at any time.
-    Ideally the counterpart will keep going about their business while the player
-    is not synchronizing and they won't necessarily be in the same place when the
-    player jumps back in.
-  - When the player first desynchronizes (their synchronization reaches 0%). A
-    cutscene should play to indicate that the quantum reality is shifting around
-    to re-synchronize with the player to get back to a stable state this adds
-    many more questions for the NPC's to discuss later and adds re-playability.
-  - As the player's quantum level increases they will find they can deviate more
-    from their counterpart's actions without de-synchronization.
-- Quantum Anchor
-  - The anchor should be something crafted by the player - this creates a
-    continuity as it is found in the present day and the player can later
-    synchronize with another person later in the life of the object.
+- Eliab — player's counterpart
+- Yohanan — Eliab's friend and combat trainer
+- Mara — Eliab's wife
+- Yosef — Eliab's master and Mara's father
 
-### Story
+### Enemies
 
-- Opening excavation
-- Kairos introduction
-- First synchronization
-- Capernaum
-- First Word of Power
-- First Macro Grid
-- Quantum Anchor
-- Return to modern world
-- Prototype ending
+- Small historical hostile group / bandits
+- One Demon type
+
+---
+
+## Quest Chain
+
+1. **Q001 — A Stranger in Eliab's Life**
+2. **Q002 — The Master's Errand**
+3. **Q003 — A Friend's Challenge**
+4. **Q004 — A Wife's Question**
+5. **Q005 — Something Is Wrong**
+6. **Q006 — Into the Grey**
+7. **Q007 — The Word**
+8. **Q008 — The Anchor**
+9. **Q009 — Return**
+
+Each quest has one primary narrative/gameplay purpose. The chain introduces systems progressively rather than presenting every system at once.
+
+---
+
+## Gameplay
+
+### Movement
+
+- Existing WASD and gamepad movement
+- Tuned exploration and combat movement
+
+### Camera
+
+- Smooth third-person camera
+- Existing first-person/zoom support where practical
+
+### Interaction
+
+- NPC interaction
+- Object interaction
+- Contextual interaction prompts
+
+### Dialogue
+
+- Dialogue panel
+- Speaker identification
+- Player choices
+- Choice consequences
+- Quest events
+- Synchronization changes
+
+### Quests
+
+- Quest state
+- Objective list
+- Quest completion
+- Quest-chain progression
+- Rewards
+
+### Gathering
+
+- Clay
+- Water
+- One simple fuel/material resource
+
+### Crafting
+
+- One simple pottery recipe
+- Minimal crafting interface
+
+### Combat
+
+- Basic attack
+- Three-hit basic combo where animation support allows
+- Dodge
+- Health/damage
+- Enemy targeting via D-Pad
+- Enemy death
+- Historical combat encounter
+- Demon combat encounter
+
+### Synchronization
+
+- Sync Stability displayed to the player
+- Dialogue choices can increase/decrease synchronization
+- Desynchronization occurs when stability reaches zero
+- Current quest restarts after a true desynchronization
+- Early Quantum Level progression may be represented minimally
+
+### Grey Zone
+
+- Triggered by major synchronization instability
+- Isolated from normal NPC activity
+- Contains the first Demon encounter
+- Returns the player to the historical world after combat/recovery
+
+### Words of Power
+
+- More than one early-game Word exists
+- **אוֹר — Or**: light / illumination
+- **חֹשֶׁךְ — Ḥōshekh, Strong's H2822**: darkness / obscurity
+
+### Macro Grid
+
+The first Macro Grid is intentionally simple.
+
+- +5 Strength
+- Strength determines effectiveness
+- Two slots inside an IF/ELSE structure
+- `IF ENEMY` → Or-infused melee attack
+- `ELSE` → simple healing action
+
+The prototype demonstrates that one Word can participate in more than one branch of a Macro.
+
+### Archaeology
+
+The prototype uses a deliberately simplified archaeological interaction.
+
+The player is guided toward the resonant artifact's location. The important result is not a full excavation simulation but the discovery of the object that creates the Quantum Anchor and closes the time-loop established by the opening excavation.
+
+### Knowledge / Codex
+
+The Codex records:
+
+- tutorials
+- quest events
+- discovered Words
+- important discoveries
+- Eliab's known relationships and context
+
+### Quantum Anchor
+
+The player ultimately creates/discovers the Anchor that corresponds to the artifact encountered by Miriam and Evelyn in the opening.
+
+The Anchor provides the bridge between the past and present and establishes the next historical destination.
+
+---
+
+## Prototype Story Requirements
+
+The prototype must establish:
+
+- Miriam's initial Resonance experience
+- The Kairos Initiative
+- The player's Resonant status
+- Eliab as the player's counterpart
+- The player's need to live as Eliab
+- Capernaum as the first historical zone
+- Synchronization as a survival mechanic
+- A timeline/historical disturbance
+- The Grey Zone
+- Demons as a consequence of desynchronization
+- The first Word of Power
+- The first Macro
+- The Quantum Anchor
+- Return to the modern world
+- A cliffhanger leading to the next zone
+
+The Enemy's true spiritual identity remains unresolved in the prototype. The player initially has reason to suspect another quantum traveler or anomalous Resonant.
 
 ---
 
@@ -144,5 +220,4 @@
 
 ## Rule
 
-If a feature is not necessary to demonstrate the core Kairos experience,
-it belongs outside the prototype.
+If a feature is not necessary to demonstrate the core Kairos experience, it belongs outside the prototype.
