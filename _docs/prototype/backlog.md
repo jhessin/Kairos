@@ -1,6 +1,10 @@
 # Kairos Prototype Backlog
 
-The prototype is a 30–45 minute single-player vertical slice. Work is organized around the quest chain and the minimum systems required to make that chain playable. The player's immediate story objective is to find Miriam, whose consciousness is trapped in her historical counterpart while her physical body remains in a coma.
+The prototype is a 30–45 minute single-player vertical slice. Work is organized
+around the quest chain and the minimum systems required to make that chain
+playable. The player's immediate story objective is to find Miriam, whose
+consciousness is trapped in her historical counterpart while her physical body
+remains in a coma.
 
 ## P0 — Required
 

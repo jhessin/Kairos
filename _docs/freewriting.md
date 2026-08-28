@@ -56,3 +56,5 @@ We need a better hook for the story. Lets have Dr. Halevi be stuck
 in her counterpart so that she appears to be in a coma and the player needs to
 find her and bring her back. Then she can help guide the player from the past.
 This should be part of the quest chain in the prototype.
+
+Dr. Halevi should be found at the end of Act I.
