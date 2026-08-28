@@ -18,11 +18,11 @@ The player does not replace Eliab as a separate person in the historical world. 
 
 **Prototype role:** Mentor / first Resonant / central story hook.
 
-Miriam is one of the researchers who discovers the Resonance phenomenon with Evelyn Saroyan. During the first experiment she synchronizes unexpectedly and is abruptly de-synchronized.
+Miriam is one of the researchers who discovers the Resonance phenomenon with Evelyn Saroyan. During the first experiment she synchronizes unexpectedly and is not successfully returned.
 
-Miriam remains connected to a historical counterpart and becomes the first example of the danger facing Resonants.
+Miriam is in a **coma in the present day**. Her consciousness appears to remain trapped in her historical counterpart, making her the first example of the danger facing Resonants.
 
-The player's early mission is therefore not merely to observe history. The player must help the Kairos team understand what happened to Miriam and, if possible, find a way to bring her back.
+The player's early mission is therefore not merely to observe history. The player must enter the historical world, find Miriam, understand what happened to her, and if possible bring her back.
 
 Miriam is scientifically curious and spiritually open but does not begin with certainty about the nature of the phenomenon.
 
@@ -36,7 +36,7 @@ Evelyn is a field archaeologist who helps uncover the original artifact.
 
 She is practical, observant, grounded, and concerned with preserving historical accuracy.
 
-She provides the archaeological interpretation of discoveries made during the prototype.
+She provides the archaeological interpretation of discoveries made during the prototype and becomes responsible for the investigation after Miriam falls into a coma.
 
 ---
 
