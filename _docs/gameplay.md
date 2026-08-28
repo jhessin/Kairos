@@ -4,9 +4,9 @@ This document describes the long-term gameplay direction while identifying the s
 
 ## Core Prototype Loop
 
-The prototype is built around the player's need to remain synchronized with their historical counterpart.
+The prototype is built around the player's need to remain synchronized with their historical counterpart while investigating disturbances and searching for Miriam.
 
-> **Synchronize → live as the counterpart → investigate → risk desynchronization → enter the Grey Zone → fight → recover → continue.**
+> **Synchronize → live as the counterpart → investigate → risk desynchronization → enter the Grey Zone → fight → recover → continue the search.**
 
 Combat is therefore an integral part of the narrative rather than a separate activity.
 
@@ -22,7 +22,7 @@ A Resonant synchronizes with a historical counterpart.
 
 For the prototype, the player's counterpart is **Eliab**.
 
-Everyone in Eliab's community treats the player as Eliab. The player therefore has to learn Eliab's relationships, responsibilities, and expected behavior.
+Everyone in Eliab's community treats the player as Eliab. The player therefore has to learn Eliab's relationships, responsibilities, and expected behavior while searching for evidence of Miriam.
 
 ### Sync Stability
 
@@ -204,9 +204,9 @@ For the prototype, these systems can be represented minimally. The important beh
 
 The prototype does not require a full archaeology simulation.
 
-The player should be guided toward a resonant artifact and perform a small discovery interaction sufficient to establish the narrative function of archaeology.
+The player should be guided toward resonant artifacts and perform a small discovery interaction sufficient to establish the narrative function of archaeology.
 
-The artifact ultimately becomes the Quantum Anchor associated with the opening excavation, creating a time-loop.
+The final artifact becomes the Quantum Anchor associated with the opening excavation, creating a time-loop and providing a lead for the larger search for Miriam.
 
 ## Knowledge / Codex
 
@@ -217,5 +217,6 @@ The prototype Codex records:
 - Discovered Words
 - Important discoveries
 - Eliab's relationships and contextual knowledge
+- Clues related to Miriam
 
-The Codex can provide information supplied through the counterpart's memories/knowledge, reinforcing the player's need to learn Eliab's life.
+The Codex can provide information supplied through the counterpart's memories/knowledge, reinforcing the player's need to learn Eliab's life while pursuing the rescue mission.
