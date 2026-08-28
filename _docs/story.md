@@ -38,7 +38,7 @@ She experiences a living ancient world. An unknown girl takes her hand and calls
 
 > "Come on, Mary. We are going to be late!"
 
-Miriam is abruptly returned to the excavation.
+Miriam is abruptly returned to the excavation - however she is in a coma.
 
 The event establishes the first uncontrolled synchronization.
 
