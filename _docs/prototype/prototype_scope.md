@@ -27,9 +27,10 @@
 - Yohanan (Eliab's friend)
 - Mara (Eliab's wife)
 - Yosef (Eliab's father)
-- Bandit Leader
+- Bandit Leader (Enemy)
 - Bandit Lackey #1
 - Bandit Lackey #2
+- Demons
 
 ### Gameplay
 

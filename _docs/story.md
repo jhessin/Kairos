@@ -6,12 +6,12 @@ look exactly like this.
 
 ## First Cutscene
 
+### Scene 1
+
 Characters involved:
 
 1. Dr. Miriam Halevi (Physicist)
 2. Dr. Evelyn Saroyan (Archaeologist)
-
-### Scene 1
 
 The scene opens with the gentle tapping of a hammer on stone as light slowly
 creeps through into a dark room. Eventually a wall of stone falls in as a large
@@ -245,3 +245,5 @@ Ellington: So the bottom line is we need someone new - who resonates with the
 artifacts other reality. A Resonant if you will.
 
 Kessler: That _is_ an apt description.
+
+## Enter the player

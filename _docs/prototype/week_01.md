@@ -23,7 +23,7 @@ prototype-week-0
 
 ## Week 1 Goals
 
-- [ ] Lock prototype scope
+- [x] Lock prototype scope
 - [ ] Lock story
 - [ ] Lock playable sequence
 - [ ] Establish prototype folder structure
