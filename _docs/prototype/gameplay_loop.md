@@ -1,6 +1,6 @@
 # Kairos Prototype Gameplay Loop
 
-The prototype's gameplay loop is built around the player's need to remain synchronized with their historical counterpart while investigating disruptions to the timeline.
+The prototype's gameplay loop is built around the player's need to remain synchronized with their historical counterpart while investigating disruptions to the timeline and searching for Miriam.
 
 ```text
 Synchronize with Eliab
@@ -23,6 +23,8 @@ Maintain Synchronization
         ↓
 Investigate a Historical Disturbance
         ↓
+Search for Miriam / her counterpart
+        ↓
 Desynchronize
         ↓
 Enter the Grey Zone
@@ -40,6 +42,8 @@ Discover Quantum Anchor
 Return to Kairos
         ↓
 Analyze Discovery
+        ↓
+Gain a new lead toward Miriam
 ```
 
 ## Core Principle
@@ -48,7 +52,7 @@ Combat is not a separate activity. The player becomes vulnerable to the Enemy an
 
 The central player loop is therefore:
 
-> **Blend in → investigate → risk desynchronization → survive the Grey Zone → recover → continue the investigation.**
+> **Blend in → investigate → search for Miriam → risk desynchronization → survive the Grey Zone → recover → continue the investigation.**
 
 ## Prototype Quest Chain
 
@@ -56,6 +60,7 @@ The central player loop is therefore:
    - Synchronize with Eliab.
    - Meet Yosef.
    - Establish the identity problem.
+   - Begin looking for clues to Miriam.
 
 2. **Q002 — The Master's Errand**
    - Gather clay and water.
@@ -73,6 +78,7 @@ The central player loop is therefore:
 5. **Q005 — Something Is Wrong**
    - Investigate an anomalous object or mark.
    - Discover evidence that Eliab may have known about it.
+   - Find a clue related to Miriam's counterpart.
 
 6. **Q006 — Into the Grey**
    - Experience the first major desynchronization.
@@ -81,15 +87,18 @@ The central player loop is therefore:
 
 7. **Q007 — The Word**
    - Investigate the inscription.
-   - Discover the first Word of Power.
+   - Discover the first Words of Power.
    - Create the first Macro.
 
 8. **Q008 — The Anchor**
    - Follow the Resonance to the hidden location.
    - Discover the Quantum Anchor.
    - Trigger the final synchronization failure.
+   - Establish a lead toward Miriam.
 
 9. **Q009 — Return**
    - Emergency extraction.
    - Return to the modern Kairos facility.
+   - Analyze the Anchor.
+   - Establish the next step in finding Miriam.
    - Tease the next historical zone.
