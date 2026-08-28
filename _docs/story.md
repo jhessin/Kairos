@@ -247,3 +247,506 @@ artifacts other reality. A Resonant if you will.
 Kessler: That _is_ an apt description.
 
 ## Enter the player
+
+<--I'm unsure if it would be appropriate for the player to have control over our
+protagonist at this point or not -->
+
+The camera shifts to the player's perspective as they enter the Kairos facility.
+It should not be extremely advanced - Not top of the line advanced research
+facility, but genius working out of his Mom's basement type facility. There is
+advanced technology, but it just looks like a warehouse.
+
+As the player enters the facility Prof. Ellington approaches and vigorously
+shakes their hand.
+
+Ellington: You must be our two-o-clock. Welcome to the Kairos Initiative - our
+little clubhouse. Right now there are just five of us - leaders in the fields of
+quantum technology, physics, and archaeology. You would be our sixth member -
+that is if you meet the requirements and are interested. Er - Right this way.
+
+Ellington leads the player through the warehouse and a scanner goes over him
+with a blue light - then a small LED shines RED.
+
+Ellington: Don't mind the red light - it just means I'm not special.
+
+As the player walks through the blue light scans him and the LED turns GREEN.
+
+Ellington: Unlike you it would seem. Good, Good! Now come this way and I'll
+introduce you to Asha - she's a bit quiet and a little quirky, but you'll get
+used to her soon enough.
+
+Ellington leads the player to a small room that looks much cleaner than the rest
+of the warehouse. It has bare white walls and as the player approaches a woman
+who is sitting scrolling on a tablet next to what seems like an empty hospital
+bed a small orb of light comes out of the wall.
+
+Sarah: Dr. Raman - our two-o-clock has arrived.
+
+As the orb speaks it is slightly distorted. Dr. Asha Raman looks up at the orb
+and nods. Ellington is taken aback.
+
+Ellington: Well - that's new. Is that the whole reason you've been retrofitting
+this room with holographic projectors? <--Asha nods--> I must say our girl is
+looking quite lovely now. This <--He gestures at the doctor--> is Dr. Asha Raman
+and this little ball of light <--He gestures at the orb--> is our pet project
+Sarah - an AI that we have been working on to help interface with the human
+mind. Say hello Sarah.
+
+Sarah: Hello Sarah <-- at this the orb shifts into a winking face and back to an
+orb -->
+
+Asha taps on her tablet and Sarah perks up.
+
+Sarah: Prof. Ellington should we get started?
+
+Ellington: Yes, of course, of course. <-- Turns to player --> You my friend are
+what we have dubbed a Resonant. You see a few months ago our esteemed colleges
+Dr. Saroyan and Dr. Halevi found an ancient artifact <-- A hologram of the
+artifact is shown a broken oil pot with part of a symbol on it.'חי'--> The
+symbol means life in ancient Hebrew. That isn't the interesting part. What makes
+this artifact special is the fact that its quantum resonance is slightly off
+from the rest of our reality. You come in, my dear friend, because your quantum
+resonance happens to fit with this objects - this is a one in a million - nay -
+one in a billion chance occurrence.
+
+Sarah: What he is saying is you - and by extension _we_ - got lucky.
+
+Ellington: Very lucky indeed.
+
+## Prototype Quest Chain
+
+I would structure the 30–45 minute prototype as **8 small quests**.
+
+```text
+Q001 — A Stranger in Eliab's Life
+        ↓
+Q002 — The Master's Errand
+        ↓
+Q003 — A Friend's Challenge
+        ↓
+Q004 — A Wife's Question
+        ↓
+Q005 — Something Is Wrong
+        ↓
+Q006 — Into the Grey
+        ↓
+Q007 — The Word
+        ↓
+Q008 — The Anchor
+        ↓
+       END
+```
+
+This gives us a very clean progression:
+
+> **Identity → Exploration → Crafting → Combat → Relationships → Investigation →
+> Grey Zone → Word → Macro → Anchor**
+
+---
+
+### Q001 — A Stranger in Eliab's Life
+
+- Purpose
+
+  Introduce the player to the central story problem.
+
+- Start
+
+  The player completes synchronization and wakes in Capernaum.
+
+  Someone calls:
+
+  > **"Eliab!"**
+
+  The player realizes everyone believes they are Eliab.
+
+- Gameplay
+
+  - Movement
+  - Camera
+  - NPC interaction
+  - Dialogue
+  - Quest tracking
+  - Sync Stability HUD
+
+- Ending
+
+Yosef says:
+
+> "You seem distracted today."
+
+The player receives:
+
+> **SYNC STABILITY: 94%**
+
+The quest completes.
+
+- Reward
+
+  - Capernaum unlocked
+  - Quest system demonstrated
+  - Eliab's basic identity established
+
+---
+
+### Q002 — The Master's Errand
+
+- Purpose
+
+Introduce exploration, gathering, and crafting.
+
+Yosef needs Eliab to prepare materials for the workshop.
+
+- Objectives
+
+1. Gather clay.
+2. Collect water.
+3. Return to the workshop.
+4. Craft the vessel.
+5. Deliver it to Yosef.
+
+- Gameplay
+
+  - Gathering
+  - Inventory
+  - Crafting
+  - Simple navigation
+
+- Story
+
+Yosef treats the player exactly as he would Eliab.
+
+The player begins learning:
+
+> **This isn't an adventure I'm visiting. This is someone's life.**
+
+- Reward
+
+  - Crafting XP
+  - First crafted item
+  - Small Sync Stability increase
+
+---
+
+### Q003 — A Friend's Challenge
+
+- Purpose
+
+Introduce Yohanan and combat.
+
+After the workshop task, Yohanan finds the player.
+
+> Yohanan:
+> "You look like you could use some fresh air."
+
+He challenges Eliab to practice.
+
+- Objectives
+
+1. Follow Yohanan.
+2. Learn basic combat.
+3. Defeat training targets.
+4. Complete a sparring match.
+
+- Gameplay
+
+  - Combat movement
+  - Basic attack
+  - Dodge
+  - Targeting
+  - Health
+  - Enemy AI
+
+- Story
+
+Yohanan notices something strange.
+
+> "You're thinking too much."
+
+The player can dismiss it.
+
+This establishes that **Yohanan knows Eliab well enough to notice changes.**
+
+- Reward
+
+  - Combat unlocked
+  - Basic weapon
+  - Combat XP
+
+---
+
+### Q004 — A Wife's Question
+
+- Purpose
+
+Introduce Mara and make the identity problem personal.
+
+The player returns home.
+
+Mara has a simple task/request.
+
+- Objectives
+
+1. Return home.
+2. Speak with Mara.
+3. Retrieve something from the workshop.
+4. Return to Mara.
+
+The task itself should be extremely simple.
+
+The important part is the dialogue.
+
+Mara references something that happened previously.
+
+The player doesn't remember it.
+
+For example:
+
+> **Mara:**
+> "Did you ever finish what you started yesterday?"
+
+The player has no idea what she's talking about.
+
+The researchers warn:
+
+> **SYNC INSTABILITY DETECTED**
+
+The player has just encountered the first real consequence of pretending to be Eliab.
+
+- Reward
+
+  - Mara relationship established
+  - Eliab memory fragment
+  - Sync Stability mechanic reinforced
+
+---
+
+### Q005 — Something Is Wrong
+
+- Purpose
+
+Transition from "living Eliab's life" to the actual adventure.
+
+Yosef discovers something unusual.
+
+An object in the workshop has been moved or altered.
+
+- player recognizes a strange symbol.
+
+It resembles the markings associated with the Resonance.
+
+- Objectives
+
+1. Inspect the object.
+2. Speak with Yosef.
+3. Search the workshop.
+4. Speak with Yohanan.
+5. Investigate the nearby area.
+6. Return to the object.
+
+- Gameplay
+
+  - Investigation
+  - Environmental interaction
+  - Dialogue clues
+  - Archaeological scanning
+
+- Story
+
+The player experiences a memory fragment.
+
+They see:
+
+**Eliab standing near the same object.**
+
+But the player doesn't remember ever seeing it before.
+
+The researchers are alarmed.
+
+- Ending
+
+Sync Stability drops.
+
+The world begins to distort.
+
+Quest completes.
+
+---
+
+### Q006 — Into the Grey
+
+- Purpose
+
+Introduce the Grey Zone and make combat narratively meaningful.
+
+The player is pulled into the Grey Zone.
+
+The normal world disappears.
+
+- Objectives
+
+1. Find a way through the Grey Zone.
+2. Investigate the disturbance.
+3. Survive the encounter.
+4. Defeat the Demon.
+5. Recover the synchronization signal.
+
+- Gameplay
+
+This is our **first real combat encounter**.
+
+The player fights one Demon type.
+
+The Demon should feel different from ordinary historical enemies.
+
+### Important
+
+The player should **not know what it is**.
+
+The researchers might call it:
+
+> "An anomalous entity."
+
+The player sees something far more disturbing.
+
+- Ending
+
+The Demon is defeated.
+
+The player returns to Capernaum.
+
+A strange object remains behind.
+
+Quest completes.
+
+---
+
+### Q007 — The Word
+
+- Purpose
+
+Introduce archaeology, Words of Power, and Macros.
+
+The object recovered from the Grey Zone contains an inscription.
+
+Naomi helps translate it.
+
+The word is:
+
+> אוֹר
+> OR
+> **Light**
+
+- Objectives
+
+1. Examine the artifact.
+2. Find the inscription.
+3. Translate the inscription.
+4. Discover the Word of Power.
+5. Open the Macro Grid.
+6. Create the first Macro.
+7. Test the Macro.
+
+- Gameplay
+
+  - Archaeology
+  - Word discovery
+  - Word collection
+  - Macro Grid
+  - Macro construction
+  - Ability use
+
+- Reward
+
+  - **Word of Power: Or**
+
+  - **Macro: Light**
+
+This becomes the player's first supernatural ability.
+
+---
+
+### Q008 — The Anchor
+
+- Purpose
+
+Finish the prototype and establish the larger story.
+
+The Word reveals a connection between the artifact and another location.
+
+The player follows the clue.
+
+- Objectives
+
+1. Follow the resonance.
+2. Locate the hidden site.
+3. Excavate the site.
+4. Recover the artifact.
+5. Investigate the artifact.
+6. Survive the final disturbance.
+7. Activate the Quantum Anchor.
+8. Return to the synchronization point.
+
+- Gameplay
+
+  - Exploration
+  - Archaeology
+  - Macro
+  - Combat
+  - Sync Stability
+
+- Story
+
+The player discovers the:
+
+### Quantum Anchor
+
+The researchers compare its signature with the original artifact.
+
+They match.
+
+The player has discovered proof that the Resonance connects locations across realities.
+
+Then:
+
+> **SYNC CRITICAL**
+
+The player begins desynchronizing.
+
+---
+
+## Prototype Finale
+
+The player experiences one final Grey Zone event.
+
+This time the Demon encounter is slightly harder.
+
+The player uses **Or / Light** to survive.
+
+The player returns to Capernaum.
+
+Then the synchronization collapses.
+
+---
+
+### Q009 — Return
+
+I would actually make the return a tiny **automatic story quest**, rather than a
+full quest.
+
+- Objectives
+
+1. Survive synchronization collapse.
+2. Return to Kairos.
+
+The player wakes in the modern facility.
+
+Miriam asks:
+
+> "What happened?"
+
+The player looks at the artifact.
+
+> "I think something followed me."
+
+Cut to black.

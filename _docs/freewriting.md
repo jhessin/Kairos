@@ -35,3 +35,23 @@ biblical purpose of the game. As a main concern many Christians may not
 understand the spiritual battle and the parallel that the game draws between
 that and the "Grey Zone" (the de-synchronized world the player finds themselves
 in).
+
+## Systems
+
+The dialogue system should offer the player choices and if the player is
+de-synchronized they will need to start from the beginning of their current
+quest. The choices they made previously should show a +/-% change in
+synchronization to help the player progress.
+
+Targeting should be done with the D-Pad. DOWN should clear the target - which in
+effect means the player targets the default target - which is initially
+themselves. This can later be changed (not necessarily in the prototype though).
+The right and left buttons will cycle through the enemies while the up button
+will cycle through friendly targets from nearest to farthest (or through a list
+in settings - a nice to have feature).
+
+## Story
+
+We need a better hook for the story. Lets have Dr. Halevi be stuck
+in her counterpart and the player needs to find her and bring her back. Then she
+can help guide the player from the past.
