@@ -12,9 +12,9 @@ The player does not simply observe the past. They inhabit the life of their coun
 
 For the prototype, the counterpart is **Eliab**, an apprentice craftsman living in Capernaum and married to Mara. Everyone who knows Eliab believes the player is Eliab.
 
-The immediate problem is therefore identity: the player must learn Eliab's life and behave consistently enough to maintain synchronization.
+The immediate problem is identity: the player must learn Eliab's life and behave consistently enough to maintain synchronization.
 
-A second problem drives the larger story. **Dr. Miriam Halevi became stranded during the Initiative's first uncontrolled synchronization.** The player is sent into the historical reality to investigate the phenomenon and, if possible, find a way to bring Miriam back.
+A second problem drives the prototype. **Dr. Miriam Halevi became trapped in her counterpart during the Initiative's first uncontrolled synchronization. Her physical body is now in a coma while her consciousness remains connected to the historical world.** The player is sent into the historical reality to find Miriam and, if possible, bring her back.
 
 As the player investigates, synchronization instability exposes them to the **Grey Zone**, a de-synchronized layer of reality where Demons can attack Resonants.
 
@@ -44,7 +44,7 @@ The event establishes the first uncontrolled synchronization.
 
 ## Scene 2 — The Team
 
-Miriam cannot reproduce the experience on her own. Evelyn brings in Daniel Kessler and Marcus Ellington.
+Miriam does not return to normal after the experience. **She is in a coma, with her consciousness apparently trapped in her historical counterpart.** Evelyn brings in Daniel Kessler and Marcus Ellington.
 
 Daniel proposes that Miriam synchronized with a counterpart in an alternate reality whose timeline appears to correspond with humanity's distant past.
 
@@ -56,7 +56,7 @@ The player is identified.
 
 Miriam's condition gives the player's first mission a personal purpose:
 
-> **Find out what happened to Miriam and bring her back if possible.**
+> **Find Miriam in the historical world and bring her back if possible.**
 
 ---
 
@@ -82,7 +82,9 @@ The player realizes that everyone around them believes they are Eliab.
 
 Sarah explains that synchronization stability depends partly on maintaining compatibility with the counterpart.
 
-**Primary purpose:** establish the identity problem and Sync Stability.
+The player also begins searching for signs that could lead to Miriam.
+
+**Primary purpose:** establish the identity problem, Sync Stability, and Miriam's rescue objective.
 
 ---
 
@@ -136,9 +138,11 @@ Sarah alerts the player and the Kairos team begins monitoring the connection.
 
 The player investigates and discovers evidence that Eliab may have encountered the anomaly before.
 
+The player also finds a clue that may connect the disturbance to Miriam's counterpart.
+
 Synchronization begins to deteriorate.
 
-**Primary purpose:** transition from daily life into the larger mystery.
+**Primary purpose:** transition from daily life into the larger mystery and Miriam rescue objective.
 
 ---
 
@@ -215,7 +219,9 @@ This creates a time-loop:
 
 The team realizes that the player is participating in a closed chain of events connecting past and present.
 
-**Primary purpose:** establish the Quantum Anchor and advance the larger mystery.
+The Anchor also provides a possible path toward locating Miriam's counterpart.
+
+**Primary purpose:** establish the Quantum Anchor, advance the larger mystery, and point toward Miriam's rescue.
 
 ---
 
@@ -237,13 +243,11 @@ The researchers analyze the recovered information. The Anchor proves that the Re
 
 The team still does not understand the Grey Zone or the Enemy.
 
-Miriam's condition remains an unresolved part of the story and motivates the next historical investigation.
+Miriam's physical condition remains unresolved, but the data gives the team a new lead toward finding her.
 
-Miriam looks at the player.
+Miriam's recovery becomes the driving objective for the next historical investigation.
 
-> "We know where we're going next."
-
-A new archaeological location appears on the monitor.
+The final scene points toward the next destination.
 
 **END OF PROTOTYPE.**
 
@@ -255,8 +259,9 @@ The prototype deliberately leaves unanswered:
 
 - Why does the Resonance exist?
 - Why was the player matched with Eliab?
-- What happened to Miriam's counterpart?
-- Why can Miriam no longer synchronize normally?
+- What exactly happened to Miriam's consciousness?
+- Who is Miriam's historical counterpart?
+- Why can Miriam no longer return normally?
 - What exactly is the Grey Zone?
 - What are the Demons?
 - Who is the Enemy?
