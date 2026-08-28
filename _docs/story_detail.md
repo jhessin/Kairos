@@ -1,8 +1,11 @@
 # Story Detail
 
-This document contains the actual scene, dialogue, quest, and gameplay script for the Capernaum prototype.
+This document contains the actual scene, dialogue, quest, and gameplay script
+for the Capernaum prototype.
 
-The canonical story direction is defined by `_docs/story.md` and `_docs/freewriting.md`. This document translates that direction into the detailed sequence the prototype should implement.
+The canonical story direction is defined by `_docs/story.md` and
+`_docs/freewriting.md`. This document translates that direction into the
+detailed sequence the prototype should implement.
 
 ## Prototype Flow
 
@@ -38,28 +41,38 @@ Q010 — Return
 Prototype Ending
 ```
 
-# Opening — The Resonance
+## Opening — The Resonance
 
-## Scene 1 — Excavation
+### Scene 1 — Excavation
 
 **Characters:**
 
 1. Dr. Miriam Halevi
 2. Dr. Evelyn Saroyan
 
-The scene opens with the gentle tapping of a hammer on stone as light slowly creeps through into a dark room. Eventually a wall of stone falls in as a large cloud of dust floats across the screen. As the dust settles, Dr. Halevi and Dr. Saroyan are revealed.
+The scene opens with the gentle tapping of a hammer on stone as light slowly
+creeps through into a dark room. Eventually a wall of stone falls in as a large
+cloud of dust floats across the screen. As the dust settles, Dr. Halevi and Dr.
+Saroyan are revealed.
 
-**Halevi:** _cough_ _cough_ I really don't see why you insist on digging this stuff up all by yourself. _cough_ Don't you have grad students for this?
+**Halevi:** _cough_ _cough_ I really don't see why you insist on digging this
+stuff up all by yourself. _cough_ Don't you have grad students for this?
 
-**Saroyan:** _sigh_ Any one of them would be in such a hurry they would destroy half of the artifacts before they even set foot in here — and didn't I tell you to wear a dust mask?
+**Saroyan:** _sigh_ Any one of them would be in such a hurry they would destroy
+half of the artifacts before they even set foot in here — and didn't I tell you
+to wear a dust mask?
 
 **Halevi:** They fog up my glasses and I can't see!
 
 Halevi pushes her glasses up her nose as she studies a scanning device.
 
-**Halevi:** The quantum disturbance must be somewhere near here. These fluctuations are going crazy!
+**Halevi:** The quantum disturbance must be somewhere near here. These
+fluctuations are going crazy!
 
-**Saroyan:** You and your — _mockingly_ — "quantum fluctuations"? Don't you realize we are probably the first people to set foot in this room for thousands of years? If the inscriptions I found are correct this was the very temple where...
+**Saroyan:** You and your — _mockingly_ — "quantum fluctuations"? Don't you
+realize we are probably the first people to set foot in this room for thousands
+of years? If the inscriptions I found are correct this was the very temple
+where...
 
 **Halevi:** LOOK AT THIS!
 
@@ -73,7 +86,8 @@ An unknown girl in ancient clothing is holding Halevi's hand.
 
 **Halevi:** Wait — who are...you?
 
-Halevi looks around at the fully functioning temple. People move through the ancient world as though nothing is unusual.
+Halevi looks around at the fully functioning temple. People move through the
+ancient world as though nothing is unusual.
 
 A pulse of light surrounds Halevi.
 
@@ -89,58 +103,78 @@ Saroyan rushes to her.
 
 CUT TO BLACK.
 
-### Story State
+#### Story State
 
-Miriam's body survives the initial synchronization, but she does not regain consciousness. Her physical body is in a coma while her consciousness appears to remain connected to her historical counterpart.
+Miriam's body survives the initial synchronization, but she does not regain
+consciousness. Her physical body is in a coma while her consciousness appears to
+remain connected to her historical counterpart.
 
 This is the inciting incident for the prototype.
 
 ---
 
-# Scene 2 — The Kairos Initiative
+### Scene 2 — The Kairos Initiative
 
 **Characters:**
 
-1. Dr. Miriam Halevi — present only as her unconscious body / prior recordings during this scene
+1. Dr. Miriam Halevi — present only as her unconscious body / prior recordings
+   during this scene
 2. Dr. Evelyn Saroyan
 3. Dr. Daniel Kessler
 4. Prof. Marcus Ellington
 5. Dr. Asha Raman
 6. Sarah
 
-The setting is a basement-like research facility: advanced equipment and experimental technology are present, but the facility still feels like a warehouse built by brilliant people rather than a polished corporate laboratory.
+The setting is a basement-like research facility: advanced equipment and
+experimental technology are present, but the facility still feels like a
+warehouse built by brilliant people rather than a polished corporate laboratory.
 
 Miriam lies unconscious near the damaged artifact.
 
 Evelyn has invited Daniel Kessler and Marcus Ellington to help understand what happened.
 
-**Saroyan:** It's no use. Miriam hasn't responded since she touched the artifact. Whatever happened, we need another approach.
+**Saroyan:** It's no use. Miriam hasn't responded since she touched the
+artifact. Whatever happened, we need another approach.
 
 Kessler examines the artifact and the monitoring data.
 
-**Kessler:** Evelyn has brought me up to speed, but I want to hear your version of events.
+**Kessler:** Evelyn has brought me up to speed, but I want to hear your version
+of events.
 
-Evelyn describes what Miriam experienced. Kessler explains his theory of quantum synchronization.
+Evelyn describes what Miriam experienced. Kessler explains his theory of quantum
+synchronization.
 
-**Kessler:** You are describing quantum synchronization. If Miriam was looking through the eyes of another person — someone on another timeline — the flow of time would not have been consistent with what she is used to.
+**Kessler:** You are describing quantum synchronization. If Miriam was looking
+through the eyes of another person — someone on another timeline — the flow of
+time would not have been consistent with what she is used to.
 
 He sketches two timelines on paper.
 
-**Kessler:** Say this is our timeline. From the beginning of the universe to now. This is another timeline also from the beginning to now — just decompressed, if you will. If we could move from our timeline to the other one, we would in fact be seeing a version of the past.
+**Kessler:** Say this is our timeline. From the beginning of the universe to
+now. This is another timeline also from the beginning to now — just
+decompressed, if you will. If we could move from our timeline to the other one,
+we would in fact be seeing a version of the past.
 
-He explains that Miriam's quantum signature appears to have synchronized with a counterpart in the alternate historical reality.
+He explains that Miriam's quantum signature appears to have synchronized with a
+counterpart in the alternate historical reality.
 
 **Saroyan:** So why doesn't it react that way with anyone else?
 
-**Kessler:** Because none of us have a counterpart that we resonate with. At least, none that we've found.
+**Kessler:** Because none of us have a counterpart that we resonate with. At
+least, none that we've found.
 
 Marcus introduces the quantum signature visualization he has been developing.
 
-**Kessler:** This is a quantum signature. It's kind of like DNA but more fundamental. It identifies all the parts of me that make me — well, me. The artifact resonates at a slightly different quantum frequency than anything else we've measured.
+**Kessler:** This is a quantum signature. It's kind of like DNA but more
+fundamental. It identifies all the parts of me that make me — well, me. The
+artifact resonates at a slightly different quantum frequency than anything else
+we've measured.
 
-Kessler concludes that Miriam's consciousness has become trapped on the other side while her physical body remains here.
+Kessler concludes that Miriam's consciousness has become trapped on the other
+side while her physical body remains here.
 
-**Kessler:** We need someone who, like Miriam, has a resonant person on the other side, but hasn't touched the artifact.
+**Kessler:** We need someone who, like Miriam, has a resonant person on the
+other side, but hasn't touched the artifact.
 
 **Saroyan:** And how exactly do we find that person?
 
@@ -158,23 +192,27 @@ Marcus smiles.
 
 **Marcus:** Meet Sarah.
 
-The team explains that Sarah can act as a buffer between a human mind and the Resonance, allowing a controlled synchronization.
+The team explains that Sarah can act as a buffer between a human mind and the
+Resonance, allowing a controlled synchronization.
 
 The player has been identified as a compatible Resonant.
 
-### Mission Established
+#### Mission Established
 
 > **Find Miriam in the historical world and bring her back if possible.**
 
 ---
 
-# Player Introduction
+## Player Introduction
 
 The camera shifts to the player's perspective as they enter the Kairos facility.
 
 Prof. Marcus Ellington approaches and vigorously shakes their hand.
 
-**Ellington:** You must be our two-o-clock. Welcome to the Kairos Initiative — our little clubhouse. Right now there are just five of us — leaders in the fields of quantum technology, physics, and archaeology. You would be our sixth member — that is, if you meet the requirements and are interested.
+**Ellington:** You must be our two-o-clock. Welcome to the Kairos Initiative —
+our little clubhouse. Right now there are just five of us — leaders in the
+fields of quantum technology, physics, and archaeology. You would be our sixth
+member — that is, if you meet the requirements and are interested.
 
 Ellington leads the player through the warehouse.
 
@@ -192,13 +230,16 @@ He introduces Asha and Sarah.
 
 Asha nods.
 
-**Ellington:** This is Dr. Asha Raman and this little ball of light is our pet project, Sarah — an AI we've been working on to help interface with the human mind.
+**Ellington:** This is Dr. Asha Raman and this little ball of light is our pet
+project, Sarah — an AI we've been working on to help interface with the human
+mind.
 
 **Sarah:** Hello Sarah.
 
 The orb briefly forms a winking face.
 
-Ellington explains that the player's quantum resonance fits the artifact's alternate reality.
+Ellington explains that the player's quantum resonance fits the artifact's
+alternate reality.
 
 **Ellington:** You, my friend, are what we have dubbed a Resonant.
 
@@ -208,7 +249,9 @@ Sarah explains the immediate purpose in simpler terms.
 
 **Ellington:** Very lucky indeed.
 
-Naomi then prepares the player's language synchronization. The player is told that they will not be observing history from a distance. They will experience it through their counterpart.
+Naomi then prepares the player's language synchronization. The player is told
+that they will not be observing history from a distance. They will experience it
+through their counterpart.
 
 **Sarah:** Your counterpart has a name. Eliab.
 
@@ -216,13 +259,13 @@ The synchronization system begins.
 
 ---
 
-# Q001 — A Stranger in Eliab's Life
+## Q001 — A Stranger in Eliab's Life
 
-## Purpose
+### Purpose
 
 Establish the player's identity problem, Eliab, Capernaum, and Sync Stability.
 
-## Start
+### Start
 
 The player enters the synchronization system.
 
@@ -246,7 +289,8 @@ The person continues speaking naturally, assuming the player is Eliab.
 
 Sarah's voice enters the player's interface.
 
-**Sarah:** Synchronization confirmed. You are currently perceiving Eliab's world through his quantum signature.
+**Sarah:** Synchronization confirmed. You are currently perceiving Eliab's world
+through his quantum signature.
 
 **Player:** So where is Eliab?
 
@@ -256,14 +300,14 @@ A pause.
 
 The player realizes that everyone around them believes they are Eliab.
 
-## Objectives
+### Objectives
 
 1. Explore the immediate area.
 2. Find Yosef.
 3. Speak with Yosef.
 4. Follow Yosef to the workshop.
 
-## Dialogue
+### Dialogue
 
 **Yosef:** Eliab! There you are. Come along.
 
@@ -279,25 +323,27 @@ Sarah quietly displays:
 
 **Sarah:** Your synchronization is stable. For now.
 
-## Quest Complete
+### Quest Complete
 
 The player has entered Eliab's life.
 
-**Primary purpose:** identity, movement, interaction, dialogue, quest tracking, Sync Stability.
+**Primary purpose:** identity, movement, interaction, dialogue, quest tracking,
+Sync Stability.
 
 ---
 
-# Q002 — The Master's Errand
+## Q002 — The Master's Errand
 
-## Purpose
+### Purpose
 
 Introduce gathering, inventory, crafting, and Eliab's daily responsibilities.
 
 Yosef gives Eliab a routine workshop task.
 
-**Yosef:** I need fresh clay. And water. If we're going to finish these before sundown, you'll have to stop staring at the walls and start working.
+**Yosef:** I need fresh clay. And water. If we're going to finish these before
+sundown, you'll have to stop staring at the walls and start working.
 
-## Objectives
+### Objectives
 
 1. Gather clay.
 2. Collect water.
@@ -305,17 +351,18 @@ Yosef gives Eliab a routine workshop task.
 4. Craft a simple vessel.
 5. Deliver the vessel to Yosef.
 
-## Story Beat
+### Story Beat
 
 Yosef treats the player exactly as he would Eliab.
 
-The player realizes that this is not a historical tour. They have inherited someone else's responsibilities.
+The player realizes that this is not a historical tour. They have inherited
+someone else's responsibilities.
 
 **Yosef:** Better. You're remembering.
 
 The line should feel ordinary but reinforce the player's problem.
 
-## Reward
+### Reward
 
 - First crafted item
 - Crafting progression
@@ -324,9 +371,9 @@ The line should feel ordinary but reinforce the player's problem.
 
 ---
 
-# Q003 — A Friend's Challenge
+## Q003 — A Friend's Challenge
 
-## Purpose
+### Purpose
 
 Introduce Yohanan and conventional combat.
 
@@ -340,7 +387,7 @@ After the workshop task, Yohanan approaches.
 
 Yohanan leads Eliab away from the workshop.
 
-## Objectives
+### Objectives
 
 1. Follow Yohanan.
 2. Learn basic attack.
@@ -354,7 +401,7 @@ Yohanan assumes the player already knows the basics.
 
 The player completes the tutorial combat.
 
-## Story Beat
+### Story Beat
 
 Yohanan notices that Eliab seems different but does not yet suspect the truth.
 
@@ -364,7 +411,7 @@ Yohanan notices that Eliab seems different but does not yet suspect the truth.
 
 **Yohanan:** Then hit something until you stop.
 
-## Reward
+### Reward
 
 - Basic combat unlocked
 - Combat progression
@@ -372,9 +419,9 @@ Yohanan notices that Eliab seems different but does not yet suspect the truth.
 
 ---
 
-# Q004 — A Wife's Question
+## Q004 — A Wife's Question
 
-## Purpose
+### Purpose
 
 Make the identity problem personal and introduce dialogue choices that affect synchronization.
 
@@ -394,9 +441,10 @@ Mara asks about something Eliab was supposed to remember from the previous day.
 
 The player has no memory of it.
 
-The player receives dialogue choices. The choices should expose the player's lack of knowledge.
+The player receives dialogue choices. The choices should expose the player's
+lack of knowledge.
 
-### Choice Example
+#### Choice Example
 
 **A.** "Of course."
 
@@ -406,7 +454,8 @@ The player receives dialogue choices. The choices should expose the player's lac
 
 The options affect Sync Stability.
 
-At first, the available choices are deliberately destabilizing. The player cannot simply bluff their way through every interaction.
+At first, the available choices are deliberately destabilizing. The player
+cannot simply bluff their way through every interaction.
 
 Sarah warns the player.
 
@@ -420,17 +469,18 @@ Mara's voice overlaps the memory.
 
 The player returns to the present.
 
-## Quest State
+### Quest State
 
-The player cannot yet resolve the situation through dialogue alone. The accumulated synchronization loss triggers Q004.5.
+The player cannot yet resolve the situation through dialogue alone. The
+accumulated synchronization loss triggers Q004.5.
 
 ---
 
-# Q004.5 — Into the Grey
+## Q004.5 — Into the Grey
 
-## Purpose
+### Purpose
 
-Introduce the Grey Zone and make desynchronization the reason combat occurs.
+Introduce the Grey Zone and make de-synchronization the reason combat occurs.
 
 Sync Stability reaches a critical threshold.
 
@@ -452,13 +502,14 @@ The world becomes empty and distorted.
 
 A hostile entity appears.
 
-The player initially interprets it as a corrupted quantum entity or another quantum traveler.
+The player initially interprets it as a corrupted quantum entity or another
+quantum traveler.
 
 **Sarah:** Unknown quantum signature detected.
 
 The entity attacks.
 
-## Objectives
+### Objectives
 
 1. Survive the encounter.
 2. Defeat the entity.
@@ -476,15 +527,15 @@ Sarah's diagnostics stabilize.
 
 The player does not yet know that the entity was a Demon.
 
-## Story Rule
+### Story Rule
 
 The Grey Zone should be isolated from ordinary historical NPCs. It exists as the result of synchronization instability and gives the Enemy's forces an opportunity to attack without creating unrestricted damage to the historical world.
 
 ---
 
-# Q005 — The Missing Doctor
+## Q005 — The Missing Doctor
 
-## Purpose
+### Purpose
 
 Resolve the prototype's initial hook: find Miriam.
 
@@ -500,7 +551,7 @@ A hot/cold tracking mechanic begins.
 
 A meter indicates the strength of the connection between the player and Miriam.
 
-## Objectives
+### Objectives
 
 1. Search the area for the signal.
 2. Follow the signal strength.
@@ -517,7 +568,7 @@ The player realizes that Mary has been experiencing Miriam's presence.
 
 Miriam's consciousness becomes accessible through the same HUD the player uses.
 
-## Cutscene
+### Cutscene
 
 The HUD appears for Miriam.
 
@@ -539,7 +590,7 @@ She remembers the experience as a confused or fugue-like episode.
 
 Miriam's consciousness is successfully returned to the modern world.
 
-## Story Purpose
+### Story Purpose
 
 This resolves the original rescue hook while demonstrating an important consequence of synchronization: when the Resonant returns, the historical counterpart remains and remembers the experience imperfectly.
 
@@ -547,9 +598,9 @@ Q006 unlocks.
 
 ---
 
-# Q006 — Something Is Wrong
+## Q006 — Something Is Wrong
 
-## Purpose
+### Purpose
 
 Transition from Miriam's rescue into the larger conflict surrounding history.
 
@@ -559,7 +610,7 @@ An object associated with the workshop contains an unusual mark or resonance sig
 
 The symbol resembles the markings associated with the original artifact.
 
-## Objectives
+### Objectives
 
 1. Inspect the anomalous object.
 2. Speak with Yosef.
@@ -588,9 +639,9 @@ Q007 unlocks.
 
 ---
 
-# Q007 — The Word
+## Q007 — The Word
 
-## Purpose
+### Purpose
 
 Introduce archaeology, Words of Power, and the first Macro.
 
@@ -602,17 +653,17 @@ Dr. Naomi Feld assists through the Kairos interface.
 
 Two Words are identified for the prototype:
 
-## אוֹר — Or
+### אוֹר — Or
 
 **Core concept:** light / illumination / lightning.
 
-## חֹשֶׁךְ — Ḥōshekh — Strong's H2822
+### חֹשֶׁךְ — Ḥōshekh — Strong's H2822
 
 **Core concept:** darkness / obscurity.
 
-The prototype should treat these as distinct Hebrew terms and not conflate them with קָדַשׁ (*qāḏaš*), the separate root associated with holiness/consecration.
+The prototype should treat these as distinct Hebrew terms and not conflate them with קָדַשׁ (_qāḏaš_), the separate root associated with holiness/consecration.
 
-## Objectives
+### Objectives
 
 1. Examine the inscription.
 2. Recover the archaeological object.
@@ -628,7 +679,7 @@ The player receives the first Macro Grid.
 
 ---
 
-# First Macro
+## First Macro
 
 The player returns to the lab interface and confers with Naomi.
 
@@ -651,9 +702,9 @@ The player now has a reusable ability tied directly to a story discovery.
 
 ---
 
-# Q008 — The Anchor
+## Q008 — The Anchor
 
-## Purpose
+### Purpose
 
 Establish the Quantum Anchor, connect the prototype's beginning to its ending, and reveal that the player is participating in a closed chain of events.
 
@@ -661,7 +712,7 @@ The player follows the Resonance to a hidden location.
 
 The location contains an artifact corresponding to the object associated with the original excavation.
 
-## Objectives
+### Objectives
 
 1. Follow the Resonance.
 2. Locate the hidden site.
@@ -692,7 +743,7 @@ The Anchor also produces a possible lead toward future historical locations and 
 
 ---
 
-# Final Desynchronization
+## Final De-synchronization
 
 Creating the Anchor produces a major synchronization disturbance.
 
@@ -718,9 +769,9 @@ The player survives long enough for the Kairos team to initiate emergency extrac
 
 ---
 
-# Q010 — Return
+## Q010 — Return
 
-## Purpose
+### Purpose
 
 Return the player to the modern world and establish the next story objective.
 
@@ -740,7 +791,7 @@ Sarah reports the final synchronization data.
 
 Miriam is now back in the modern world, but the experience has left unresolved questions.
 
-## Final Dialogue
+### Final Dialogue
 
 **Miriam:** You found me.
 
@@ -766,48 +817,48 @@ Sarah's orb flickers.
 
 CUT TO BLACK.
 
-# END OF PROTOTYPE
+## END OF PROTOTYPE
 
 ---
 
-# Story Rules for Implementation
+## Story Rules for Implementation
 
-## Identity
+### Identity
 
 The player is always treated as Eliab while synchronized. NPCs do not know the player is a separate person.
 
-## Sync Stability
+### Sync Stability
 
 Dialogue choices and significant actions can change Sync Stability. The player should receive immediate feedback when a choice changes synchronization.
 
-## Desynchronization
+### Desynchronization
 
 If the player reaches a critical synchronization state during the relevant quest, the current quest resets to its beginning after the Grey Zone encounter unless the quest specifically defines another recovery point.
 
-## Grey Zone
+### Grey Zone
 
 The Grey Zone is the isolated combat space created by desynchronization. Ordinary historical NPCs should not be exposed to these encounters.
 
-## Enemy
+### Enemy
 
 The Enemy remains unidentified during the prototype. The player can reasonably believe the Enemy is another quantum traveler or anomalous entity.
 
-## Demons
+### Demons
 
 Demons are the hostile entities encountered in the Grey Zone. Their true spiritual nature is not explained during the prototype.
 
-## Miriam
+### Miriam
 
 Miriam's rescue is the first major objective and should be resolved before the prototype moves into the larger disturbance surrounding Eliab and the timeline.
 
-## Words of Power
+### Words of Power
 
 The prototype introduces **Or** and **Ḥōshekh** as discoveries. Only the first Macro needs to be fully usable.
 
-## Quantum Anchor
+### Quantum Anchor
 
 The Anchor connects the prototype's historical events to the modern excavation and establishes the larger closed-chain mystery.
 
-## Scope
+### Scope
 
 The detailed story should support a 30–45 minute vertical slice. Any scene or dialogue that does not support the prototype's core loop should be deferred rather than expanding the prototype.
