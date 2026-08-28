@@ -1,429 +1,185 @@
 # MMO Characters
 
-Here are the characters of the game as of now. This is subject to change. These
-characters will not be introduced all at once but will slowly appear over the
-course of the game.
-
-## The Player: The Resonance
-
-The players are called Resonants - They have been identified through various
-brain scans to have a high quantum synchronization with historical figures found
-through "The Resonance" - An ancient artifact that has recently been unearthed
-that allows quantum physicist to synchronize the brain waves of some people with
-their counterpart in another reality.
-
-As you progress through the game you will have the ability to meet other
-Resonants.
-
-## Research Organization Leadership
-
-### Dr. Miriam Halevi - Director of Quantum Anthropology
-
-A renowned scholar who pioneered the theory that consciousness can be
-harmonized across temporal realities. Born in Haifa, educated at MIT, Miriam
-blends anthropology with cutting‑edge physics. She founded the Kairos
-Initiative after discovering anomalous linguistic resonance patterns in
-ancient inscriptions.
-
-- Personality Profile:
-  - Calm, authoritative, deeply intuitive
-  - Speaks with measured confidence; rarely raises her voice
-  - Sees the player as a potential breakthrough
-  - Motivated by uncovering how ancient cultures perceived reality
-  - Serves as the “mentor figure” in the opening cutscene
-
-- Religious Affiliation: Jewish, spiritually curious but non-dogmatic. She is on
-  the fence about whether biblical accounts reflect divine revelation or
-  humanity's interpretation of extraordinary events.
-
-### Dr. Evelyn Saroyan - Chief Archaeological Consultant
-
-A field archaeologist with 20 years of experience across Israel, Jordan, and
-Turkey. Evelyn’s expertise ensures that the ancient world the player enters
-is historically accurate as she searches for artifacts in the real world. She
-oversees artifact analysis and cultural reconstruction.
-
-- Personality Profile:
-  - Practical, observant, grounded
-  - Has a dry sense of humor
-  - Motivated by preserving cultural heritage
-  - Acts as the “real‑world anchor” to balance the sci‑fi elements
-  - Introduces the player to the historical stakes of the project
-
-- Religious Affiliation: Secular, culturally Christian. She approaches biblical
-  claims skeptically and is interested in evidence that could disprove or
-  corroborate the historical record.
-
-### Dr. Daniel Kessler - Lead Physicist, Quantum-Sync Division
-
-A brilliant but eccentric physicist specializing in quantum entanglement and
-temporal coherence. Daniel’s theories were once considered fringe until Miriam
-recruited him. He designed the synchronization chamber used in the opening
-sequence.
-
-- Personality Profile:
-  - Energetic, scattered, brilliant
-  - Talks fast, jumps between ideas
-  - Loves explaining complex concepts with metaphors
-  - Motivated by proving quantum‑sync is not only possible but scalable
-  - Provides the player’s first technical briefing
-
-- Religious Affiliation: Agnostic. He is actively trying to disprove the Bible's
-  supernatural claims by looking for physical, quantum, or historical explanations
-  for apparent miracles.
-
-### Prof. Marcus Ellington - Program Administrator, VR Integration
-
-The 'tech guy'. Formerly a VR systems architect for medical training
-simulations. Marcus manages logistics, funding, and the integration of VR
-interfaces with quantum‑sync hardware.
-
-- Personality Profile:
-  - Organized, diplomatic, slightly stressed
-  - Always juggling deadlines and budgets
-  - Motivated by keeping the project alive and funded
-  - Acts as the liaison between the player and the facility’s operations
-
-- Religious Affiliation: Protestant Christian, privately questioning. He wants
-  the project to produce evidence that could prove the Bible's historical
-  reliability, but worries about confirmation bias.
-
-- He has a theory that each quantum reality represents a different decision that
-  God has made as opposed to each decision that a person makes. He believes that
-  if we can synchronize with other realities it is because God has allowed it
-  and He wants to teach us something.
+This document contains the larger Kairos character roster. Only the characters identified as **Prototype** are required for the Capernaum vertical slice.
 
-## Scientific Staff
-
-### Dr. Asha Raman - Quantum Systems Engineer
+## The Player: The Resonant
 
-Asha designs and maintains the quantum stabilizers that keep the player’s
-consciousness anchored during sync. Her background in electrical engineering
-and quantum computing makes her indispensable.
-
-- Personality Profile:
-  - Precise, analytical, quietly intense
-  - Rarely jokes, but smiles when systems behave
-  - Motivated by pushing technology beyond theoretical limits
-  - Provides the player with safety protocols and sync diagnostics
-  - Only speaks through an AI assistant named Sarah that is part of the quantum
-    computer. When she is directly addressed she blushes and types on her tablet
-    before Sarah speaks for her.
+Players are called **Resonants**. They have unusually strong quantum synchronization with a historical counterpart discovered through the ancient artifact known as **the Resonance**.
 
-- Religious Affiliation: Hindu. She is on the fence about the Bible's
-  supernatural claims and is more interested in whether the evidence can
-  distinguish revelation from cultural tradition.
+For the prototype, the player's counterpart is **Eliab**.
 
-### Dr. Leonid Markov - Computational Physicist
+The player does not replace Eliab as a separate person in the historical world. Synchronization causes people in Eliab's life to perceive the player as Eliab. The player must learn Eliab's life and maintain synchronization.
 
-A Russian computational theorist who models temporal drift and probability
-collapse. Leonid’s simulations predict how the player’s alternate‑self behaves
-in the ancient world.
+---
 
-- Personality Profile:
-  - Stoic, dry humor, deeply rational
-  - Speaks in short, efficient sentences
-  - Motivated by solving “impossible” mathematical problems
-  - Warns the player about risks of de-synchronization
+# Prototype Characters
 
-- Religious Affiliation: Atheist. He is openly trying to disprove biblical
-  miracles by demonstrating that apparently supernatural events can be modeled
-  through natural causes.
+## Dr. Miriam Halevi — Director of Quantum Anthropology
 
-### Dr. Naomi Feld - Linguistics & Ancient Language Specialist
+**Prototype role:** Mentor / first Resonant / central story hook.
 
-Naomi is responsible for mapping linguistic structures between the player’s
-consciousness and their ancient counterpart. Her work ensures the player
-understands Hebrew, Aramaic, and Greek upon arrival.
+Miriam is one of the researchers who discovers the Resonance phenomenon with Evelyn Saroyan. During the first experiment she synchronizes unexpectedly and is not successfully returned.
 
-- Personality Profile:
-  - Warm, enthusiastic, intellectually curious
-  - Loves languages and teaching
-  - Motivated by bridging communication across millennia
-  - Gives the player their first “language calibration” test
+Miriam is in a **coma in the present day**. Her consciousness appears to remain trapped in her historical counterpart, making her the first example of the danger facing Resonants.
 
-- Religious Affiliation: Jewish. She is cautiously sympathetic to the Bible's
-  historical and linguistic reliability and is willing to investigate evidence
-  that could support its claims.
+The player's early mission is therefore not merely to observe history. The player must enter the historical world, find Miriam, understand what happened to her, and if possible bring her back.
 
-### Dr. Gabriel Ortiz - Cognitive Synchronization Researcher
+Miriam is scientifically curious and spiritually open but does not begin with certainty about the nature of the phenomenon.
 
-Gabriel studies how memory, identity, and consciousness behave during sync.
-He monitors the player’s mental stability and emotional responses.
+---
 
-- Personality Profile:
-  - Empathetic, patient, reassuring
-  - Speaks softly and intentionally
-  - Motivated by protecting participants from psychological harm
-  - Acts as the emotional grounding presence in the opening cutscene
+## Dr. Evelyn Saroyan — Chief Archaeological Consultant
 
-- Religious Affiliation: Catholic Christian. He hopes the project will uncover
-  evidence supporting the Bible, especially its accounts of human encounters with
-  the divine, while remaining concerned about the participants' well-being.
+**Prototype role:** Archaeology / historical grounding.
 
-### Dr. Selene Park - Temporal Modeling Analyst
+Evelyn is a field archaeologist who helps uncover the original artifact.
 
-Selene analyzes how historical timelines respond to quantum interference.
-She ensures the player’s actions do not destabilize the ancient world.
+She is practical, observant, grounded, and concerned with preserving historical accuracy.
 
-- Personality Profile:
-  - Focused, intense, occasionally blunt
-  - Obsessed with accuracy
-  - Motivated by preventing timeline contamination
-  - Briefs the player on “non‑interference protocols”
+She provides the archaeological interpretation of discoveries made during the prototype and becomes responsible for the investigation after Miriam falls into a coma.
 
-- Religious Affiliation: Agnostic. She is firmly on the fence and insists that
-  neither proving nor disproving the Bible should be assumed before the evidence
-  is examined.
+---
 
-### Dr. Victor Al-Masri - Cultural Reconstruction Specialist
+## Dr. Daniel Kessler — Lead Physicist
 
-Victor reconstructs ancient environments, social systems, and daily life
-using archaeological and textual evidence. His work shapes the devices
-authenticity.
+**Prototype role:** Scientific explanation.
 
-- Personality Profile:
-  - Creative, expressive, detail‑oriented
-  - Loves discussing ancient architecture and craftsmanship
-  - Motivated by recreating lost worlds with precision
-  - Shows the player early environment prototypes
+Daniel develops the theory that the Resonance allows consciousness to synchronize with counterparts in alternate realities.
 
-## Archaeology & History Team
+He initially interprets unusual phenomena through physics and is reluctant to accept supernatural explanations.
 
-### Dr. Hannah Ben-Shahar - Field Archaeologist
+---
 
-Hannah leads excavation teams and verifies artifact authenticity. She has
-spent years working in Capernaum, Megiddo, and the Judean desert.
+## Prof. Marcus Ellington — VR / Quantum Integration
 
-- Personality Profile:
-  - Confident, hands‑on, adventurous
-  - Prefers fieldwork to labs
-  - Motivated by uncovering truths buried in the earth
-  - Demonstrates artifact handling to the player
+**Prototype role:** Player introduction / technology explanation.
 
-### Dr. Rowan McAdams - Material Culture Analyst
+Marcus is the practical technology enthusiast who helps integrate the quantum computer and VR interface.
 
-Rowan specializes in pottery, metallurgy, and textiles. Their expertise
-ensures that every object in the ancient world behaves realistically.
+He explains the complex technology to the player through understandable analogies.
 
-- Personality Profile:
-  - Calm, meticulous, slightly quirky
-  - Loves explaining how everyday objects reveal cultural values
-  - Motivated by reconstructing daily life with accuracy
-  - Shows the player restored artifacts during orientation
+---
 
-- Religious Affiliation: Unaffiliated. They are on the fence and believe
-  material evidence should be allowed to challenge both religious and skeptical
-  assumptions.
+## Dr. Asha Raman — Quantum Systems Engineer
 
-### Dr. Layla Haddad - Near Eastern Historian
+**Prototype role:** Synchronization systems.
 
-Layla contextualizes political, social, and religious systems of the Ancient
-Near East. She ensures narrative arcs align with real historical dynamics.
+Asha maintains the equipment that stabilizes the player's connection.
 
-- Personality Profile:
-  - Insightful, articulate, passionate
-  - Excellent storyteller
-  - Motivated by helping players understand the humanity of ancient peoples
-  - Gives the player a “historical primer” before sync
+She communicates primarily through the quantum computer's AI assistant, **Sarah**.
 
-- Religious Affiliation: Muslim. She is skeptical of attempts to prove the Bible
-  through archaeology alone and is willing to test claims that could either
-  support or undermine biblical narratives.
+---
 
-### Dr. Isaac Romero - Artifact Restoration Lead
+## Sarah — Quantum Computer AI
 
-Isaac restores damaged artifacts and trains the team in preservation
-techniques. His work directly informs the archaeology gameplay loop.
+**Prototype role:** In-sync assistant.
 
-- Personality Profile:
-  - Gentle, patient, artistic
-  - Treats artifacts like living memories
-  - Motivated by preserving history for future generations
-  - Demonstrates restoration tools to the player
+Sarah is the AI interface between the player and the synchronization system.
 
-- Religious Affiliation: Catholic Christian. He hopes the ancient material
-  record will strengthen the case for the Bible's historical reliability, though
-  he avoids forcing conclusions from incomplete artifacts.
+She reports synchronization status, provides mission information, and communicates with the player while they are in the historical world.
 
-### Dr. Sofia Kouris - Classical Studies & Greek Specialist
+---
 
-Sofia focuses on Greek language, culture, and regional interactions. She
-ensures Greek‑speaking regions feel authentic.
+## Dr. Naomi Feld — Linguistics & Ancient Languages
 
-- Personality Profile:
-  - Sharp, witty, academically intense
-  - Loves comparing Greek and Near Eastern cultures
-  - Motivated by cultural accuracy and linguistic nuance
-  - Helps calibrate the player’s Greek language sync
+**Prototype role:** Language calibration / Words of Power.
 
-- Religious Affiliation: Greek Orthodox Christian. She is cautiously trying to
-  prove aspects of the Bible's historical context through language, culture, and
-  comparative ancient sources.
+Naomi handles the linguistic synchronization that allows the player to understand Eliab's world.
 
-## Technical & Engineering Crew
+She also helps interpret the inscriptions associated with the Words of Power.
 
-### Alexei Novak - Systems Technician
+---
 
-Alexei maintains the hardware that keeps the sync chamber operational. He’s
-the one fixing things when alarms go off.
+# Historical Characters
 
-- Personality Profile:
-  - Practical, sarcastic, reliable
-  - Doesn't like theory — only results
-  - Motivated by keeping the facility running smoothly
-  - Appears during sync chamber prep scenes
+## Eliab
 
-- Religious Affiliation: Atheist. He is trying to disprove supernatural
-  explanations whenever the project produces extraordinary results, preferring
-  explanations that can be tested and reproduced.
+**Prototype role:** Player's historical counterpart.
 
-### Priya Deshmukh - VR Hardware Engineer
+Eliab is an apprentice of **Yosef** and the husband of **Mara**.
 
-Priya designs the neural‑interface VR components that merge with
-quantum‑sync technology.
+He has an established life in Capernaum, including friendships, responsibilities, skills, and routines.
 
-- Personality Profile:
-  - Friendly, curious, inventive
-  - Loves tinkering and prototyping
-  - Motivated by merging VR with real‑world cognition
-  - Helps the player suit up for the sync procedure
+The player initially knows almost nothing about these details.
 
-- Religious Affiliation: Hindu. She is on the fence about the Bible and treats
-  its supernatural claims as hypotheses rather than conclusions.
+This creates the central identity challenge:
 
-### Jonas Whitford - Network Architect
+> **The player must learn to live as Eliab.**
 
-Jonas ensures the player’s real‑time data streams integrate with the
-quantum‑sync system.
+Eliab should feel like a real person whose life continues whether the player understands it or not.
 
-- Personality Profile:
-  - Quiet, introverted, brilliant
-  - Communicates mostly through concise technical notes
-  - Motivated by building systems that never fail
-  - Monitors the player’s sync connection during the cutscene
+---
 
-- Religious Affiliation: Agnostic. He is mostly neutral, but becomes interested
-  in evidence that could either prove or disprove biblical claims if it can be
-  independently verified.
+## Yohanan
 
-### Talia Greene - Simulation Environment Designer
+**Prototype role:** Friend / combat trainer.
 
-Talia builds the visual and interactive layers that overlay the ancient
-world during sync.
+Yohanan is Eliab's best friend and sounding board.
 
-- Personality Profile:
-  - Creative, expressive, imaginative
-  - Loves world‑building
-  - Motivated by creating immersive educational experiences
-  - Shows the player early environment renders
+He is a hunter and provides Eliab with combat training.
 
-- Religious Affiliation: Spiritual but unaffiliated. She is on the fence and is
-  fascinated by the possibility that the ancient world may contain evidence of
-  experiences later described in biblical traditions.
+Because Yohanan knows Eliab well, he is one of the first people capable of noticing that something about Eliab seems different.
 
-### Omar Reyes - Security Systems Engineer
+He also provides natural opportunities for the player to learn about Eliab without exposition dumps.
 
-Omar oversees physical and digital security for the facility.
+---
 
-- Personality Profile:
-  - Calm, vigilant, protective
-  - Rarely smiles but is deeply loyal
-  - Motivated by keeping everyone safe
-  - Appears during facility access sequences
+## Mara
 
-- Religious Affiliation: Muslim. He respects biblical traditions but is
-  skeptical of efforts to treat the experiment as a straightforward proof of
-  Christian theology.
+**Prototype role:** Wife / identity pressure.
 
-## Support & Operations
+Mara is Eliab's wife and Yosef's daughter.
 
-### Sarah Lindholm - Logistics Coordinator
+She knows Eliab intimately enough to recognize unusual behavior.
 
-Sarah manages schedules, equipment, and personnel movement.
+Her interactions should be restrained and culturally appropriate. She does not exist simply to explain Eliab to the player.
 
-- Personality Profile:
-  - Organized, upbeat, efficient
-  - Loves checklists
-  - Motivated by keeping chaos under control
-  - Helps orient the player upon arrival
+Instead, ordinary interactions with Mara reveal how much of Eliab's life the player does not understand.
 
-- Religious Affiliation: Lutheran Christian. She quietly hopes the research will
-  prove the Bible's historical credibility, while trying not to let her personal
-  beliefs influence the logistics.
+---
 
-### Michael Trent - Field Operations Manager
+## Yosef
 
-Michael coordinates field teams and oversees safety protocols.
+**Prototype role:** Master / crafting trainer.
 
-- Personality Profile:
-  - Direct, disciplined, dependable
-  - Former military
-  - Motivated by operational excellence
-  - Gives the player a safety briefing
+Yosef is a craftsman and Eliab's master.
 
-- Religious Affiliation: Baptist Christian. He is actively trying to prove the
-  Bible's reliability and sees the project as a chance to test historical claims
-  under unusually direct conditions.
+He teaches Eliab pottery and other practical skills.
 
-### Jade Kimura - Medical Officer
+Yosef is **not Eliab's father**. He is Mara's father and Eliab's master.
 
-Jade monitors the physical health of sync participants.
+He provides the player's introduction to gathering, crafting, and Eliab's daily responsibilities.
 
-- Personality Profile:
-  - Calm, empathetic, observant
-  - Speaks gently but firmly
-  - Motivated by protecting participants from sync‑related strain
-  - Performs the player’s pre‑sync medical check
+---
 
-- Religious Affiliation: Secular Buddhist. She is on the fence and focuses on
-  what can be observed about human experience rather than deciding in advance
-  whether biblical supernatural claims are true.
+# Prototype Enemy Characters
 
-### Caleb Rourke - Safety & Compliance Officer
+## Historical Hostiles
 
-Caleb ensures the project meets ethical and legal standards.
+A small group of hostile people provides the prototype's first conventional combat encounter.
 
-- Personality Profile:
-  - Serious, methodical, rule‑focused
-  - Rarely jokes
-  - Motivated by preventing accidents and liability
-  - Reviews the player’s consent documentation
+They exist primarily to teach the player basic combat and targeting.
 
-- Religious Affiliation: Evangelical Christian. He strongly wants evidence that
-  proves the Bible is reliable, but his compliance role forces him to document
-  contradictory evidence as well.
+---
 
-### Nora Vance - Communications Specialist
+## Demons
 
-Nora handles internal communications, documentation, and public‑facing materials.
+Demons appear when the player becomes sufficiently desynchronized and enters the **Grey Zone**.
 
-- Personality Profile:
-  - Friendly, articulate, socially aware
-  - Great at simplifying complex ideas
-  - Motivated by transparency and clarity
-  - Helps the player understand the organization’s mission
+They are not ordinary historical enemies.
 
-- Religious Affiliation: Agnostic. She is deliberately on the fence and wants
-  the public record to include evidence supporting and challenging the Bible
-  rather than becoming religious advocacy.
+The player initially does not understand what they are and may interpret them as anomalous quantum entities or hostile travelers.
 
-## Historical people
+Their true spiritual nature is reserved for the larger story.
 
-### Eliab
+---
 
-The player's counterpart for the prologue/prototype. He is married to
-Mara, and is an apprentice of Yosef.
+# The Enemy
 
-### Yohanan
+The Enemy is the long-term antagonist behind the spiritual conflict surrounding the Resonance.
 
-Eliab's best friend and sounding board. He is a hunter who gives Eliab combat training.
+The prototype deliberately keeps the Enemy's identity and motives ambiguous.
 
-### Mara
+The player's early interpretation should be that another quantum traveler may be interfering with synchronization and historical events.
 
-Eliab's wife and Yosef's daughter. She doesn't speak much with the player as is
-the custom of the time.
-
-### Yosef
-
-A craftsman who helps Eliab learn the ins and outs of pottery.
+As the larger story unfolds, the player discovers that the conflict is spiritual rather than merely technological.
