@@ -6,7 +6,7 @@
 
 The prototype must prove the central Kairos experience:
 
-> **Live as a historical counterpart, maintain synchronization, investigate a timeline disturbance, survive the Grey Zone, and return with a discovery that advances the larger mystery.**
+> **Live as a historical counterpart, maintain synchronization, investigate a timeline disturbance, search for Miriam, survive the Grey Zone, and return with a discovery that advances the larger mystery.**
 
 ---
 
@@ -21,8 +21,8 @@ The prototype must prove the central Kairos experience:
 
 ### Modern Characters
 
-- Miriam Halevi — mentor / stranded Resonant hook
-- Evelyn Saroyan — archaeology
+- Miriam Halevi — first Resonant / coma and trapped-consciousness hook
+- Evelyn Saroyan — archaeology / investigation lead
 - Daniel Kessler — physics
 - Marcus Ellington — VR / quantum-computer integration
 - Asha Raman — synchronization systems
@@ -55,7 +55,7 @@ The prototype must prove the central Kairos experience:
 8. **Q008 — The Anchor**
 9. **Q009 — Return**
 
-Each quest has one primary narrative/gameplay purpose. The chain introduces systems progressively rather than presenting every system at once.
+Each quest has one primary narrative/gameplay purpose. The chain introduces systems progressively while moving the player toward the larger objective of finding Miriam.
 
 ---
 
@@ -153,7 +153,7 @@ The prototype demonstrates that one Word can participate in more than one branch
 
 The prototype uses a deliberately simplified archaeological interaction.
 
-The player is guided toward the resonant artifact's location. The important result is not a full excavation simulation but the discovery of the object that creates the Quantum Anchor and closes the time-loop established by the opening excavation.
+The player is guided toward resonant artifacts and performs a small discovery interaction sufficient to establish the narrative function of archaeology. The final artifact becomes the Quantum Anchor associated with the opening excavation, creating a time-loop and providing a lead for the larger search for Miriam.
 
 ### Knowledge / Codex
 
@@ -164,12 +164,13 @@ The Codex records:
 - discovered Words
 - important discoveries
 - Eliab's known relationships and context
+- clues related to Miriam
 
 ### Quantum Anchor
 
 The player ultimately creates/discovers the Anchor that corresponds to the artifact encountered by Miriam and Evelyn in the opening.
 
-The Anchor provides the bridge between the past and present and establishes the next historical destination.
+The Anchor provides the bridge between the past and present, closes the initial time-loop, and establishes the next lead in the search for Miriam.
 
 ---
 
@@ -178,6 +179,7 @@ The Anchor provides the bridge between the past and present and establishes the 
 The prototype must establish:
 
 - Miriam's initial Resonance experience
+- Miriam's coma and trapped consciousness
 - The Kairos Initiative
 - The player's Resonant status
 - Eliab as the player's counterpart
@@ -185,12 +187,14 @@ The prototype must establish:
 - Capernaum as the first historical zone
 - Synchronization as a survival mechanic
 - A timeline/historical disturbance
+- The player's search for Miriam
 - The Grey Zone
 - Demons as a consequence of desynchronization
-- The first Word of Power
+- The first Words of Power
 - The first Macro
 - The Quantum Anchor
 - Return to the modern world
+- A new lead toward Miriam
 - A cliffhanger leading to the next zone
 
 The Enemy's true spiritual identity remains unresolved in the prototype. The player initially has reason to suspect another quantum traveler or anomalous Resonant.
