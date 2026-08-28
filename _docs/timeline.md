@@ -2,7 +2,7 @@
 
 > **Build one polished 30–45 minute playable story experience that proves Kairos is fun.**
 
-The Capernaum prototype is a solo vertical slice. Its story is organized as a short quest chain that introduces one gameplay concept at a time while establishing the larger Resonance mystery.
+The Capernaum prototype is a solo vertical slice. Its story is organized as a short quest chain that introduces one gameplay concept at a time while establishing the larger Resonance mystery and giving the player a clear personal objective: find Miriam and bring her back if possible.
 
 ## Prototype Experience
 
@@ -12,6 +12,10 @@ Modern Kairos Facility
 Opening Excavation
         ↓
 Miriam's First Synchronization
+        ↓
+Miriam falls into a coma / consciousness remains with counterpart
+        ↓
+Evelyn brings in Daniel Kessler and Marcus Ellington
         ↓
 Player Introduction / Kairos Briefing
         ↓
@@ -37,7 +41,7 @@ Q009 — Return
         ↓
 Modern Kairos Facility
         ↓
-Next Zone Tease
+New lead for finding Miriam / Next Zone Tease
 ```
 
 ## Prototype Definition of Done
@@ -46,11 +50,12 @@ The finished slice should demonstrate:
 
 - Modern Kairos hub/facility
 - Opening Resonance discovery
-- Miriam's unresolved synchronization problem
+- Miriam's coma and trapped consciousness as the initial story hook
 - Player as a Resonant
 - Eliab as the player's counterpart
 - Capernaum as one historical zone
 - Living as Eliab as the central narrative problem
+- Searching for clues to Miriam's location/condition
 - Dialogue choices
 - Sync Stability
 - Gathering
@@ -66,6 +71,7 @@ The finished slice should demonstrate:
 - Quantum Anchor
 - Emergency extraction
 - Return to Kairos
+- A new lead toward Miriam
 - Prototype cliffhanger
 
 ## Scope
@@ -93,7 +99,7 @@ The finished slice should demonstrate:
 
 - Lock prototype premise
 - Lock Eliab as counterpart
-- Lock Miriam's stranded-Resonant hook
+- Lock Miriam's coma / trapped-consciousness hook
 - Lock quest chain
 - Lock Grey Zone role
 - Lock first Words and Macro
@@ -193,6 +199,7 @@ The finished slice should demonstrate:
 - Simplified discovery interaction
 - Anchor creation/discovery
 - Time-loop connection to opening artifact
+- Miriam lead
 
 **Deliverable:** Q008 playable.
 
@@ -202,7 +209,7 @@ The finished slice should demonstrate:
 - Add transitions
 - Add modern return
 - Add final dialogue
-- Add next-zone tease
+- Add Miriam rescue hook / next-zone tease
 
 **Deliverable:** complete beginning-to-end prototype.
 
