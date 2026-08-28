@@ -1,6 +1,6 @@
 # Kairos Prototype Backlog
 
-The prototype is a 30–45 minute single-player vertical slice. Work is organized around the quest chain and the minimum systems required to make that chain playable.
+The prototype is a 30–45 minute single-player vertical slice. Work is organized around the quest chain and the minimum systems required to make that chain playable. The player's immediate story objective is to find Miriam, whose consciousness is trapped in her historical counterpart while her physical body remains in a coma.
 
 ## P0 — Required
 
@@ -10,6 +10,7 @@ The prototype is a 30–45 minute single-player vertical slice. Work is organize
 - [ ] Prototype story/quest data
 - [ ] Quest state and objective tracking
 - [ ] Dialogue choices and quest events
+- [ ] Miriam rescue objective / story state
 
 ### Q001 — A Stranger in Eliab's Life
 
@@ -17,6 +18,7 @@ The prototype is a 30–45 minute single-player vertical slice. Work is organize
 - [ ] Eliab identity/context
 - [ ] Yosef introduction
 - [ ] Sync Stability HUD
+- [ ] Establish search for Miriam
 
 ### Q002 — The Master's Errand
 
@@ -45,6 +47,7 @@ The prototype is a 30–45 minute single-player vertical slice. Work is organize
 - [ ] Anomalous object/mark
 - [ ] Investigation interactions
 - [ ] Sync instability event
+- [ ] Clue connecting disturbance to Miriam's counterpart
 
 ### Q006 — Into the Grey
 
@@ -67,12 +70,14 @@ The prototype is a 30–45 minute single-player vertical slice. Work is organize
 - [ ] Quantum Anchor discovery
 - [ ] Final synchronization destabilization
 - [ ] Final Demon encounter
+- [ ] Establish lead toward Miriam
 
 ### Q009 — Return
 
 - [ ] Emergency extraction
 - [ ] Modern Kairos return
 - [ ] Researchers analyze discovery
+- [ ] Miriam rescue status established
 - [ ] Next zone tease
 
 ## P1 — Important if time permits
