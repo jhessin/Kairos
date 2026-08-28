@@ -1,42 +1,51 @@
-# Kairos Prototype — Week 1
+# Week 1 — Prototype Foundation
 
-## Baseline
+## Story
 
-Prototype branch:
-prototype
+- [ ] Prototype premise locked
+- [ ] Eliab confirmed as counterpart
+- [ ] Mara confirmed as Eliab's wife
+- [ ] Yohanan confirmed as friend
+- [ ] Yosef confirmed as master
+- [ ] First quests defined
+- [ ] Grey Zone encounter defined
+- [ ] Prototype ending defined
 
-Baseline tag:
-prototype-week-0
+## Gameplay
 
-## Current Systems
+- [ ] Core gameplay loop defined
+- [ ] Sync mechanic defined
+- [ ] First combat encounter defined
+- [ ] First archaeology activity defined
+- [ ] First crafting activity defined
+- [ ] First Word defined
+- [ ] First Macro defined
+- [ ] Quantum Anchor defined
 
-- [x] Player movement
-- [x] Camera
-- [x] Camera zoom
-- [x] Camera controller
-- [x] Running
-- [x] Interaction
-- [x] Dialogue
-- [x] ECS initialization
-- [x] Animation
-- [x] Entity spawning
+## Scope
 
-## Week 1 Goals
+- [ ] 30–45 minute target locked
+- [ ] One historical zone
+- [ ] One main quest
+- [ ] 1–2 enemy types
+- [ ] One Macro
+- [ ] 2–3 Words
+- [ ] One archaeology activity
+- [ ] One crafting activity
+- [ ] No multiplayer
 
-- [x] Lock prototype scope
-- [ ] Lock story
-- [ ] Lock playable sequence
-- [ ] Establish prototype folder structure
-- [ ] Establish development backlog
-- [ ] Verify current prototype
-- [ ] Create Week 1 baseline
+## Technical
 
-## Week 1 Completion Criteria
+- [ ] Prototype launches
+- [ ] Player movement works
+- [ ] Camera works
+- [ ] Controller works
+- [ ] Interaction works
+- [ ] Dialogue works
+- [ ] No blocking bugs
 
-The project launches successfully.
-The existing player controls work.
-Existing interaction works.
-Existing dialogue works.
-The prototype scope is documented.
-The prototype story is documented.
-The project is ready for Week 2.
+## Production
+
+- [ ] Backlog reviewed
+- [ ] Week 2 task defined
+- [ ] Prototype baseline committed
