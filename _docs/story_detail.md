@@ -1,8 +1,6 @@
 # Story
 
-Here is where we describe the general feel and basic script of each major
-cutscene of the game. This is a work in progress and the end product may not
-look exactly like this.
+These are the actual lines spoken and script for the cutscenes and gameplay.
 
 ## First Cutscene
 
