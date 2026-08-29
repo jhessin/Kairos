@@ -2,50 +2,50 @@
 
 ## Story
 
-- [ ] Prototype premise locked
-- [ ] Eliab confirmed as counterpart
-- [ ] Mara confirmed as Eliab's wife
-- [ ] Yohanan confirmed as friend
-- [ ] Yosef confirmed as master
-- [ ] First quests defined
-- [ ] Grey Zone encounter defined
-- [ ] Prototype ending defined
+- [x] Prototype premise locked
+- [x] Eliab confirmed as counterpart
+- [x] Mara confirmed as Eliab's wife
+- [x] Yohanan confirmed as friend
+- [x] Yosef confirmed as master
+- [x] First quests defined
+- [x] Grey Zone encounter defined
+- [x] Prototype ending defined
 
 ## Gameplay
 
-- [ ] Core gameplay loop defined
-- [ ] Sync mechanic defined
-- [ ] First combat encounter defined
-- [ ] First archaeology activity defined
-- [ ] First crafting activity defined
-- [ ] First Word defined
-- [ ] First Macro defined
-- [ ] Quantum Anchor defined
+- [x] Core gameplay loop defined
+- [x] Sync mechanic defined
+- [x] First combat encounter defined
+- [x] First archaeology activity defined
+- [x] First crafting activity defined
+- [x] First Word defined
+- [x] First Macro defined
+- [x] Quantum Anchor defined
 
 ## Scope
 
-- [ ] 30–45 minute target locked
-- [ ] One historical zone
-- [ ] One main quest
-- [ ] 1–2 enemy types
-- [ ] One Macro
-- [ ] 2–3 Words
-- [ ] One archaeology activity
-- [ ] One crafting activity
-- [ ] No multiplayer
+- [x] 30–45 minute target locked
+- [x] One historical zone
+- [x] One main quest
+- [x] 1–2 enemy types
+- [x] One Macro
+- [x] 2–3 Words
+- [x] One archaeology activity
+- [x] One crafting activity
+- [x] No multiplayer
 
 ## Technical
 
-- [ ] Prototype launches
-- [ ] Player movement works
-- [ ] Camera works
-- [ ] Controller works
-- [ ] Interaction works
-- [ ] Dialogue works
-- [ ] No blocking bugs
+- [x] Prototype launches
+- [x] Player movement works
+- [x] Camera works
+- [x] Controller works
+- [x] Interaction works
+- [x] Dialogue works
+- [x] No blocking bugs
 
 ## Production
 
-- [ ] Backlog reviewed
+- [x] Backlog reviewed
 - [ ] Week 2 task defined
-- [ ] Prototype baseline committed
+- [x] Prototype baseline committed
