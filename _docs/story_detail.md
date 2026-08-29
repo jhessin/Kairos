@@ -16,6 +16,8 @@ Scene 2: The Kairos Initiative
         ↓
 Player Introduction
         ↓
+Q000 — Getting Comfortable
+        ↓
 Q001 — A Stranger in Eliab's Life
         ↓
 Q002 — The Master's Errand
@@ -35,6 +37,8 @@ Q007 — The Word
 First Macro
         ↓
 Q008 — The Anchor
+        ↓
+Boss Battle
         ↓
 Q010 — Return
         ↓
@@ -76,7 +80,8 @@ where...
 
 **Halevi:** LOOK AT THIS!
 
-The camera quickly pans to Halevi as she reaches out and touches an unseen artifact.
+The camera quickly pans to Halevi as she reaches out and touches an unseen
+artifact.
 
 **FLASH.**
 
@@ -131,7 +136,8 @@ warehouse built by brilliant people rather than a polished corporate laboratory.
 
 Miriam lies unconscious near the damaged artifact.
 
-Evelyn has invited Daniel Kessler and Marcus Ellington to help understand what happened.
+Evelyn has invited Daniel Kessler and Marcus Ellington to help understand what
+happened.
 
 **Saroyan:** It's no use. Miriam hasn't responded since she touched the
 artifact. Whatever happened, we need another approach.
@@ -140,9 +146,10 @@ Kessler examines the artifact and the monitoring data.
 
 **Kessler:** I have a hypothesis of what happened. It appears that Miriam's
 quantum fluctuations have changed. From what I'm seeing they are more in tune
-with the artifact and becoming more and more skewed in that direction every minute.
+with the artifact and becoming more and more skewed in that direction every
+minute.
 
-Saroyan: What does that mean?
+**Saroyan:** What does that mean?
 
 He sketches two timelines on paper.
 
@@ -257,11 +264,12 @@ The synchronization system begins.
 
 ---
 
-## Q000 — Getting comfortable
+## Q000 — Getting Comfortable
 
 ### Purpose
 
-Establish the player's HUD and various systems.
+Establish the player's HUD and basic systems before the first historical
+synchronization.
 
 ### Start
 
@@ -273,7 +281,7 @@ A white room appears.
 
 1. Move around.
 2. Access the Menu.
-3. Synchronize with the artifact.
+3. Complete the initial synchronization calibration.
 
 ### Dialogue
 
@@ -286,10 +294,11 @@ meter. This will tell you how much you are drifting from your counterpart.
 
 ### Quest Complete
 
-The player has familiarized themselves with the system.
+The player has familiarized themselves with the interface and is ready for the
+historical synchronization.
 
-**Primary purpose:** HUD, Menu, Quest System, synchronization, quest tracking,
-Sync Stability.
+**Primary purpose:** HUD, Menu, Quest System, synchronization interface, quest
+tracking, and Sync Stability.
 
 ---
 
@@ -301,7 +310,7 @@ Establish the player's identity problem, Eliab, Capernaum, and Sync Stability.
 
 ### Start
 
-The player enters the synchronization system.
+The player begins the first controlled historical synchronization.
 
 Fragments of Eliab's memories appear:
 
@@ -356,7 +365,7 @@ Sarah quietly displays:
 The player has entered Eliab's life.
 
 **Primary purpose:** identity, movement, interaction, dialogue, quest tracking,
-Sync Stability.
+and Sync Stability.
 
 ---
 
@@ -451,7 +460,8 @@ Yohanan notices that Eliab seems different but does not yet suspect the truth.
 
 ### Purpose
 
-Make the identity problem personal and introduce dialogue choices that affect synchronization.
+Make the identity problem personal and introduce dialogue choices that affect
+synchronization.
 
 The player returns home and meets Mara.
 
@@ -499,8 +509,9 @@ The player returns to the present.
 
 ### Quest State
 
-The player cannot yet resolve the situation through dialogue alone. The
-accumulated synchronization loss triggers Q004.5.
+The accumulated synchronization loss reaches the threshold that triggers
+Q004.5. The player does not fail the quest permanently; the Grey Zone encounter
+becomes the recovery event that allows the quest to continue.
 
 ---
 
@@ -543,7 +554,7 @@ The entity attacks.
 2. Defeat the entity.
 3. Recover synchronization.
 
-The player defeats the Demon.
+The player defeats the entity.
 
 The historical world returns.
 
@@ -555,8 +566,8 @@ Sarah's diagnostics stabilize.
 
 The player does not yet know that the entity was a Demon.
 
-Once synchronization is re-established the player has a new dialogue option to
-complete Q004.
+Once synchronization is re-established, the player receives the additional
+information needed to complete Q004 and proceed with the investigation.
 
 ### Story Rule
 
@@ -626,9 +637,9 @@ Miriam's consciousness is successfully returned to the modern world.
 
 ### Story Purpose
 
-This resolves the original rescue hook while demonstrating an important
-consequence of synchronization: when the Resonant returns, the historical
-counterpart remains and remembers the experience imperfectly.
+This resolves the initial rescue hook. Miriam is now back in the modern world,
+while Mary remains in the historical world and retains an imperfect memory of
+the experience.
 
 Q006 unlocks.
 
@@ -670,8 +681,8 @@ Sarah reports that the signal is inconsistent with normal historical activity.
 
 **Sarah:** I don't know.
 
-The player begins to suspect that something else is moving through the
-historical world.
+The player begins to suspect that something else is moving through the historical
+world.
 
 Synchronization begins to deteriorate again.
 
@@ -685,8 +696,8 @@ Q007 unlocks.
 
 Introduce archaeology, Words of Power, and the first Macro.
 
-While investigating where the demand for idols came from the player discovers
-their first Word of Power.
+While investigating where the demand for idols came from, the player discovers
+the first Words of Power.
 
 Dr. Naomi Feld assists through the Kairos interface in the White Room.
 
@@ -752,7 +763,7 @@ Establish the Quantum Anchor, connect the prototype's beginning to its ending,
 and reveal that the player is participating in a closed chain of events.
 
 The player discovers that one of the items they crafted has become the
-Resonance.
+Resonance artifact encountered during the opening excavation.
 
 ### Objectives
 
@@ -784,14 +795,16 @@ The prototype establishes a time-loop/closed chain of events: the player's
 actions in the historical world contribute to the conditions that lead to the
 modern discovery.
 
-The Anchor also produces a possible lead toward future historical locations and
+The Anchor produces a possible lead toward future historical locations and
 further Resonant activity.
+
+Q008 leads directly into the boss encounter.
 
 ---
 
 ## Boss Battle
 
-Major synchronization disturbances become apparent beyond the players control.
+Major synchronization disturbances become apparent beyond the player's control.
 
 The player realizes they must destroy the idol to stop the disturbances.
 
@@ -803,8 +816,11 @@ The player uses the Or-infused ability to survive.
 
 Sarah detects an unknown signature.
 
-The player defeats the boss returning the timeline to normal. The idol is gone
+The player defeats the boss, returning the timeline to normal. The idol is gone
 and the other people of the timeline wake up confused in a similar manner to Mary.
+
+The Enemy remains unidentified. The player only knows that the anomaly and its
+hostile forces appear connected to the synchronization disturbances.
 
 ---
 
@@ -829,7 +845,8 @@ Asha monitors the player's recovery.
 
 Sarah reports the final synchronization data.
 
-Miriam is now back in the modern world, but the experience has left unresolved questions.
+Miriam is now back in the modern world. Her experience has left unresolved
+questions, but the immediate rescue objective has been completed.
 
 ### Final Dialogue
 
@@ -896,7 +913,7 @@ spiritual nature is not explained during the prototype.
 
 ### Miriam
 
-Miriam's rescue is the first major objective and should be resolved before the
+Miriam's rescue is the first major objective and is resolved before the
 prototype moves into the larger disturbance surrounding Eliab and the timeline.
 
 ### Words of Power
