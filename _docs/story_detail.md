@@ -138,15 +138,11 @@ artifact. Whatever happened, we need another approach.
 
 Kessler examines the artifact and the monitoring data.
 
-**Kessler:** Evelyn has brought me up to speed, but I want to hear your version
-of events.
+**Kessler:** I have a hypothesis of what happened. It appears that Miriam's
+quantum fluctuations have changed. From what I'm seeing they are more in tune
+with the artifact and becoming more and more skewed in that direction every minute.
 
-Evelyn describes what Miriam experienced. Kessler explains his theory of quantum
-synchronization.
-
-**Kessler:** You are describing quantum synchronization. If Miriam was looking
-through the eyes of another person — someone on another timeline — the flow of
-time would not have been consistent with what she is used to.
+Saroyan: What does that mean?
 
 He sketches two timelines on paper.
 
@@ -156,7 +152,7 @@ decompressed, if you will. If we could move from our timeline to the other one,
 we would in fact be seeing a version of the past.
 
 He explains that Miriam's quantum signature appears to have synchronized with a
-counterpart in the alternate historical reality.
+counterpart in an alternate historical reality.
 
 **Saroyan:** So why doesn't it react that way with anyone else?
 
@@ -232,7 +228,7 @@ Asha nods.
 
 **Ellington:** This is Dr. Asha Raman and this little ball of light is our pet
 project, Sarah — an AI we've been working on to help interface with the human
-mind.
+mind. Say hello Sarah.
 
 **Sarah:** Hello Sarah.
 
@@ -249,13 +245,51 @@ Sarah explains the immediate purpose in simpler terms.
 
 **Ellington:** Very lucky indeed.
 
-Naomi then prepares the player's language synchronization. The player is told
-that they will not be observing history from a distance. They will experience it
-through their counterpart.
+The player is prepped and placed in the pod that looks like a fancy hospital
+bed. Electrodes are placed on their head to interface with the quantum computer.
 
-**Sarah:** Your counterpart has a name. Eliab.
+**Ellington:** Now we aren't sure what you are walking into so we have created a
+kind of white room for you to get comfortable in. As your mind synchronizes with
+the computer we will give you some basic tasks to get you familiar with the HUD
+that you should have access to. Sarah will guide you.
 
 The synchronization system begins.
+
+---
+
+## Q000 — Getting comfortable
+
+### Purpose
+
+Establish the player's HUD and various systems.
+
+### Start
+
+The player enters the synchronization system.
+
+A white room appears.
+
+### Objectives
+
+1. Move around.
+2. Access the Menu.
+3. Synchronize with the artifact.
+
+### Dialogue
+
+**Sarah:** Hi. Can you hear me?
+
+**Sarah:** Try moving around a bit.
+
+**Sarah:** Your HUD should show you your vitals as well as a synchronization
+meter. This will tell you how much you are drifting from your counterpart.
+
+### Quest Complete
+
+The player has familiarized themselves with the system.
+
+**Primary purpose:** HUD, Menu, Quest System, synchronization, quest tracking,
+Sync Stability.
 
 ---
 
@@ -289,14 +323,8 @@ The person continues speaking naturally, assuming the player is Eliab.
 
 Sarah's voice enters the player's interface.
 
-**Sarah:** Synchronization confirmed. You are currently perceiving Eliab's world
-through his quantum signature.
-
-**Player:** So where is Eliab?
-
-A pause.
-
-**Sarah:** You are.
+**Sarah:** Synchronization confirmed. You are currently perceiving an
+alternative timeline. It appears you have synchronized with a potter named Eliab.
 
 The player realizes that everyone around them believes they are Eliab.
 
@@ -527,9 +555,15 @@ Sarah's diagnostics stabilize.
 
 The player does not yet know that the entity was a Demon.
 
+Once synchronization is re-established the player has a new dialogue option to
+complete Q004.
+
 ### Story Rule
 
-The Grey Zone should be isolated from ordinary historical NPCs. It exists as the result of synchronization instability and gives the Enemy's forces an opportunity to attack without creating unrestricted damage to the historical world.
+The Grey Zone should be isolated from ordinary historical NPCs. It exists as the
+result of synchronization instability and gives the Enemy's forces an
+opportunity to attack without creating unrestricted damage to the historical
+world.
 
 ---
 
@@ -574,7 +608,7 @@ The HUD appears for Miriam.
 
 **Miriam:** You found me.
 
-**Player:** We have to get you home.
+**Sarah:** We have to get you home.
 
 **Miriam:** Then show me how.
 
@@ -592,7 +626,9 @@ Miriam's consciousness is successfully returned to the modern world.
 
 ### Story Purpose
 
-This resolves the original rescue hook while demonstrating an important consequence of synchronization: when the Resonant returns, the historical counterpart remains and remembers the experience imperfectly.
+This resolves the original rescue hook while demonstrating an important
+consequence of synchronization: when the Resonant returns, the historical
+counterpart remains and remembers the experience imperfectly.
 
 Q006 unlocks.
 
@@ -605,8 +641,11 @@ Q006 unlocks.
 Transition from Miriam's rescue into the larger conflict surrounding history.
 
 After the rescue, Sarah detects another anomaly connected to Eliab's daily life.
+Yosef is being pressured by others to start building idols for the people.
 
-An object associated with the workshop contains an unusual mark or resonance signature.
+One of those idols contains an unusual mark or resonance signature.
+
+People start acting strangely around the idol. A cult is formed around it.
 
 The symbol resembles the markings associated with the original artifact.
 
@@ -631,7 +670,8 @@ Sarah reports that the signal is inconsistent with normal historical activity.
 
 **Sarah:** I don't know.
 
-The player begins to suspect that something else is moving through the historical world.
+The player begins to suspect that something else is moving through the
+historical world.
 
 Synchronization begins to deteriorate again.
 
@@ -645,11 +685,10 @@ Q007 unlocks.
 
 Introduce archaeology, Words of Power, and the first Macro.
 
-The player investigates the object left behind by the disturbance.
+While investigating where the demand for idols came from the player discovers
+their first Word of Power.
 
-An inscription is discovered.
-
-Dr. Naomi Feld assists through the Kairos interface.
+Dr. Naomi Feld assists through the Kairos interface in the White Room.
 
 Two Words are identified for the prototype:
 
@@ -661,7 +700,8 @@ Two Words are identified for the prototype:
 
 **Core concept:** darkness / obscurity.
 
-The prototype should treat these as distinct Hebrew terms and not conflate them with קָדַשׁ (_qāḏaš_), the separate root associated with holiness/consecration.
+The prototype should treat these as distinct Hebrew terms and not conflate them
+with קָדַשׁ (_qāḏaš_), the separate root associated with holiness/consecration.
 
 ### Objectives
 
@@ -671,7 +711,8 @@ The prototype should treat these as distinct Hebrew terms and not conflate them 
 4. Discover the Words of Power.
 5. Return to the Macro interface.
 
-Naomi explains that the Words appear to interact with the Resonance in a way the team does not fully understand.
+Naomi explains that the Words appear to interact with the Resonance in a way the
+team does not fully understand.
 
 **Naomi:** Language is more than translation here. The word is part of the structure.
 
@@ -683,7 +724,8 @@ The player receives the first Macro Grid.
 
 The player returns to the lab interface and confers with Naomi.
 
-The prototype uses one simple Macro to demonstrate that a discovered Word can affect an ability.
+The prototype uses one simple Macro to demonstrate that a discovered Word can
+affect an ability.
 
 ```text
 IF ENEMY
@@ -706,11 +748,11 @@ The player now has a reusable ability tied directly to a story discovery.
 
 ### Purpose
 
-Establish the Quantum Anchor, connect the prototype's beginning to its ending, and reveal that the player is participating in a closed chain of events.
+Establish the Quantum Anchor, connect the prototype's beginning to its ending,
+and reveal that the player is participating in a closed chain of events.
 
-The player follows the Resonance to a hidden location.
-
-The location contains an artifact corresponding to the object associated with the original excavation.
+The player discovers that one of the items they crafted has become the
+Resonance.
 
 ### Objectives
 
@@ -721,7 +763,7 @@ The location contains an artifact corresponding to the object associated with th
 5. Establish the Quantum Anchor.
 6. Survive the resulting disturbance.
 
-The player activates the artifact.
+The player interacts with the artifact.
 
 The Kairos team receives the signal.
 
@@ -735,37 +777,34 @@ The team compares the signatures.
 
 They match.
 
-The artifact encountered by the player in the past is connected to the artifact discovered during the opening excavation.
+The artifact encountered by the player in the past is connected to the artifact
+discovered during the opening excavation.
 
-The prototype establishes a time-loop/closed chain of events: the player's actions in the historical world contribute to the conditions that lead to the modern discovery.
+The prototype establishes a time-loop/closed chain of events: the player's
+actions in the historical world contribute to the conditions that lead to the
+modern discovery.
 
-The Anchor also produces a possible lead toward future historical locations and further Resonant activity.
+The Anchor also produces a possible lead toward future historical locations and
+further Resonant activity.
 
 ---
 
-## Final De-synchronization
+## Boss Battle
 
-Creating the Anchor produces a major synchronization disturbance.
+Major synchronization disturbances become apparent beyond the players control.
 
-The Grey Zone begins bleeding into Capernaum.
+The player realizes they must destroy the idol to stop the disturbances.
 
-The player is attacked again.
+The Grey Zone begins bleeding into Capernaum as the player battles the cultists.
 
 This time the player has access to the first Macro.
 
 The player uses the Or-infused ability to survive.
 
-The Enemy remains unseen.
-
 Sarah detects an unknown signature.
 
-**Sarah:** Something is trying to follow you.
-
-**Player:** Another traveler?
-
-**Sarah:** I don't know.
-
-The player survives long enough for the Kairos team to initiate emergency extraction.
+The player defeats the boss returning the timeline to normal. The idol is gone
+and the other people of the timeline wake up confused in a similar manner to Mary.
 
 ---
 
@@ -779,7 +818,8 @@ The player wakes in the Kairos facility.
 
 The researchers analyze the recovered information.
 
-The Quantum Anchor proves that the Resonance can connect artifacts and locations across realities.
+The Quantum Anchor proves that the Resonance can connect artifacts and locations
+across realities.
 
 Evelyn studies the archaeological evidence.
 
@@ -825,40 +865,52 @@ CUT TO BLACK.
 
 ### Identity
 
-The player is always treated as Eliab while synchronized. NPCs do not know the player is a separate person.
+The player is always treated as Eliab while synchronized. NPCs do not know the
+player is a separate person.
 
 ### Sync Stability
 
-Dialogue choices and significant actions can change Sync Stability. The player should receive immediate feedback when a choice changes synchronization.
+Dialogue choices and significant actions can change Sync Stability. The player
+should receive immediate feedback when a choice changes synchronization.
 
 ### Desynchronization
 
-If the player reaches a critical synchronization state during the relevant quest, the current quest resets to its beginning after the Grey Zone encounter unless the quest specifically defines another recovery point.
+If the player reaches a critical synchronization state during the relevant
+quest, the current quest resets to its beginning after the Grey Zone encounter
+unless the quest specifically defines another recovery point.
 
 ### Grey Zone
 
-The Grey Zone is the isolated combat space created by desynchronization. Ordinary historical NPCs should not be exposed to these encounters.
+The Grey Zone is the isolated combat space created by desynchronization.
+Ordinary historical NPCs should not be exposed to these encounters.
 
 ### Enemy
 
-The Enemy remains unidentified during the prototype. The player can reasonably believe the Enemy is another quantum traveler or anomalous entity.
+The Enemy remains unidentified during the prototype. The player can reasonably
+believe the Enemy is another quantum traveler or anomalous entity.
 
 ### Demons
 
-Demons are the hostile entities encountered in the Grey Zone. Their true spiritual nature is not explained during the prototype.
+Demons are the hostile entities encountered in the Grey Zone. Their true
+spiritual nature is not explained during the prototype.
 
 ### Miriam
 
-Miriam's rescue is the first major objective and should be resolved before the prototype moves into the larger disturbance surrounding Eliab and the timeline.
+Miriam's rescue is the first major objective and should be resolved before the
+prototype moves into the larger disturbance surrounding Eliab and the timeline.
 
 ### Words of Power
 
-The prototype introduces **Or** and **Ḥōshekh** as discoveries. Only the first Macro needs to be fully usable.
+The prototype introduces **Or** and **Ḥōshekh** as discoveries. Only the first
+Macro needs to be fully usable.
 
 ### Quantum Anchor
 
-The Anchor connects the prototype's historical events to the modern excavation and establishes the larger closed-chain mystery.
+The Anchor connects the prototype's historical events to the modern excavation
+and establishes the larger closed-chain mystery.
 
 ### Scope
 
-The detailed story should support a 30–45 minute vertical slice. Any scene or dialogue that does not support the prototype's core loop should be deferred rather than expanding the prototype.
+The detailed story should support a 30–45 minute vertical slice. Any scene or
+dialogue that does not support the prototype's core loop should be deferred
+rather than expanding the prototype.
