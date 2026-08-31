@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://djp0kcv5j456n"]
+
+[ext_resource type="Script" uid="uid://oh84iv3gyeis" path="res://ui/quest_debug_panel.gd" id="1_debug"]
+
+[node name="QuestDebugPanel" type="PanelContainer"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 380.0
+offset_bottom = 500.0
+mouse_filter = 2
+script = ExtResource("1_debug")

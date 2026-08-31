@@ -88,6 +88,13 @@ func on_ready() -> void:
 	if dialogue_panel:
 		dialogue_panel.visible = false
 
+	var quest_debug_panel := get_node("/root/Main/UI/QuestDebugPanel") as QuestDebugPanel
+
+	if quest_debug_panel == null:
+		return
+
+	quest_debug_panel.set_player(self)
+
 
 func on_update(_delta: float) -> void:
 	pass

@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
 [ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
+[ext_resource type="PackedScene" uid="uid://djp0kcv5j456n" path="res://ui/quest_debug_panel.tscn" id="27_vxglm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -37,8 +38,12 @@ albedo_texture = ExtResource("12_eb6dy")
 material = SubResource("ORMMaterial3D_ya4ey")
 size = Vector3(100, 1, 100)
 
-[node name="Node" type="Node3D" unique_id=1914103312]
+[node name="Main" type="Node3D" unique_id=1914103312]
 script = ExtResource("1_tefeu")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1389366486]
+
+[node name="QuestDebugPanel" parent="UI" unique_id=721514826 instance=ExtResource("27_vxglm")]
 
 [node name="World" type="Node" parent="." unique_id=1204015448]
 script = ExtResource("2_o6xl0")
