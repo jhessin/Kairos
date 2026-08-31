@@ -22,6 +22,7 @@
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
 [ext_resource type="Script" uid="uid://bcpgtcln7mxux" path="res://systems/dialogue_system.gd" id="18_y6deb"]
 [ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot_dialogue_system.gd" id="19_og1vs"]
+[ext_resource type="Script" uid="uid://damtxasp0wrl3" path="res://systems/quest_system.gd" id="20_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
 [ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
@@ -131,6 +132,11 @@ metadata/_custom_type_script = "uid://bcpgtcln7mxux"
 script = ExtResource("19_og1vs")
 group = "physics"
 metadata/_custom_type_script = "uid://chq0ex2mvmf30"
+
+[node name="QuestSystem" type="Node" parent="World/Systems" unique_id=1993470612]
+script = ExtResource("20_2wyq8")
+group = "physics"
+metadata/_custom_type_script = "uid://damtxasp0wrl3"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
