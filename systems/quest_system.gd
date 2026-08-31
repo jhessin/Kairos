@@ -3,18 +3,26 @@ extends System
 
 
 func query() -> QueryBuilder:
-	return q.with_all([C_Player, C_QuestState])
+	return q.with_all([C_Player, C_QuestState, C_QuestRequest])
 
 
 func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var player := entity.get_component(C_Player) as C_Player
 		var quest_state := entity.get_component(C_QuestState) as C_QuestState
+		var request := entity.get_component(C_QuestRequest) as C_QuestRequest
 
 		if not player.is_local:
 			continue
 
 		_initialize_quests(quest_state)
+
+		if request.quest_id.is_empty():
+			continue
+
+		advance_objective(quest_state, request.quest_id, request.objective_id, request.amount)
+
+		request.clear()
 
 
 func prerequisites_met(quest_state: C_QuestState, quest: Quest) -> bool:
@@ -99,6 +107,20 @@ func complete_quest(quest_state: C_QuestState, quest_id: String) -> bool:
 	_unlock_quests(quest_state)
 
 	return true
+
+
+func advance_objective_for_entity(
+	entity: Entity,
+	quest_id: String,
+	objective_id: String,
+	amount: int = 1,
+) -> bool:
+	var quest_state := entity.get_component(C_QuestState) as C_QuestState
+
+	if quest_state == null:
+		return false
+
+	return advance_objective(quest_state, quest_id, objective_id, amount)
 
 
 func _initialize_quests(quest_state: C_QuestState) -> void:

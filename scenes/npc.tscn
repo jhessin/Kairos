@@ -1,6 +1,12 @@
 [gd_scene format=3 uid="uid://cwy8xuxqxsnou"]
 
 [ext_resource type="Script" uid="uid://c3aq5k230rfvt" path="res://entities/npc_entity.gd" id="1_nh2m4"]
+[ext_resource type="Script" uid="uid://b6k13gc2m4e5s" path="res://addons/gecs/ecs/component.gd" id="2_rv78h"]
+[ext_resource type="Script" uid="uid://do68fiha2pre3" path="res://components/c_quest_objective.gd" id="3_7n8xq"]
+
+[sub_resource type="Resource" id="Resource_vxglm"]
+script = ExtResource("3_7n8xq")
+metadata/_custom_type_script = "uid://do68fiha2pre3"
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_lrteg"]
 
@@ -8,6 +14,7 @@
 
 [node name="Elder" type="Node3D" unique_id=2112413242]
 script = ExtResource("1_nh2m4")
+component_resources = Array[ExtResource("2_rv78h")]([SubResource("Resource_vxglm")])
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1646106462]
 mesh = SubResource("CapsuleMesh_lrteg")

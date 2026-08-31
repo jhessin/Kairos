@@ -41,6 +41,7 @@ func define_components() -> Array:
 		C_GodotInteraction.new(),
 		C_InteractionPrompt.new(),
 		C_InteractionRequest.new(),
+		C_QuestRequest.new(),
 		C_DialogueState.new(),
 		C_GodotDialogue.new(),
 	]

@@ -26,7 +26,9 @@ func define_components() -> Array:
 	var behavior := C_InteractionBehavior.new()
 	behavior.callback = _on_interact
 
-	return [interactable, dialogue, behavior]
+	var quest_objective := C_QuestObjective.new()
+
+	return [interactable, dialogue, behavior, quest_objective]
 
 
 func _on_interact(source: Entity) -> void:
