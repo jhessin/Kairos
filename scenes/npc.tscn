@@ -14,6 +14,9 @@ metadata/_custom_type_script = "uid://do68fiha2pre3"
 
 [node name="Elder" type="Node3D" unique_id=2112413242]
 script = ExtResource("1_nh2m4")
+npc_name = "Yosef"
+quest_id = "Q001"
+quest_objective_id = "meet_yosef"
 component_resources = Array[ExtResource("2_rv78h")]([SubResource("Resource_vxglm")])
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1646106462]

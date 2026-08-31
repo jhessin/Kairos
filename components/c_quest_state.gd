@@ -8,8 +8,8 @@ enum State {
 	COMPLETE,
 }
 
-var states: Dictionary = { }
-var progress: Dictionary = { }
+var states: Dictionary[String, State] = { }
+var progress: Dictionary[String, Dictionary] = { }
 
 
 func set_state(quest_id: String, state: State) -> void:
