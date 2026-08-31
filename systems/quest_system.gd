@@ -96,6 +96,8 @@ func complete_quest(quest_state: C_QuestState, quest_id: String) -> bool:
 
 	quest_state.set_state(quest_id, C_QuestState.State.COMPLETE)
 
+	_unlock_quests(quest_state)
+
 	return true
 
 
