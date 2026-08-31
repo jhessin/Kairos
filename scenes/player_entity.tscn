@@ -158,6 +158,7 @@ offset_bottom = -40.960003
 text = "Elder"
 
 [node name="DialogueLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=743598710]
+custom_maximum_size = Vector2(1152, 141)
 layout_mode = 1
 anchors_preset = -1
 anchor_top = 0.312

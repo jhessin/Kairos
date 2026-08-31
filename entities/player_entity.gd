@@ -36,6 +36,7 @@ func define_components() -> Array:
 		C_Facing.new(),
 		C_Rotation.new(),
 		C_Interaction.new(),
+		C_QuestState.new(),
 		C_InteractionTarget.new(),
 		C_GodotInteraction.new(),
 		C_InteractionPrompt.new(),
