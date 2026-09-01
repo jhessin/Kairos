@@ -17,10 +17,20 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 
 		_initialize_quests(quest_state)
 
-		if request.quest_id.is_empty():
-			continue
-
-		advance_objective(quest_state, request.quest_id, request.objective_id, request.amount)
+		match request.type:
+			C_QuestRequest.Type.NONE:
+				continue
+			C_QuestRequest.Type.START:
+				start_quest(quest_state, request.quest_id)
+			C_QuestRequest.Type.ADVANCE:
+				advance_objective(
+					quest_state,
+					request.quest_id,
+					request.objective_id,
+					request.amount,
+				)
+			C_QuestRequest.Type.COMPLETE:
+				complete_quest(quest_state, request.quest_id)
 
 		request.clear()
 

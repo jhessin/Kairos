@@ -4,9 +4,10 @@ extends Entity
 
 @export var npc_name: String = "Elder"
 
+@export_group('Quest Objective')
 @export var quest_id: String
-@export var quest_objective_id: String
-@export var complete_objective_on_interact: bool = true
+@export var objective_id: String
+@export var complete_on_interact: bool = true
 
 @export_range(0, 10, 1) var amount: int = 1
 
@@ -32,19 +33,28 @@ func define_components() -> Array:
 	var behavior := C_InteractionBehavior.new()
 	behavior.callback = _on_interact
 
-	var quest_objective := C_QuestObjective.new(quest_id, quest_objective_id, amount)
+	var quest_objective := C_QuestObjective.new(quest_id, objective_id, amount)
 
 	return [interactable, dialogue, behavior, quest_objective]
 
 
-func _on_interact(source: Entity) -> void:
-	if complete_objective_on_interact:
-		var request := source.get_component(C_QuestRequest) as C_QuestRequest
+func _on_interact(player: Entity) -> void:
+	if complete_on_interact:
+		var quest_state := player.get_component(C_QuestState) as C_QuestState
+		var request := player.get_component(C_QuestRequest) as C_QuestRequest
 		var objective := get_component(C_QuestObjective) as C_QuestObjective
 
-		request.from_objective(objective)
+		if quest_state == null or request == null:
+			return
 
-	var dialogue_state := (source.get_component(C_DialogueState) as C_DialogueState)
+		if quest_state.has_state(objective.quest_id, C_QuestState.State.AVAILABLE):
+			request.request_start(objective.quest_id)
+			return
+
+		if quest_state.has_state(objective.quest_id, C_QuestState.State.ACTIVE):
+			request.request_advance(objective.quest_id, objective.objective_id)
+
+	var dialogue_state := (player.get_component(C_DialogueState) as C_DialogueState)
 
 	if dialogue_state == null:
 		return
@@ -57,4 +67,4 @@ func _on_interact(source: Entity) -> void:
 	if not dialogue.has_dialogue():
 		return
 
-	dialogue_state.start(dialogue.speaker_name, dialogue.lines, source, self)
+	dialogue_state.start(dialogue.speaker_name, dialogue.lines, player, self)
