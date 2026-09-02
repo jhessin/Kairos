@@ -2,6 +2,8 @@
 class_name PlayerEntity
 extends Entity
 
+@export var dialogue_choice_button_scene: PackedScene
+
 @onready var character_body: CharacterBody3D = $CharacterBody3D
 @onready var visual: Node3D = $CharacterBody3D/Visual
 @onready var animation_player: AnimationPlayer = $CharacterBody3D/AnimationPlayer
@@ -17,6 +19,7 @@ extends Entity
 @onready var dialogue_panel: Control = $DialogueUI/DialoguePanel
 @onready var speaker_label: Label = $DialogueUI/DialoguePanel/SpeakerLabel
 @onready var dialogue_label: Label = $DialogueUI/DialoguePanel/DialogueLabel
+@onready var choice_container: Container = %ChoiceContainer
 
 
 func define_components() -> Array:
@@ -78,6 +81,8 @@ func on_ready() -> void:
 		godot_dialogue.panel = dialogue_panel
 		godot_dialogue.speaker_label = speaker_label
 		godot_dialogue.dialogue_label = dialogue_label
+		godot_dialogue.choice_container = choice_container
+		godot_dialogue.choice_button_scene = dialogue_choice_button_scene
 
 	if camera:
 		camera.current = true

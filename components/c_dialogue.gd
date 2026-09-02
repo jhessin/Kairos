@@ -3,8 +3,8 @@ extends Component
 
 @export var speaker_name: String = ''
 
-@export_multiline var lines: Array[String] = []
+@export var graph: DialogueGraph
 
 
 func has_dialogue() -> bool:
-	return not lines.is_empty()
+	return graph != null and not graph.default_entry_node_id.is_empty()

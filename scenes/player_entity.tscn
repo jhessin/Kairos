@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ca8msholbyioc" path="res://entities/player_entity.gd" id="1_8b1co"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="2_6nmcj"]
+[ext_resource type="PackedScene" uid="uid://dygm2ajdxj4at" path="res://scenes/dialogue_choice_button.tscn" id="2_pywmm"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lrteg"]
 
@@ -91,6 +92,7 @@ radius = 3.0
 
 [node name="PlayerEntity" type="Node3D" unique_id=732831921]
 script = ExtResource("1_8b1co")
+dialogue_choice_button_scene = ExtResource("2_pywmm")
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1658826216]
 
@@ -139,7 +141,6 @@ horizontal_alignment = 1
 [node name="DialogueUI" type="CanvasLayer" parent="." unique_id=139184041]
 
 [node name="DialoguePanel" type="Panel" parent="DialogueUI" unique_id=1914210833]
-visible = false
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
@@ -153,21 +154,37 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.46300003
 anchor_bottom = 0.312
-offset_right = -493.37604
-offset_bottom = -40.960003
+offset_right = -0.3760376
+offset_bottom = 0.0399971
 text = "Elder"
 
 [node name="DialogueLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=743598710]
 custom_maximum_size = Vector2(1152, 141)
 layout_mode = 1
 anchors_preset = -1
+anchor_left = 0.064
 anchor_top = 0.312
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 0.92100006
+anchor_bottom = 0.72700006
+offset_left = 0.27199554
 offset_top = 0.0399971
+offset_right = 0.00793457
+offset_bottom = -0.03501892
 grow_horizontal = 2
 grow_vertical = 2
 text = "Text = Welcome to Kairos."
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
+
+[node name="ChoiceContainer" type="VBoxContainer" parent="DialogueUI/DialoguePanel" unique_id=920744809]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.72700006
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -0.03501892
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1

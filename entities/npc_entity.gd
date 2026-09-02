@@ -3,20 +3,7 @@ class_name NPCEntity
 extends Entity
 
 @export var npc_name: String = "Elder"
-
-@export_group('Quest Objective')
-@export var quest_id: String
-@export var objective_id: String
-@export var complete_on_interact: bool = true
-
-@export_range(0, 10, 1) var amount: int = 1
-
-@export_multiline var dialogue_lines: Array[String] = [
-	'Welcome to Kairos, traveler.',
-	'There is much to discover in this world.',
-	'Speak with the people you meet.',
-	'They may know more than they first reveal.',
-]
+@export var graph: DialogueGraph
 
 
 func define_components() -> Array:
@@ -28,43 +15,34 @@ func define_components() -> Array:
 	var dialogue := C_Dialogue.new()
 
 	dialogue.speaker_name = npc_name
-	dialogue.lines = dialogue_lines
+	dialogue.graph = graph
 
 	var behavior := C_InteractionBehavior.new()
 	behavior.callback = _on_interact
 
-	var quest_objective := C_QuestObjective.new(quest_id, objective_id, amount)
-
-	return [interactable, dialogue, behavior, quest_objective]
+	return [
+		interactable,
+		dialogue,
+		behavior,
+		# quest_objective,
+	]
 
 
 func _on_interact(player: Entity) -> void:
-	if complete_on_interact:
-		var quest_state := player.get_component(C_QuestState) as C_QuestState
-		var request := player.get_component(C_QuestRequest) as C_QuestRequest
-		var objective := get_component(C_QuestObjective) as C_QuestObjective
-
-		if quest_state == null or request == null:
-			return
-
-		if quest_state.has_state(objective.quest_id, C_QuestState.State.AVAILABLE):
-			request.request_start(objective.quest_id)
-			return
-
-		if quest_state.has_state(objective.quest_id, C_QuestState.State.ACTIVE):
-			request.request_advance(objective.quest_id, objective.objective_id)
-
-	var dialogue_state := (player.get_component(C_DialogueState) as C_DialogueState)
-
-	if dialogue_state == null:
-		return
-
+	var dialogue_state := player.get_component(C_DialogueState) as C_DialogueState
+	var quest_state := player.get_component(C_QuestState) as C_QuestState
 	var dialogue := get_component(C_Dialogue) as C_Dialogue
 
-	if dialogue == null:
+	if dialogue_state == null or quest_state == null or dialogue == null:
 		return
 
 	if not dialogue.has_dialogue():
 		return
 
-	dialogue_state.start(dialogue.speaker_name, dialogue.lines, player, self)
+	var entry_node_id := dialogue.graph.resolve_entry_node(quest_state)
+
+	if entry_node_id.is_empty():
+		push_error("Dialogue graph has no valid entry node.")
+		return
+
+	dialogue_state.start(player, self, dialogue, entry_node_id)

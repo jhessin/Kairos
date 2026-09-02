@@ -2,6 +2,10 @@ class_name QuestSystem
 extends System
 
 
+func deps() -> Dictionary[int, Array]:
+	return { Runs.After: [DialogueSystem] }
+
+
 func query() -> QueryBuilder:
 	return q.with_all([C_Player, C_QuestState, C_QuestRequest])
 
@@ -92,12 +96,10 @@ func advance_objective(
 
 
 func objectives_complete(quest_state: C_QuestState, quest: Quest) -> bool:
-	for objective in quest.objectives:
-		var progress := quest_state.get_progress(quest.id, objective.id)
-
-		if progress < objective.total_steps:
-			return false
-	return true
+	match quest_state.get_total_progress(quest.id):
+		C_QuestState.TotalProgress.ALL_OBJECTIVES_COMPLETED:
+			return true
+	return false
 
 
 func complete_quest(quest_state: C_QuestState, quest_id: String) -> bool:

@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
 [ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
+[ext_resource type="Resource" uid="uid://cxsbijyen2h37" path="res://resources/yosef_q001_dialogue.tres" id="27_2f3dj"]
 [ext_resource type="PackedScene" uid="uid://djp0kcv5j456n" path="res://ui/quest_debug_panel.tscn" id="27_vxglm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
@@ -159,7 +160,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5539322, 1.3270164, -5.8183
 
 [node name="Elder" parent="World/Entities" unique_id=2112413242 instance=ExtResource("24_og1vs")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, 9.62509)
-objective_id = "meet_yosef"
+graph = ExtResource("27_2f3dj")
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 

@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="DialogueGraph" format=3 uid="uid://cxsbijyen2h37"]
+
+[ext_resource type="Script" uid="uid://3jvs1tecs7i5" path="res://resources/dialogue/dialogue_entry_condition.gd" id="1_jw4tf"]
+[ext_resource type="Script" uid="uid://e556hvcau7g" path="res://resources/dialogue/dialogue_node.gd" id="2_rcdj3"]
+[ext_resource type="Script" uid="uid://b60l8lso5dwkl" path="res://resources/dialogue/dialogue_graph.gd" id="3_3f0ga"]
+[ext_resource type="Script" uid="uid://ggkkjt6alrgm" path="res://resources/dialogue/dialogue_choice.gd" id="3_rcdj3"]
+[ext_resource type="Script" uid="uid://bet6iw0t253ri" path="res://resources/dialogue/dialogue_action.gd" id="4_3f0ga"]
+
+[sub_resource type="Resource" id="Resource_vxglm"]
+script = ExtResource("1_jw4tf")
+quest_id = &"Q001"
+required_state = 2
+entry_node_id = &"ready_to_complete"
+progress_requirement = 3
+priority = 100
+metadata/_custom_type_script = "uid://3jvs1tecs7i5"
+
+[sub_resource type="Resource" id="Resource_3f0ga"]
+script = ExtResource("1_jw4tf")
+quest_id = &"Q001"
+required_state = 2
+entry_node_id = &"active_return"
+priority = 50
+metadata/_custom_type_script = "uid://3jvs1tecs7i5"
+
+[sub_resource type="Resource" id="Resource_qf0w0"]
+script = ExtResource("1_jw4tf")
+quest_id = &"Q001"
+required_state = 1
+entry_node_id = &"available_intro"
+priority = 10
+metadata/_custom_type_script = "uid://3jvs1tecs7i5"
+
+[sub_resource type="Resource" id="Resource_0ij7q"]
+script = ExtResource("1_jw4tf")
+quest_id = &"Q001"
+required_state = 3
+entry_node_id = &"completed_return"
+priority = 100
+metadata/_custom_type_script = "uid://3jvs1tecs7i5"
+
+[sub_resource type="Resource" id="Resource_rcdj3"]
+script = ExtResource("2_rcdj3")
+id = &"default"
+text = "Are you Eliab?"
+metadata/_custom_type_script = "uid://e556hvcau7g"
+
+[sub_resource type="Resource" id="Resource_yq6so"]
+script = ExtResource("4_3f0ga")
+type = 1
+quest_id = &"Q001"
+metadata/_custom_type_script = "uid://bet6iw0t253ri"
+
+[sub_resource type="Resource" id="Resource_2f3dj"]
+script = ExtResource("3_rcdj3")
+action = SubResource("Resource_yq6so")
+text = "start quest"
+metadata/_custom_type_script = "uid://ggkkjt6alrgm"
+
+[sub_resource type="Resource" id="Resource_exse2"]
+script = ExtResource("2_rcdj3")
+id = &"available_intro"
+choices = Array[ExtResource("3_rcdj3")]([SubResource("Resource_2f3dj")])
+text = "available_intro"
+metadata/_custom_type_script = "uid://e556hvcau7g"
+
+[sub_resource type="Resource" id="Resource_a263l"]
+script = ExtResource("4_3f0ga")
+type = 2
+quest_id = &"Q001"
+objective_id = &"meet_yosef"
+metadata/_custom_type_script = "uid://bet6iw0t253ri"
+
+[sub_resource type="Resource" id="Resource_lonpt"]
+script = ExtResource("3_rcdj3")
+action = SubResource("Resource_a263l")
+text = "meet_yosef"
+metadata/_custom_type_script = "uid://ggkkjt6alrgm"
+
+[sub_resource type="Resource" id="Resource_h2oh7"]
+script = ExtResource("4_3f0ga")
+type = 2
+quest_id = &"Q001"
+objective_id = &"synchronize_with_eliab"
+metadata/_custom_type_script = "uid://bet6iw0t253ri"
+
+[sub_resource type="Resource" id="Resource_hypeg"]
+script = ExtResource("3_rcdj3")
+action = SubResource("Resource_h2oh7")
+text = "synchronize_with_eliab"
+metadata/_custom_type_script = "uid://ggkkjt6alrgm"
+
+[sub_resource type="Resource" id="Resource_7txu8"]
+script = ExtResource("2_rcdj3")
+id = &"active_return"
+choices = Array[ExtResource("3_rcdj3")]([SubResource("Resource_lonpt"), SubResource("Resource_hypeg")])
+text = "active_return"
+metadata/_custom_type_script = "uid://e556hvcau7g"
+
+[sub_resource type="Resource" id="Resource_1oeby"]
+script = ExtResource("4_3f0ga")
+type = 3
+quest_id = &"Q001"
+metadata/_custom_type_script = "uid://bet6iw0t253ri"
+
+[sub_resource type="Resource" id="Resource_3coqw"]
+script = ExtResource("3_rcdj3")
+action = SubResource("Resource_1oeby")
+text = "complet quest"
+metadata/_custom_type_script = "uid://ggkkjt6alrgm"
+
+[sub_resource type="Resource" id="Resource_3qhvb"]
+script = ExtResource("2_rcdj3")
+id = &"ready_to_complete"
+choices = Array[ExtResource("3_rcdj3")]([SubResource("Resource_3coqw")])
+text = "ready_to_complete"
+metadata/_custom_type_script = "uid://e556hvcau7g"
+
+[sub_resource type="Resource" id="Resource_1y4m6"]
+script = ExtResource("2_rcdj3")
+id = &"completed_return"
+text = "completed_return"
+metadata/_custom_type_script = "uid://e556hvcau7g"
+
+[resource]
+script = ExtResource("3_3f0ga")
+default_entry_node_id = &"default"
+nodes = Array[ExtResource("2_rcdj3")]([SubResource("Resource_rcdj3"), SubResource("Resource_exse2"), SubResource("Resource_7txu8"), SubResource("Resource_3qhvb"), SubResource("Resource_1y4m6")])
+entry_conditions = Array[ExtResource("1_jw4tf")]([SubResource("Resource_vxglm"), SubResource("Resource_3f0ga"), SubResource("Resource_qf0w0"), SubResource("Resource_0ij7q")])
+metadata/_custom_type_script = "uid://b60l8lso5dwkl"
