@@ -18,13 +18,10 @@
 [ext_resource type="Script" uid="uid://cwaao7344k2yj" path="res://systems/godot_interaction_system.gd" id="14_dp3eg"]
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot_interaction_prompt_system.gd" id="16_0ld40"]
-[ext_resource type="PackedScene" uid="uid://c7qrt4kv1txbo" path="res://scenes/interaction_test.tscn" id="17_0ld40"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
 [ext_resource type="Script" uid="uid://bcpgtcln7mxux" path="res://systems/dialogue_system.gd" id="18_y6deb"]
 [ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot_dialogue_system.gd" id="19_og1vs"]
 [ext_resource type="Script" uid="uid://damtxasp0wrl3" path="res://systems/quest_system.gd" id="20_2wyq8"]
-[ext_resource type="PackedScene" uid="uid://cua4c33kin1td" path="res://scenes/interaction_message.tscn" id="20_yc10j"]
-[ext_resource type="PackedScene" uid="uid://c3up4h0poxd8t" path="res://scenes/door.tscn" id="21_jscy8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
 [ext_resource type="Resource" uid="uid://cxsbijyen2h37" path="res://resources/yosef_q001_dialogue.tres" id="27_2f3dj"]
 [ext_resource type="PackedScene" uid="uid://djp0kcv5j456n" path="res://ui/quest_debug_panel.tscn" id="27_vxglm"]
@@ -149,17 +146,8 @@ metadata/_custom_type_script = "uid://damtxasp0wrl3"
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
 
-[node name="InteractionTest" parent="World/Entities" unique_id=1392036640 instance=ExtResource("17_0ld40")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28252125, 0.49999952, 4.7162337)
-
-[node name="InteractionMessage" parent="World/Entities" unique_id=964629141 instance=ExtResource("20_yc10j")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.480088, 0.672055, 0)
-
-[node name="Door" parent="World/Entities" unique_id=740234417 instance=ExtResource("21_jscy8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5539322, 1.3270164, -5.81835)
-
 [node name="Elder" parent="World/Entities" unique_id=2112413242 instance=ExtResource("24_og1vs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, 9.62509)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, -21.431896)
 graph = ExtResource("27_2f3dj")
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
@@ -171,6 +159,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 shape = SubResource("BoxShape3D_lrteg")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/Ground" unique_id=1768666215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.032151222, 0.054243088, -0.032546997)
 mesh = SubResource("BoxMesh_prxtw")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment" unique_id=482761869]

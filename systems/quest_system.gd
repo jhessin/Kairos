@@ -47,7 +47,7 @@ func prerequisites_met(quest_state: C_QuestState, quest: Quest) -> bool:
 	return true
 
 
-func start_quest(quest_state: C_QuestState, quest_id: String) -> bool:
+func start_quest(quest_state: C_QuestState, quest_id: StringName) -> bool:
 	var quest := QuestDatabase.get_quest(quest_id)
 
 	if quest == null:
@@ -69,8 +69,8 @@ func start_quest(quest_state: C_QuestState, quest_id: String) -> bool:
 
 func advance_objective(
 	quest_state: C_QuestState,
-	quest_id: String,
-	objective_id: String,
+	quest_id: StringName,
+	objective_id: StringName,
 	amount: int = 1,
 ) -> bool:
 	if quest_state.get_state(quest_id) != C_QuestState.State.ACTIVE:
@@ -102,7 +102,7 @@ func objectives_complete(quest_state: C_QuestState, quest: Quest) -> bool:
 	return false
 
 
-func complete_quest(quest_state: C_QuestState, quest_id: String) -> bool:
+func complete_quest(quest_state: C_QuestState, quest_id: StringName) -> bool:
 	if quest_state.get_state(quest_id) != C_QuestState.State.ACTIVE:
 		return false
 
@@ -123,8 +123,8 @@ func complete_quest(quest_state: C_QuestState, quest_id: String) -> bool:
 
 func advance_objective_for_entity(
 	entity: Entity,
-	quest_id: String,
-	objective_id: String,
+	quest_id: StringName,
+	objective_id: StringName,
 	amount: int = 1,
 ) -> bool:
 	var quest_state := entity.get_component(C_QuestState) as C_QuestState
@@ -142,10 +142,10 @@ func _initialize_quests(quest_state: C_QuestState) -> void:
 	for quest_id in QuestDatabase.quests:
 		quest_state.set_state(quest_id, C_QuestState.State.LOCKED)
 
-	quest_state.set_state('Q001', C_QuestState.State.AVAILABLE)
+	quest_state.set_state(&'Q001', C_QuestState.State.AVAILABLE)
 
 
-func _get_objective(quest: Quest, objective_id: String) -> QuestObjective:
+func _get_objective(quest: Quest, objective_id: StringName) -> QuestObjective:
 	for objective in quest.objectives:
 		if objective.id == objective_id:
 			return objective

@@ -76,7 +76,7 @@ func _refresh() -> void:
 		_add_quest(quest_id)
 
 
-func _add_quest(quest_id: String) -> void:
+func _add_quest(quest_id: StringName) -> void:
 	var quest := QuestDatabase.get_quest(quest_id)
 
 	if quest == null:
