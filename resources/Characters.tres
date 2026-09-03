@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CharacterList" format=3 uid="uid://dne1dsqniu7la"]
+
+[ext_resource type="Script" uid="uid://42coc6buijm5" path="res://addons/dialogue_nodes/objects/Character.gd" id="1_wnswg"]
+[ext_resource type="Script" uid="uid://dr0x7hw4xr8r7" path="res://addons/dialogue_nodes/objects/CharacterList.gd" id="2_4wa13"]
+
+[sub_resource type="Resource" id="Resource_gj3ck"]
+script = ExtResource("1_wnswg")
+name = "Yosef"
+color = Color(0.5820333, 0.95, 0.1615, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[resource]
+script = ExtResource("2_4wa13")
+characters = Array[ExtResource("1_wnswg")]([SubResource("Resource_gj3ck")])
+metadata/_custom_type_script = "uid://dr0x7hw4xr8r7"

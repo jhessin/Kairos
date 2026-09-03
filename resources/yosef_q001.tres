@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="DialogueData" format=3 uid="uid://d4aofx8q82r7d"]
+
+[ext_resource type="Script" uid="uid://eit47g61t72a" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_l218n"]
+
+[resource]
+script = ExtResource("1_l218n")
+starts = {
+"START": &"0_1"
+}
+nodes = {
+&"0_1": {
+"link": &"1_1",
+"offset": Vector2(240, 180),
+"size": Vector2(180.00009, 86),
+"start_id": "START"
+},
+&"1_1": {
+"dialogue": "Are you Eliab?",
+"offset": Vector2(520, 180),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_1",
+"text": "Yes"
+},
+1: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": "No"
+}
+},
+"size": Vector2(479.99976, 400),
+"speaker": 0
+},
+&"1_2": {
+"dialogue": "Then perhaps...",
+"offset": Vector2(1400, 440),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_2",
+"text": "I'll try."
+},
+1: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": "I don't..."
+}
+},
+"size": Vector2(300.00024, 304.00012),
+"speaker": 0
+},
+&"1_3": {
+"dialogue": "One more thing...",
+"offset": Vector2(2100, 580),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_3",
+"text": "Tell me."
+},
+1: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": "Enough"
+}
+},
+"size": Vector2(300, 304.00012),
+"speaker": 0
+},
+&"1_4": {
+"dialogue": "Will you continue?",
+"offset": Vector2(2800, 720),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_4",
+"text": "Yes"
+},
+1: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": "No"
+}
+},
+"size": Vector2(300, 304),
+"speaker": 0
+},
+&"3_1": {
+"link": &"1_2",
+"offset": Vector2(1100, 440),
+"signalValue": "START_Q001"
+},
+&"3_2": {
+"link": &"1_3",
+"offset": Vector2(1800, 580),
+"signalValue": "quest:advance:Q001:synchronize_with_eliab"
+},
+&"3_3": {
+"link": &"1_4",
+"offset": Vector2(2500, 720),
+"signalValue": "quest:advance:Q001:meet_yosef"
+},
+&"3_4": {
+"link": "END",
+"offset": Vector2(3200, 840),
+"signalValue": "quest:complete:Q001"
+}
+}
+strays = Array[String](["3_4"])
+characters = "res://resources/Characters.tres"
