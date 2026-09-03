@@ -73,19 +73,25 @@ func on_ready() -> void:
 	if godot_dialogue:
 		godot_dialogue.box = dialogue_box
 
+		if dialogue_box:
+			dialogue_box.visible = false
+			dialogue_box.dialogue_ended.connect(_on_dialogue_ended)
+			dialogue_box.dialogue_started.connect(_on_dialogue_started)
+
 	if camera:
 		camera.current = true
 
 	if interaction_prompt:
 		interaction_prompt.visible = false
 
-	if dialogue_box:
-		dialogue_box.visible = false
+
+func _on_dialogue_ended() -> void:
+	var dialogue_state := get_component(C_DialogueState) as C_DialogueState
+
+	if dialogue_state:
+		dialogue_state.close()
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 
-func on_update(_delta: float) -> void:
-	pass
-
-
-func on_destroy() -> void:
-	pass
+func _on_dialogue_started(_id: StringName) -> void:
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
