@@ -129,7 +129,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
 
 [node name="Elder" parent="World/Entities" unique_id=2112413242 instance=ExtResource("24_og1vs")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, 9.62509)
-start_id = &"start"
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 

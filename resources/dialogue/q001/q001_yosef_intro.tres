@@ -11,7 +11,7 @@ nodes = {
 &"0_1": {
 "link": &"1_1",
 "offset": Vector2(0, 200),
-"size": Vector2(179.99997, 86),
+"size": Vector2(179.99997, 86.000015),
 "start_id": "start"
 },
 &"1_1": {
@@ -25,29 +25,16 @@ nodes = {
 },
 1: {
 "condition": Array[Dictionary]([]),
-"link": &"1_2",
+"link": &"3_1",
 "text": "Just lost in thought."
 }
 },
 "size": Vector2(319.99997, 380),
 "speaker": "Yosef"
 },
-&"1_2": {
-"dialogue": "Good. I was beginning to wonder where you had gone.",
-"offset": Vector2(700, 780),
-"options": {
-0: {
-"condition": Array[Dictionary]([]),
-"link": "END",
-"text": ""
-}
-},
-"size": Vector2(300.00012, 240),
-"speaker": "Yosef"
-},
 &"1_3": {
 "dialogue": "Of course you boy! Have you lost your wits?",
-"offset": Vector2(700, 440),
+"offset": Vector2(740, 180),
 "options": {
 0: {
 "condition": Array[Dictionary]([]),
@@ -57,5 +44,10 @@ nodes = {
 },
 "size": Vector2(300, 266.99994),
 "speaker": "Yosef"
+},
+&"3_1": {
+"link": "END",
+"offset": Vector2(878.13403, 687.804),
+"signalValue": "start_q001"
 }
 }
