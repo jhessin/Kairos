@@ -13,9 +13,6 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 	if Input.is_action_just_pressed('ui_cancel'):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 
-	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-
 	for entity in entities:
 		var player := entity.get_component(C_Player) as C_Player
 		var intent := entity.get_component(C_MovementIntent) as C_MovementIntent
@@ -25,6 +22,9 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 
 		if not player.is_local:
 			continue
+
+		if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and not dialogue.active:
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 		var camera := godot_camera.camera
 

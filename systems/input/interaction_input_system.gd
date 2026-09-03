@@ -16,5 +16,5 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 
 		interaction.interact_pressed = false
 
-		if Input.is_action_just_pressed('interact'):
+		if Input.is_action_just_pressed('ui_accept'):
 			interaction.interact_pressed = true

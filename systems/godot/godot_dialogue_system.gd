@@ -1,6 +1,8 @@
 class_name GodotDialogueSystem
 extends System
 
+var started: bool = false
+
 
 func deps() -> Dictionary[int, Array]:
   return { Runs.After: [DialogueSystem] }
@@ -32,4 +34,13 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 
     godot_dialogue.box.data = dialogue.data
 
+    if godot_dialogue.box.is_running():
+      continue
+    elif started == true:
+      started = false
+      dialogue.close()
+      continue
+
     godot_dialogue.box.start(dialogue.start_node)
+    Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+    started = true
