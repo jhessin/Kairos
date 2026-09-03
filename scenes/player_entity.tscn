@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://ca8msholbyioc" path="res://entities/player_entity.gd" id="1_8b1co"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="2_6nmcj"]
+[ext_resource type="Script" uid="uid://by8fmhpldj46a" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="3_nk4n4"]
+[ext_resource type="Script" uid="uid://m31i3axecagx" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="4_sy4aq"]
+[ext_resource type="Script" uid="uid://blmdt7v8bd0nl" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="5_vo0qd"]
+[ext_resource type="Script" uid="uid://bsoctnc26xumr" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="6_ynwjb"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lrteg"]
 
@@ -89,6 +93,15 @@ _data = {
 [sub_resource type="SphereShape3D" id="SphereShape3D_lrteg"]
 radius = 3.0
 
+[sub_resource type="RichTextEffect" id="RichTextEffect_lfut1"]
+script = ExtResource("4_sy4aq")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_o1oab"]
+script = ExtResource("5_vo0qd")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_uxtuv"]
+script = ExtResource("6_ynwjb")
+
 [node name="PlayerEntity" type="Node3D" unique_id=732831921]
 script = ExtResource("1_8b1co")
 
@@ -138,35 +151,15 @@ horizontal_alignment = 1
 
 [node name="DialogueUI" type="CanvasLayer" parent="." unique_id=139184041]
 
-[node name="DialoguePanel" type="Panel" parent="DialogueUI" unique_id=1914210833]
-visible = false
-anchors_preset = 12
-anchor_top = 1.0
+[node name="DialogueBox" type="Panel" parent="DialogueUI" unique_id=986540090]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_top = 0.69900006
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -205.0
+offset_top = 0.047973633
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="SpeakerLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=2109321570]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 0.46300003
-anchor_bottom = 0.312
-offset_right = -493.37604
-offset_bottom = -40.960003
-text = "Elder"
-
-[node name="DialogueLabel" type="Label" parent="DialogueUI/DialoguePanel" unique_id=743598710]
-layout_mode = 1
-anchors_preset = -1
-anchor_top = 0.312
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = 0.0399971
-grow_horizontal = 2
-grow_vertical = 2
-text = "Text = Welcome to Kairos."
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 3
+script = ExtResource("3_nk4n4")
+custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_lfut1"), SubResource("RichTextEffect_o1oab"), SubResource("RichTextEffect_uxtuv")])
+metadata/_custom_type_script = "uid://by8fmhpldj46a"

@@ -14,9 +14,7 @@ extends Entity
 
 @onready var interaction_prompt: Label = $InteractionUI/InteractionPrompt
 
-@onready var dialogue_panel: Control = $DialogueUI/DialoguePanel
-@onready var speaker_label: Label = $DialogueUI/DialoguePanel/SpeakerLabel
-@onready var dialogue_label: Label = $DialogueUI/DialoguePanel/DialogueLabel
+@onready var dialogue_box: DialogueBox = %DialogueBox
 
 
 func define_components() -> Array:
@@ -73,9 +71,7 @@ func on_ready() -> void:
 		godot_interaction.prompt = interaction_prompt
 
 	if godot_dialogue:
-		godot_dialogue.panel = dialogue_panel
-		godot_dialogue.speaker_label = speaker_label
-		godot_dialogue.dialogue_label = dialogue_label
+		godot_dialogue.box = dialogue_box
 
 	if camera:
 		camera.current = true
@@ -83,8 +79,8 @@ func on_ready() -> void:
 	if interaction_prompt:
 		interaction_prompt.visible = false
 
-	if dialogue_panel:
-		dialogue_panel.visible = false
+	if dialogue_box:
+		dialogue_box.visible = false
 
 
 func on_update(_delta: float) -> void:

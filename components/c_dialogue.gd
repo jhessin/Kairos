@@ -3,8 +3,9 @@ extends Component
 
 @export var speaker_name: String = ''
 
-@export_multiline var lines: Array[String] = []
+var data: DialogueData = null
+var start_node: StringName = &''
 
 
 func has_dialogue() -> bool:
-	return not lines.is_empty()
+	return data != null

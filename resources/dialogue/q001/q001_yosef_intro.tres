@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="DialogueData" format=3 uid="uid://cukngkuyc6q3g"]
+
+[ext_resource type="Script" uid="uid://eit47g61t72a" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_66noe"]
+
+[resource]
+script = ExtResource("1_66noe")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+&"0_1": {
+"link": &"1_1",
+"offset": Vector2(0, 200),
+"size": Vector2(179.99997, 86),
+"start_id": "start"
+},
+&"1_1": {
+"dialogue": "Eliab? What are you gawking at?",
+"offset": Vector2(280, 200),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"1_3",
+"text": "Who, me?"
+},
+1: {
+"condition": Array[Dictionary]([]),
+"link": &"1_2",
+"text": "Just lost in thought."
+}
+},
+"size": Vector2(319.99997, 380),
+"speaker": "Yosef"
+},
+&"1_2": {
+"dialogue": "Good. I was beginning to wonder where you had gone.",
+"offset": Vector2(700, 780),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300.00012, 240),
+"speaker": "Yosef"
+},
+&"1_3": {
+"dialogue": "Of course you boy! Have you lost your wits?",
+"offset": Vector2(700, 440),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": "END",
+"text": "No. I don't know this Eliab."
+}
+},
+"size": Vector2(300, 266.99994),
+"speaker": "Yosef"
+}
+}

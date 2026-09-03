@@ -2,14 +2,8 @@
 class_name NPCEntity
 extends Entity
 
-@export var npc_name: String = "Elder"
-
-@export_multiline var dialogue_lines: Array[String] = [
-	'Welcome to Kairos, traveler.',
-	'There is much to discover in this world.',
-	'Speak with the people you meet.',
-	'They may know more than they first reveal.',
-]
+@export var dialogue_data: DialogueData
+@export var start_id: StringName
 
 
 func define_components() -> Array:
@@ -18,29 +12,16 @@ func define_components() -> Array:
 	interactable.interaction_name = 'talk'
 	interactable.enabled = true
 
-	var dialogue := C_Dialogue.new()
-
-	dialogue.speaker_name = npc_name
-	dialogue.lines = dialogue_lines
-
 	var behavior := C_InteractionBehavior.new()
 	behavior.callback = _on_interact
 
-	return [interactable, dialogue, behavior]
+	return [interactable, behavior]
 
 
-func _on_interact(source: Entity) -> void:
-	var dialogue_state := (source.get_component(C_DialogueState) as C_DialogueState)
+func _on_interact(player: Entity) -> void:
+	var dialogue_state := (player.get_component(C_DialogueState) as C_DialogueState)
 
-	if dialogue_state == null:
+	if dialogue_data == null:
 		return
 
-	var dialogue := get_component(C_Dialogue) as C_Dialogue
-
-	if dialogue == null:
-		return
-
-	if not dialogue.has_dialogue():
-		return
-
-	dialogue_state.start(dialogue.speaker_name, dialogue.lines, source, self)
+	dialogue_state.setup(player, self, dialogue_data, start_id)
