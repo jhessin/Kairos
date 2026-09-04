@@ -42,11 +42,43 @@ func _process_event(source: Entity, target: Entity, type: Objective.Type) -> voi
 	if objective_target == null:
 		return
 
-	for objective in objective_target.objectives:
-		if objective == null:
+	var active_quests := QuestSystem.get_active_quests()
+
+	for quest in active_quests:
+		if not quest is Q001Quest:
 			continue
 
-		if objective.type != type:
-			continue
+		var q001 := quest as Q001Quest
 
-		print("Objective event: ", objective.id, " source=", source.name, " target=", target.name)
+		for instance in q001.objective_instances:
+			if instance.completed:
+				continue
+
+			if not instance.matches(type):
+				continue
+
+			if not _target_has_objective(objective_target, instance.definition):
+				continue
+
+			print(
+				'Objective completed: ',
+				instance.definition.id,
+				'source = ',
+				source.name,
+				' target = ',
+				target.name,
+			)
+
+			instance.complete()
+			q001.objective_completed = q001.is_complete
+
+			if q001.objective_completed:
+				print('Quest objectives completed: ', q001.quest_name)
+
+
+func _target_has_objective(objective_target: C_ObjectiveTarget, objective: Objective) -> bool:
+	for target_objective in objective_target.objectives:
+		if target_objective == objective:
+			return true
+
+	return false

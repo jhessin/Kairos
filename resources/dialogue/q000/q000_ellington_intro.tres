@@ -12,13 +12,13 @@ nodes = {
 &"0_1": {
 "link": &"1_2",
 "offset": Vector2(-400, -20),
-"size": Vector2(179.99991, 86.00012),
+"size": Vector2(180, 86.00009),
 "start_id": "start"
 },
 &"0_2": {
 "link": &"1_3",
 "offset": Vector2(840, -340),
-"size": Vector2(180.00012, 86.00012),
+"size": Vector2(180.00009, 86.00012),
 "start_id": "red_light"
 },
 &"1_1": {
@@ -31,7 +31,7 @@ nodes = {
 "text": "Of course. Lead the way."
 }
 },
-"size": Vector2(300.00012, 300),
+"size": Vector2(300.0001, 300.00003),
 "speaker": 4
 },
 &"1_2": {
@@ -59,7 +59,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300.00012, 267),
+"size": Vector2(300.00024, 267),
 "speaker": 4
 },
 &"1_4": {
@@ -91,7 +91,7 @@ nodes = {
 &"3_1": {
 "link": "END",
 "offset": Vector2(1180, -20),
-"signalValue": "start_q000"
+"signalValue": "start_q001"
 },
 &"3_2": {
 "link": "END",
