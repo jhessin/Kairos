@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="CharacterList" format=3 uid="uid://bepjv64jgdhti"]
+
+[ext_resource type="Script" uid="uid://42coc6buijm5" path="res://addons/dialogue_nodes/objects/Character.gd" id="1_xn26g"]
+[ext_resource type="Script" uid="uid://dr0x7hw4xr8r7" path="res://addons/dialogue_nodes/objects/CharacterList.gd" id="2_7ay5b"]
+
+[sub_resource type="Resource" id="Resource_66noe"]
+script = ExtResource("1_xn26g")
+name = "Eliab"
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_o6mk1"]
+script = ExtResource("1_xn26g")
+name = "Halevi"
+color = Color(1, 0, 1, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_wt4gm"]
+script = ExtResource("1_xn26g")
+name = "Saroyan"
+color = Color(0.88238347, 0.44637716, 0.603951, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_vetmn"]
+script = ExtResource("1_xn26g")
+name = "Kessler"
+color = Color(0.31397086, 0.38080806, 0.9023274, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_sts0e"]
+script = ExtResource("1_xn26g")
+name = "Ellington"
+color = Color(0.22000003, 0.805, 1, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_v26ia"]
+script = ExtResource("1_xn26g")
+name = "Raman"
+color = Color(8.1822276e-07, 0.51035804, 0.14311942, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_ls7er"]
+script = ExtResource("1_xn26g")
+name = "Sarah"
+color = Color(0.8175458, 0.00033614517, 0.77271754, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_6bocp"]
+script = ExtResource("1_xn26g")
+name = "Feld"
+color = Color(0.79733336, 1, 0.24000001, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_6di8y"]
+script = ExtResource("1_xn26g")
+name = "Yohanan"
+color = Color(0.73712367, 0.05559068, 0.0700173, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_24v2q"]
+script = ExtResource("1_xn26g")
+name = "Mara"
+color = Color(0.49833328, 1, 0.13999999, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_y67bm"]
+script = ExtResource("1_xn26g")
+name = "Yosef"
+color = Color(0, 0, 1, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_whqxn"]
+script = ExtResource("1_xn26g")
+name = "???"
+color = Color(0.39, 0.035099987, 0.035099987, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[sub_resource type="Resource" id="Resource_sidbv"]
+script = ExtResource("1_xn26g")
+name = "Unknown Enemy"
+color = Color(0.3882353, 0.03529412, 0.03529412, 1)
+metadata/_custom_type_script = "uid://42coc6buijm5"
+
+[resource]
+script = ExtResource("2_7ay5b")
+characters = Array[ExtResource("1_xn26g")]([SubResource("Resource_66noe"), SubResource("Resource_o6mk1"), SubResource("Resource_wt4gm"), SubResource("Resource_vetmn"), SubResource("Resource_sts0e"), SubResource("Resource_v26ia"), SubResource("Resource_ls7er"), SubResource("Resource_6bocp"), SubResource("Resource_6di8y"), SubResource("Resource_24v2q"), SubResource("Resource_y67bm"), SubResource("Resource_whqxn"), SubResource("Resource_sidbv")])
+metadata/_custom_type_script = "uid://dr0x7hw4xr8r7"

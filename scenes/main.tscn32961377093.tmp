@@ -110,6 +110,11 @@ group = "physics"
 [node name="InteractionBehaviorSystem" type="Node" parent="World/Systems" unique_id=1107971090]
 script = ExtResource("17_gqmmt")
 group = "physics"
+process_empty = null
+active = null
+parallel_processing = null
+parallel_threshold = null
+command_buffer_flush_mode = null
 metadata/_custom_type_script = "uid://cy8l5dppco2y0"
 
 [node name="GodotDialogueSystem" type="Node" parent="World/Systems" unique_id=971836909]

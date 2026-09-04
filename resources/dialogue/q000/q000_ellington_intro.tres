@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="DialogueData" format=3 uid="uid://cukngkuyc6q3g"]
+
+[ext_resource type="Script" uid="uid://eit47g61t72a" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_66noe"]
+
+[resource]
+script = ExtResource("1_66noe")
+starts = {
+"red_light": &"0_2",
+"start": &"0_1"
+}
+nodes = {
+&"0_1": {
+"link": &"1_1",
+"offset": Vector2(0, 200),
+"size": Vector2(179.99994, 86.000046),
+"start_id": "start"
+},
+&"0_2": {
+"link": &"1_3",
+"offset": Vector2(940, 180),
+"size": Vector2(180, 86),
+"start_id": "red_light"
+},
+&"1_1": {
+"dialogue": "You must be our two-o-clock. Welcome to the Kairos Initiative — our little clubhouse. Right now there are just five of us — leaders in the fields of quantum technology, physics, and archaeology. You would be our sixth member — that is, if you meet the requirements and are interested.",
+"offset": Vector2(400, 200),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_1",
+"text": "Of course. Lead the way."
+}
+},
+"size": Vector2(320.00015, 380.00012),
+"speaker": 4
+},
+&"1_3": {
+"dialogue": "Don't mind the red light — it just means I'm not special.
+
+",
+"offset": Vector2(1280, 180),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300.00018, 267.00006),
+"speaker": 4
+},
+&"3_1": {
+"link": "END",
+"offset": Vector2(820, 480),
+"signalValue": "start_q000"
+},
+&"3_2": {
+"link": "END",
+"offset": Vector2(1689.2653, 496.82364),
+"signalValue": "progress_q000_red_light"
+}
+}
+characters = "res://resources/dialogue/characters.tres"

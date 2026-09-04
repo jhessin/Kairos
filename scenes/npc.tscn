@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://cwy8xuxqxsnou"]
 
 [ext_resource type="Script" uid="uid://c3aq5k230rfvt" path="res://entities/npc_entity.gd" id="1_nh2m4"]
-[ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q001/q001_yosef_intro.tres" id="2_abqhh"]
+[ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="2_abqhh"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_lrteg"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_prxtw"]
 
-[node name="Yosef" type="Node3D" unique_id=2112413242]
+[node name="Ellington" type="Node3D" unique_id=2112413242]
 script = ExtResource("1_nh2m4")
 dialogue_data = ExtResource("2_abqhh")
 start_id = &"start"
