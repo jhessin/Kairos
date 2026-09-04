@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 ECS="*uid://dfqwl5njvdnmq"
 QuestSystem="*uid://b77kvbliweux5"
+GameEventBus="*uid://b2blbbh74loyy"
 
 [display]
 
