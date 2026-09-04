@@ -10,20 +10,20 @@ starts = {
 }
 nodes = {
 &"0_1": {
-"link": &"1_1",
-"offset": Vector2(0, 200),
-"size": Vector2(179.99994, 86.000046),
+"link": &"1_2",
+"offset": Vector2(-400, -20),
+"size": Vector2(179.99991, 86.00012),
 "start_id": "start"
 },
 &"0_2": {
 "link": &"1_3",
-"offset": Vector2(940, 180),
-"size": Vector2(180, 86),
+"offset": Vector2(840, -340),
+"size": Vector2(180.00012, 86.00012),
 "start_id": "red_light"
 },
 &"1_1": {
-"dialogue": "You must be our two-o-clock. Welcome to the Kairos Initiative — our little clubhouse. Right now there are just five of us — leaders in the fields of quantum technology, physics, and archaeology. You would be our sixth member — that is, if you meet the requirements and are interested.",
-"offset": Vector2(400, 200),
+"dialogue": " You would be our sixth member — that is, if you meet the requirements and are interested.",
+"offset": Vector2(840, -20),
 "options": {
 0: {
 "condition": Array[Dictionary]([]),
@@ -31,14 +31,27 @@ nodes = {
 "text": "Of course. Lead the way."
 }
 },
-"size": Vector2(320.00015, 380.00012),
+"size": Vector2(300.00012, 300),
+"speaker": 4
+},
+&"1_2": {
+"dialogue": "You must be our two-o-clock. ",
+"offset": Vector2(-180, -20),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
 "speaker": 4
 },
 &"1_3": {
 "dialogue": "Don't mind the red light — it just means I'm not special.
 
 ",
-"offset": Vector2(1280, 180),
+"offset": Vector2(1180, -340),
 "options": {
 0: {
 "condition": Array[Dictionary]([]),
@@ -46,17 +59,43 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300.00018, 267.00006),
+"size": Vector2(300.00012, 267),
+"speaker": 4
+},
+&"1_4": {
+"dialogue": "Welcome to the Kairos Initiative — our little clubhouse.",
+"offset": Vector2(160, -20),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300.00006, 240),
+"speaker": 4
+},
+&"1_5": {
+"dialogue": "Right now there are just five of us — leaders in the fields of quantum technology, physics, and archaeology.",
+"offset": Vector2(500, -20),
+"options": {
+0: {
+"condition": Array[Dictionary]([]),
+"link": &"1_1",
+"text": ""
+}
+},
+"size": Vector2(300.00012, 240),
 "speaker": 4
 },
 &"3_1": {
 "link": "END",
-"offset": Vector2(820, 480),
+"offset": Vector2(1180, -20),
 "signalValue": "start_q000"
 },
 &"3_2": {
 "link": "END",
-"offset": Vector2(1689.2653, 496.82364),
+"offset": Vector2(1520, -340),
 "signalValue": "progress_q000_red_light"
 }
 }

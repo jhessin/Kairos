@@ -155,6 +155,7 @@ horizontal_alignment = 1
 
 [node name="DialogueBox" type="Panel" parent="DialogueUI" unique_id=986540090]
 unique_name_in_owner = true
+visible = false
 anchors_preset = -1
 anchor_top = 0.69900006
 anchor_right = 1.0
@@ -163,5 +164,6 @@ offset_top = 0.047973633
 grow_horizontal = 2
 grow_vertical = 0
 script = ExtResource("3_nk4n4")
+skip_input_action = "ui_accept"
 custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_lfut1"), SubResource("RichTextEffect_o1oab"), SubResource("RichTextEffect_uxtuv")])
 metadata/_custom_type_script = "uid://by8fmhpldj46a"

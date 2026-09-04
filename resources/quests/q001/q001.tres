@@ -1,14 +1,16 @@
 [gd_resource type="Resource" script_class="Q001Quest" format=3 uid="uid://gcy5f2hduv1"]
 
 [ext_resource type="Script" uid="uid://cxg3xcifhka0s" path="res://resources/quests/q001/q001_quest.gd" id="1_g1auo"]
-[ext_resource type="Script" uid="uid://cx15s76h6leh8" path="res://resources/quests/quest_step.gd" id="2_ub1ny"]
+[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="2_g1auo"]
 
-[sub_resource type="Resource" id="Resource_85q7r"]
-script = ExtResource("2_ub1ny")
-description = "Speak with Yosef."
+[sub_resource type="Resource" id="Resource_ub1ny"]
+script = ExtResource("2_g1auo")
+id = &"talk_to_yosef"
+type = 3
+metadata/_custom_type_script = "uid://cf7pib8tsry6s"
 
 [resource]
 script = ExtResource("1_g1auo")
-steps = Array[ExtResource("2_ub1ny")]([SubResource("Resource_85q7r")])
+steps = Array[ExtResource("2_g1auo")]([SubResource("Resource_ub1ny")])
 quest_name = "Pretend to Be Eliab"
 quest_description = "Maintain the appearance that you are Eliab."

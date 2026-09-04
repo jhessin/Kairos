@@ -19,8 +19,12 @@
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
+[ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/quest/objective_system.gd" id="19_jscy8"]
 [ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot/godot_dialogue_system.gd" id="19_og1vs"]
+[ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="22_og1vs"]
+[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="23_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
+[ext_resource type="Resource" uid="uid://dg0apatv27asq" path="res://resources/objectives/obj_talk_to_elder.tres" id="24_vxglm"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lrteg"]
 size = Vector3(100, 1, 100)
@@ -116,6 +120,10 @@ metadata/_custom_type_script = "uid://cy8l5dppco2y0"
 script = ExtResource("19_og1vs")
 group = "physics"
 
+[node name="ObjectiveSystem" type="Node" parent="World/Systems" unique_id=1846603046]
+script = ExtResource("19_jscy8")
+metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
+
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
 [node name="PlayerEntity" parent="World/Entities" unique_id=732831921 instance=ExtResource("6_ya4ey")]
@@ -123,6 +131,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1445017, 0)
 
 [node name="Elder" parent="World/Entities" unique_id=2112413242 instance=ExtResource("24_og1vs")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.920329, 1.504694, 9.62509)
+dialogue_data = ExtResource("22_og1vs")
+start_id = &"start"
+objectives = Array[ExtResource("23_2wyq8")]([ExtResource("24_vxglm")])
 
 [node name="Environment" type="Node" parent="." unique_id=1156814316]
 
