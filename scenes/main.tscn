@@ -2,10 +2,8 @@
 
 [ext_resource type="Script" uid="uid://xhw13exwvctc" path="res://main.gd" id="1_tefeu"]
 [ext_resource type="Script" uid="uid://cdu5tlyk72uu4" path="res://addons/gecs/ecs/world.gd" id="2_o6xl0"]
-[ext_resource type="Script" uid="uid://cnw2lf14edh3q" path="res://systems/input/player_input_system.gd" id="3_tipki"]
 [ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/movement_system.gd" id="4_85g3d"]
 [ext_resource type="Script" uid="uid://btcw2g5ldvtvj" path="res://systems/godot/godot_movement_system.gd" id="5_choun"]
-[ext_resource type="Script" uid="uid://coxd424hg41ca" path="res://systems/camera_system.gd" id="6_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
 [ext_resource type="Script" uid="uid://c77vubib03gf3" path="res://systems/godot/godot_camera_system.gd" id="7_tipki"]
 [ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
@@ -14,11 +12,12 @@
 [ext_resource type="Script" uid="uid://b3dg3oprljpdd" path="res://systems/animation_state_system.gd" id="11_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 [ext_resource type="Script" uid="uid://ck6i2cb8oxxy" path="res://systems/godot/godot_animation_system.gd" id="12_jkv2x"]
-[ext_resource type="Script" uid="uid://xrte7mkld8g6" path="res://systems/input/interaction_input_system.gd" id="13_jkv2x"]
 [ext_resource type="Script" uid="uid://cwaao7344k2yj" path="res://systems/godot/godot_interaction_system.gd" id="14_dp3eg"]
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
+[ext_resource type="Script" uid="uid://b3vi2ingux88g" path="res://addons/gecs/lib/system_group.gd" id="17_y6deb"]
+[ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/_core/input_system.gd" id="18_og1vs"]
 [ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/quest/objective_system.gd" id="19_jscy8"]
 [ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot/godot_dialogue_system.gd" id="19_og1vs"]
 [ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="22_og1vs"]
@@ -46,16 +45,6 @@ system_nodes_root = NodePath("Systems")
 metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
 
 [node name="Systems" type="Node" parent="World" unique_id=617874267]
-
-[node name="PlayerInputSystem" type="Node" parent="World/Systems" unique_id=540705423]
-script = ExtResource("3_tipki")
-group = "physics"
-metadata/_custom_type_script = "uid://cnw2lf14edh3q"
-
-[node name="CameraSystem" type="Node" parent="World/Systems" unique_id=29954087]
-script = ExtResource("6_o6xl0")
-group = "physics"
-metadata/_custom_type_script = "uid://coxd424hg41ca"
 
 [node name="MovementModeSystem" type="Node" parent="World/Systems" unique_id=149002249]
 script = ExtResource("10_ya4ey")
@@ -93,11 +82,6 @@ group = "physics"
 script = ExtResource("12_jkv2x")
 group = "physics"
 
-[node name="InteractionInputSystem" type="Node" parent="World/Systems" unique_id=135445347]
-script = ExtResource("13_jkv2x")
-group = "physics"
-metadata/_custom_type_script = "uid://xrte7mkld8g6"
-
 [node name="GodotInteractionSystem" type="Node" parent="World/Systems" unique_id=93918837]
 script = ExtResource("14_dp3eg")
 group = "physics"
@@ -123,6 +107,14 @@ group = "physics"
 [node name="ObjectiveSystem" type="Node" parent="World/Systems" unique_id=1846603046]
 script = ExtResource("19_jscy8")
 metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
+
+[node name="physics" type="Node" parent="World/Systems" unique_id=1802906782]
+script = ExtResource("17_y6deb")
+metadata/_custom_type_script = "uid://b3vi2ingux88g"
+
+[node name="InputSystem" type="Node" parent="World/Systems/physics" unique_id=1564625106]
+script = ExtResource("18_og1vs")
+metadata/_custom_type_script = "uid://dsohsuj4q3k1v"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 

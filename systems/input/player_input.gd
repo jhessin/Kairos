@@ -1,15 +1,8 @@
-class_name PlayerInputSystem
-extends System
+class_name PlayerInput
+extends RefCounted
 
 
-# Remember: Systems contain the meat and potatos of everything and can delete
-# themselves or add other systems etc. System order matters.
-func query() -> QueryBuilder:
-	# process_empty = false # Do we want this to run every frame even with no entities?
-	return q.with_all([C_Player, C_MovementIntent, C_MovementMode, C_GodotCamera, C_DialogueState]) # return the query here
-
-
-func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
+static func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	if Input.is_action_just_pressed('ui_cancel'):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 

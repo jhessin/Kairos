@@ -1,12 +1,8 @@
-class_name InteractionInputSystem
-extends System
+class_name InteractionInput
+extends RefCounted
 
 
-func query() -> QueryBuilder:
-	return q.with_all([C_Player, C_Interaction])
-
-
-func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
+static func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var player := entity.get_component(C_Player) as C_Player
 		var interaction := entity.get_component(C_Interaction) as C_Interaction

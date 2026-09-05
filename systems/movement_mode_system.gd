@@ -3,7 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [PlayerInputSystem], Runs.Before: [MovementSystem] }
+	return { Runs.After: [PlayerInput], Runs.Before: [MovementSystem] }
 
 
 func query() -> QueryBuilder:
