@@ -8,13 +8,13 @@
 [ext_resource type="Script" uid="uid://c4sclfhce2qqb" path="res://systems/movement_mode_system.gd" id="10_ya4ey"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 [ext_resource type="Script" uid="uid://ctfa7v5vuhf2o" path="res://systems/_core/godot_system_3d.gd" id="13_0ld40"]
+[ext_resource type="Script" uid="uid://x0ab48yq8d2m" path="res://systems/_core/dialogue_system.gd" id="13_gqmmt"]
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
 [ext_resource type="Script" uid="uid://bagypa27nu7s3" path="res://systems/_core/animation_system.gd" id="17_pm3ni"]
 [ext_resource type="Script" uid="uid://b3vi2ingux88g" path="res://addons/gecs/lib/system_group.gd" id="17_y6deb"]
 [ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/_core/input_system.gd" id="18_og1vs"]
 [ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/quest/objective_system.gd" id="19_jscy8"]
-[ext_resource type="Script" uid="uid://chq0ex2mvmf30" path="res://systems/godot/godot_dialogue_system.gd" id="19_og1vs"]
 [ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="22_og1vs"]
 [ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="23_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
@@ -66,10 +66,6 @@ script = ExtResource("17_gqmmt")
 group = "physics"
 metadata/_custom_type_script = "uid://cy8l5dppco2y0"
 
-[node name="GodotDialogueSystem" type="Node" parent="World/Systems" unique_id=971836909]
-script = ExtResource("19_og1vs")
-group = "physics"
-
 [node name="ObjectiveSystem" type="Node" parent="World/Systems" unique_id=1846603046]
 script = ExtResource("19_jscy8")
 metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
@@ -90,6 +86,11 @@ metadata/_custom_type_script = "uid://bagypa27nu7s3"
 script = ExtResource("13_0ld40")
 group = &"physics"
 metadata/_custom_type_script = "uid://ctfa7v5vuhf2o"
+
+[node name="DialogueSystem" type="Node" parent="World/Systems/physics" unique_id=1456137581]
+script = ExtResource("13_gqmmt")
+group = &"physics"
+metadata/_custom_type_script = "uid://x0ab48yq8d2m"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
