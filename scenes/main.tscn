@@ -68,6 +68,7 @@ metadata/_custom_type_script = "uid://cy8l5dppco2y0"
 
 [node name="ObjectiveSystem" type="Node" parent="World/Systems" unique_id=1846603046]
 script = ExtResource("19_jscy8")
+group = "physics"
 metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
 
 [node name="physics" type="Node" parent="World/Systems" unique_id=1802906782]
@@ -84,7 +85,6 @@ metadata/_custom_type_script = "uid://bagypa27nu7s3"
 
 [node name="GodotSystem3d" type="Node" parent="World/Systems/physics" unique_id=883863937]
 script = ExtResource("13_0ld40")
-group = &"physics"
 metadata/_custom_type_script = "uid://ctfa7v5vuhf2o"
 
 [node name="DialogueSystem" type="Node" parent="World/Systems/physics" unique_id=1456137581]

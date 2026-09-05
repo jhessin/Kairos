@@ -2,6 +2,10 @@ class_name InputSystem
 extends System
 
 
+func deps() -> Dictionary[int, Array]:
+	return { Runs.Before: [MovementModeSystem, MovementSystem, GodotSystem3d, FacingSystem] }
+
+
 func sub_systems() -> Array[Array]:
 	return [
 		[

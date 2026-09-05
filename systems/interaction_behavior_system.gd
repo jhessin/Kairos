@@ -3,7 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [InteractionSystem] }
+	return { Runs.After: [InteractionSystem], Runs.Before: [ObjectiveSystem] }
 
 
 func query() -> QueryBuilder:
