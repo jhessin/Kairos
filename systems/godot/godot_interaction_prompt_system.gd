@@ -3,7 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [GodotInteractionSystem] }
+	return { Runs.After: [GodotSystem3d] }
 
 
 func query() -> QueryBuilder:

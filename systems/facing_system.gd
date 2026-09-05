@@ -3,7 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [MovementSystem], Runs.Before: [GodotRotationSystem] }
+	return { Runs.After: [MovementSystem], Runs.Before: [GodotSystem3d] }
 
 
 func query() -> QueryBuilder:
