@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://cdu5tlyk72uu4" path="res://addons/gecs/ecs/world.gd" id="2_o6xl0"]
 [ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/movement_system.gd" id="4_85g3d"]
 [ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
-[ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
 [ext_resource type="Script" uid="uid://ctfa7v5vuhf2o" path="res://systems/_core/godot_system_3d.gd" id="13_0ld40"]
 [ext_resource type="Script" uid="uid://x0ab48yq8d2m" path="res://systems/_core/dialogue_system.gd" id="13_gqmmt"]
@@ -40,11 +39,6 @@ metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
 
 [node name="Systems" type="Node" parent="World" unique_id=617874267]
 
-[node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
-script = ExtResource("8_choun")
-group = "physics"
-metadata/_custom_type_script = "uid://1dcwygyabhph"
-
 [node name="InteractionSystem" type="Node" parent="World/Systems" unique_id=1403485592]
 script = ExtResource("14_jbj1t")
 group = "physics"
@@ -70,7 +64,6 @@ metadata/_custom_type_script = "uid://dsohsuj4q3k1v"
 
 [node name="AnimationSystem" type="Node" parent="World/Systems/physics" unique_id=1878835195]
 script = ExtResource("17_pm3ni")
-group = &"physics"
 metadata/_custom_type_script = "uid://bagypa27nu7s3"
 
 [node name="GodotSystem3d" type="Node" parent="World/Systems/physics" unique_id=883863937]
