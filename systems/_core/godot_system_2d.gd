@@ -1,0 +1,2 @@
+class_name GodotSystem2d
+extends System
