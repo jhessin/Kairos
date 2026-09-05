@@ -40,11 +40,6 @@ metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
 
 [node name="Systems" type="Node" parent="World" unique_id=617874267]
 
-[node name="MovementSystem" type="Node" parent="World/Systems" unique_id=1554304383]
-script = ExtResource("4_85g3d")
-group = "physics"
-metadata/_custom_type_script = "uid://ct3epth68vefy"
-
 [node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
 script = ExtResource("8_choun")
 group = "physics"
@@ -87,6 +82,10 @@ metadata/_custom_type_script = "uid://ctfa7v5vuhf2o"
 script = ExtResource("13_gqmmt")
 group = &"physics"
 metadata/_custom_type_script = "uid://x0ab48yq8d2m"
+
+[node name="MovementSystem" type="Node" parent="World/Systems/physics" unique_id=1554304383]
+script = ExtResource("4_85g3d")
+metadata/_custom_type_script = "uid://ct3epth68vefy"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 

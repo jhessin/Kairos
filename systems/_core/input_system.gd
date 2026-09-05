@@ -14,5 +14,4 @@ func sub_systems() -> Array[Array]:
 		],
 		[q.with_all([C_Player, C_CameraState]), CameraInput.process],
 		[q.with_all([C_Player, C_Interaction]), InteractionInput.process],
-		[q.with_all([C_MovementMode, C_MovementConfig, C_MovementIntent]), MovementMode.process],
 	]
