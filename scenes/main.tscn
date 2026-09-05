@@ -9,13 +9,12 @@
 [ext_resource type="Script" uid="uid://1dcwygyabhph" path="res://systems/facing_system.gd" id="8_choun"]
 [ext_resource type="Script" uid="uid://5rb0oh16hhdi" path="res://systems/godot/godot_rotation_system.gd" id="9_ya4ey"]
 [ext_resource type="Script" uid="uid://c4sclfhce2qqb" path="res://systems/movement_mode_system.gd" id="10_ya4ey"]
-[ext_resource type="Script" uid="uid://b3dg3oprljpdd" path="res://systems/animation_state_system.gd" id="11_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
-[ext_resource type="Script" uid="uid://ck6i2cb8oxxy" path="res://systems/godot/godot_animation_system.gd" id="12_jkv2x"]
 [ext_resource type="Script" uid="uid://cwaao7344k2yj" path="res://systems/godot/godot_interaction_system.gd" id="14_dp3eg"]
 [ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
 [ext_resource type="Script" uid="uid://duckblxt1h8wb" path="res://systems/godot/godot_interaction_prompt_system.gd" id="16_0ld40"]
 [ext_resource type="Script" uid="uid://cy8l5dppco2y0" path="res://systems/interaction_behavior_system.gd" id="17_gqmmt"]
+[ext_resource type="Script" uid="uid://bagypa27nu7s3" path="res://systems/_core/animation_system.gd" id="17_pm3ni"]
 [ext_resource type="Script" uid="uid://b3vi2ingux88g" path="res://addons/gecs/lib/system_group.gd" id="17_y6deb"]
 [ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/_core/input_system.gd" id="18_og1vs"]
 [ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/quest/objective_system.gd" id="19_jscy8"]
@@ -56,11 +55,6 @@ script = ExtResource("4_85g3d")
 group = "physics"
 metadata/_custom_type_script = "uid://ct3epth68vefy"
 
-[node name="AnimationStateSystem" type="Node" parent="World/Systems" unique_id=652275757]
-script = ExtResource("11_a8y0u")
-group = "physics"
-metadata/_custom_type_script = "uid://b3dg3oprljpdd"
-
 [node name="FacingSystem" type="Node" parent="World/Systems" unique_id=1186541670]
 script = ExtResource("8_choun")
 group = "physics"
@@ -76,10 +70,6 @@ group = "physics"
 
 [node name="GodotCameraSystem" type="Node" parent="World/Systems" unique_id=756005017]
 script = ExtResource("7_tipki")
-group = "physics"
-
-[node name="GodotAnimationSystem" type="Node" parent="World/Systems" unique_id=432579851]
-script = ExtResource("12_jkv2x")
 group = "physics"
 
 [node name="GodotInteractionSystem" type="Node" parent="World/Systems" unique_id=93918837]
@@ -115,6 +105,10 @@ metadata/_custom_type_script = "uid://b3vi2ingux88g"
 [node name="InputSystem" type="Node" parent="World/Systems/physics" unique_id=1564625106]
 script = ExtResource("18_og1vs")
 metadata/_custom_type_script = "uid://dsohsuj4q3k1v"
+
+[node name="AnimationSystem" type="Node" parent="World/Systems/physics" unique_id=1878835195]
+script = ExtResource("17_pm3ni")
+metadata/_custom_type_script = "uid://bagypa27nu7s3"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 
