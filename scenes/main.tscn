@@ -2,16 +2,16 @@
 
 [ext_resource type="Script" uid="uid://xhw13exwvctc" path="res://main.gd" id="1_tefeu"]
 [ext_resource type="Script" uid="uid://cdu5tlyk72uu4" path="res://addons/gecs/ecs/world.gd" id="2_o6xl0"]
-[ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/_core/movement_system.gd" id="4_85g3d"]
+[ext_resource type="Script" uid="uid://ct3epth68vefy" path="res://systems/movement_system.gd" id="4_85g3d"]
 [ext_resource type="PackedScene" uid="uid://eia7i60vn1mw" path="res://scenes/player_entity.tscn" id="6_ya4ey"]
 [ext_resource type="Texture2D" uid="uid://bpk585tvhgjf1" path="res://icon.svg" id="12_eb6dy"]
-[ext_resource type="Script" uid="uid://ctfa7v5vuhf2o" path="res://systems/_core/godot_system_3d.gd" id="13_0ld40"]
-[ext_resource type="Script" uid="uid://x0ab48yq8d2m" path="res://systems/_core/dialogue_system.gd" id="13_gqmmt"]
-[ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/_core/interaction_system.gd" id="14_jbj1t"]
-[ext_resource type="Script" uid="uid://bagypa27nu7s3" path="res://systems/_core/animation_system.gd" id="17_pm3ni"]
+[ext_resource type="Script" uid="uid://ctfa7v5vuhf2o" path="res://systems/godot_system_3d.gd" id="13_0ld40"]
+[ext_resource type="Script" uid="uid://x0ab48yq8d2m" path="res://systems/dialogue_system.gd" id="13_gqmmt"]
+[ext_resource type="Script" uid="uid://1swoocl5chp2" path="res://systems/interaction_system.gd" id="14_jbj1t"]
+[ext_resource type="Script" uid="uid://bagypa27nu7s3" path="res://systems/animation_system.gd" id="17_pm3ni"]
 [ext_resource type="Script" uid="uid://b3vi2ingux88g" path="res://addons/gecs/lib/system_group.gd" id="17_y6deb"]
-[ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/_core/input_system.gd" id="18_og1vs"]
-[ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/quest/objective_system.gd" id="19_jscy8"]
+[ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/input_system.gd" id="18_og1vs"]
+[ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/objective_system.gd" id="19_jscy8"]
 [ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="22_og1vs"]
 [ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="23_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
@@ -38,33 +38,24 @@ metadata/_custom_type_script = "uid://cdu5tlyk72uu4"
 
 [node name="Systems" type="Node" parent="World" unique_id=617874267]
 
-[node name="ObjectiveSystem" type="Node" parent="World/Systems" unique_id=1846603046]
-script = ExtResource("19_jscy8")
-group = "physics"
-metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
-
 [node name="physics" type="Node" parent="World/Systems" unique_id=1802906782]
 script = ExtResource("17_y6deb")
 metadata/_custom_type_script = "uid://b3vi2ingux88g"
 
 [node name="InputSystem" type="Node" parent="World/Systems/physics" unique_id=1564625106]
 script = ExtResource("18_og1vs")
-group = &"physics"
 metadata/_custom_type_script = "uid://dsohsuj4q3k1v"
 
 [node name="AnimationSystem" type="Node" parent="World/Systems/physics" unique_id=1878835195]
 script = ExtResource("17_pm3ni")
-group = &"physics"
 metadata/_custom_type_script = "uid://bagypa27nu7s3"
 
 [node name="GodotSystem3d" type="Node" parent="World/Systems/physics" unique_id=883863937]
 script = ExtResource("13_0ld40")
-group = &"physics"
 metadata/_custom_type_script = "uid://ctfa7v5vuhf2o"
 
 [node name="DialogueSystem" type="Node" parent="World/Systems/physics" unique_id=1456137581]
 script = ExtResource("13_gqmmt")
-group = &"physics"
 metadata/_custom_type_script = "uid://x0ab48yq8d2m"
 
 [node name="MovementSystem" type="Node" parent="World/Systems/physics" unique_id=1554304383]
@@ -74,8 +65,11 @@ metadata/_custom_type_script = "uid://ct3epth68vefy"
 
 [node name="InteractionSystem" type="Node" parent="World/Systems/physics" unique_id=1403485592]
 script = ExtResource("14_jbj1t")
-group = &"physics"
 metadata/_custom_type_script = "uid://1swoocl5chp2"
+
+[node name="ObjectiveSystem" type="Node" parent="World/Systems/physics" unique_id=1846603046]
+script = ExtResource("19_jscy8")
+metadata/_custom_type_script = "uid://dgijaj6a1ynfy"
 
 [node name="Entities" type="Node" parent="World" unique_id=1105179887]
 

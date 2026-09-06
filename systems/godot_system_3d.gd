@@ -3,10 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return {
-		Runs.After: [MovementSystem, FacingSystem, InputSystem],
-		Runs.Before: [InteractionSystem],
-	}
+	return { Runs.After: [AnimationSystem], Runs.Before: [InteractionSystem] }
 
 
 func sub_systems() -> Array[Array]:
@@ -27,5 +24,5 @@ func sub_systems() -> Array[Array]:
 			),
 			GodotInteraction.process,
 		],
-		[q.with_all([C_InteractionPrompt, C_GodotInteraction]), GodotInteractionPrompt.process],
+		[q.with_all([C_InteractionPrompt, C_GodotInteraction]), InteractionPrompt.process],
 	]

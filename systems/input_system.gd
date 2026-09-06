@@ -3,7 +3,7 @@ extends System
 
 
 func deps() -> Dictionary[int, Array]:
-	return { Runs.Before: [MovementSystem, GodotSystem3d, FacingSystem] }
+	return { Runs.Before: [MovementSystem] }
 
 
 func sub_systems() -> Array[Array]:

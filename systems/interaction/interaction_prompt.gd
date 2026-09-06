@@ -1,4 +1,4 @@
-class_name GodotInteractionPrompt
+class_name InteractionPrompt
 extends RefCounted
 
 

@@ -1,22 +1,8 @@
-class_name ObjectiveSystem
-extends System
+class_name ObjectiveProcessor
+extends RefCounted
 
 
-func _ready() -> void:
-	GameEventBus.interacted.connect(_on_interacted)
-	GameEventBus.collected.connect(_on_collected)
-	GameEventBus.killed.connect(_on_killed)
-
-
-func deps() -> Dictionary[int, Array]:
-	return { Runs.After: [InteractionBehaviorSystem] }
-
-
-func query() -> QueryBuilder:
-	return q.with_all([C_ObjectiveTarget])
-
-
-func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
+static func process(entities: Array[Entity], _components: Array, _delta: float) -> void:
 	for entity in entities:
 		var objective_target := (entity.get_component(C_ObjectiveTarget) as C_ObjectiveTarget)
 
@@ -24,19 +10,7 @@ func process(entities: Array[Entity], _components: Array, _delta: float) -> void
 			continue
 
 
-func _on_interacted(source: Entity, target: Entity) -> void:
-	_process_event(source, target, Objective.Type.INTERACT)
-
-
-func _on_collected(source: Entity, target: Entity) -> void:
-	_process_event(source, target, Objective.Type.COLLECT)
-
-
-func _on_killed(source: Entity, target: Entity) -> void:
-	_process_event(source, target, Objective.Type.KILL)
-
-
-func _process_event(source: Entity, target: Entity, type: Objective.Type) -> void:
+static func process_event(source: Entity, target: Entity, type: Objective.Type) -> void:
 	var objective_target := (target.get_component(C_ObjectiveTarget) as C_ObjectiveTarget)
 
 	if objective_target == null:
@@ -76,7 +50,10 @@ func _process_event(source: Entity, target: Entity, type: Objective.Type) -> voi
 				print('Quest objectives completed: ', q001.quest_name)
 
 
-func _target_has_objective(objective_target: C_ObjectiveTarget, objective: Objective) -> bool:
+static func _target_has_objective(
+	objective_target: C_ObjectiveTarget,
+	objective: Objective,
+) -> bool:
 	for target_objective in objective_target.objectives:
 		if target_objective == objective:
 			return true
