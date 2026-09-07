@@ -19,10 +19,10 @@ static func process_event(source: Entity, target: Entity, type: Objective.Type) 
 	var active_quests := QuestSystem.get_active_quests()
 
 	for quest in active_quests:
-		if not quest is Q001Quest:
+		if not quest is ObjectiveQuest:
 			continue
 
-		var q001 := quest as Q001Quest
+		var q001 := quest as ObjectiveQuest
 
 		for instance in q001.objective_instances:
 			if instance.completed:

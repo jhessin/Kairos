@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="Q001Quest" format=3 uid="uid://gcy5f2hduv1"]
+[gd_resource type="Resource" script_class="ObjectiveQuest" format=3 uid="uid://gcy5f2hduv1"]
 
-[ext_resource type="Script" uid="uid://cxg3xcifhka0s" path="res://resources/quests/q001/q001_quest.gd" id="1_g1auo"]
+[ext_resource type="Script" uid="uid://cxg3xcifhka0s" path="res://systems/quest/objective_quest.gd" id="1_g1auo"]
 [ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="2_g1auo"]
 [ext_resource type="Resource" uid="uid://dg0apatv27asq" path="res://resources/objectives/obj_talk_to_elder.tres" id="2_ub1ny"]
 

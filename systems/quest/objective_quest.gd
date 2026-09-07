@@ -1,4 +1,4 @@
-class_name Q001Quest
+class_name ObjectiveQuest
 extends Quest
 
 @export var objectives: Array[Objective] = []

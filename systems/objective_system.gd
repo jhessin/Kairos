@@ -18,6 +18,8 @@ func _ready() -> void:
 	GameEventBus.interacted.connect(_on_interacted)
 	GameEventBus.collected.connect(_on_collected)
 	GameEventBus.killed.connect(_on_killed)
+	GameEventBus.start_quest.connect(QuestProcessor.start_quest)
+	GameEventBus.complete_quest.connect(QuestProcessor.complete_quest)
 
 
 func deps() -> Dictionary[int, Array]:
