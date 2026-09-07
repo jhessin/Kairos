@@ -13,7 +13,7 @@
 [ext_resource type="Script" uid="uid://dsohsuj4q3k1v" path="res://systems/input_system.gd" id="18_og1vs"]
 [ext_resource type="Script" uid="uid://dgijaj6a1ynfy" path="res://systems/objective_system.gd" id="19_jscy8"]
 [ext_resource type="Resource" uid="uid://cukngkuyc6q3g" path="res://resources/dialogue/q000/q000_ellington_intro.tres" id="22_og1vs"]
-[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="23_2wyq8"]
+[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://systems/quest/objective.gd" id="23_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://cwy8xuxqxsnou" path="res://scenes/npc.tscn" id="24_og1vs"]
 [ext_resource type="Resource" uid="uid://dg0apatv27asq" path="res://resources/objectives/obj_talk_to_elder.tres" id="24_vxglm"]
 

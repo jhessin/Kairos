@@ -15,29 +15,3 @@ var is_complete: bool:
 				return false
 
 		return true
-
-
-func start(args: Dictionary = { }) -> void:
-	objective_instances.clear()
-
-	for objective in objectives:
-		if objective == null:
-			continue
-
-		objective_instances.append(ObjectiveInstance.new(objective))
-	super.start(args)
-
-
-func get_current_objective() -> ObjectiveInstance:
-	for instance in objective_instances:
-		if not instance.completed:
-			return instance
-
-	return null
-
-
-func complete_current_objective() -> void:
-	var instance := get_current_objective()
-
-	if instance:
-		instance.complete()

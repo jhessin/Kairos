@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Objective" format=3 uid="uid://dg0apatv27asq"]
 
-[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://resources/objectives/objective.gd" id="1_m6wwp"]
+[ext_resource type="Script" uid="uid://cf7pib8tsry6s" path="res://systems/quest/objective.gd" id="1_m6wwp"]
 
 [resource]
 script = ExtResource("1_m6wwp")
