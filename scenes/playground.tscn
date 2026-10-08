@@ -1,0 +1,54 @@
+[gd_scene format=4 uid="uid://u2angm4gswqt"]
+
+[ext_resource type="Texture2D" uid="uid://c25coo8exxc4p" path="res://assets/Grade.jpg" id="1_mm0a5"]
+[ext_resource type="Texture2D" uid="uid://bl4uw6t3psbxo" path="res://assets/Floor 01.png" id="2_o6wi6"]
+[ext_resource type="Texture2D" uid="uid://bon3os2moixqr" path="res://assets/House 01.png" id="3_emj6c"]
+[ext_resource type="Texture2D" uid="uid://p83qlsvq6ylg" path="res://assets/Barrel 01.png" id="4_mrac1"]
+[ext_resource type="Texture2D" uid="uid://dtqrmd3cp3ywj" path="res://assets/Palm Tree.png" id="5_2q4k0"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x1amm"]
+texture = ExtResource("2_o6wi6")
+texture_region_size = Vector2i(614, 190)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/right_corner = 0
+0:0/0/terrains_peering_bit/bottom_right_side = 0
+0:0/0/terrains_peering_bit/bottom_corner = 0
+0:0/0/terrains_peering_bit/bottom_left_side = 0
+0:0/0/terrains_peering_bit/left_corner = 0
+0:0/0/terrains_peering_bit/top_left_side = 0
+0:0/0/terrains_peering_bit/top_corner = 0
+0:0/0/terrains_peering_bit/top_right_side = 0
+
+[sub_resource type="TileSet" id="TileSet_3hsmr"]
+tile_shape = 1
+tile_layout = 4
+tile_size = Vector2i(614, 191)
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetAtlasSource_x1amm")
+
+[node name="Node2D" type="Node2D" unique_id=356520735]
+
+[node name="Grade" type="Sprite2D" parent="." unique_id=1720352666]
+visible = false
+position = Vector2(1634, -49)
+texture = ExtResource("1_mm0a5")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=841930055]
+tile_map_data = PackedByteArray("AAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAACAAUAAAAAAAAAAAABAAUAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAABAAYAAAAAAAAAAAACAAYAAAAAAAAAAAACAAcAAAAAAAAAAAABAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAgAAAAAAAAAAAD//wQAAAAAAAAAAAD//wMAAAAAAAAAAAAAAAMAAAAAAAAAAAACAAIAAAAAAAAAAAACAAMAAAAAAAAAAAADAAIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAD//wIAAAAAAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAADAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAEAAIAAAAAAAAAAAAFAAIAAAAAAAAAAAAEAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAAEAAUAAAAAAAAAAAAEAAYAAAAAAAAAAAADAAYAAAAAAAAAAAADAAcAAAAAAAAAAAADAAgAAAAAAAAAAAACAAgAAAAAAAAAAAADAAUAAAAAAAAAAAAGAAkAAAAAAAAAAAAGAAgAAAAAAAAAAAAGAAcAAAAAAAAAAAAGAAYAAAAAAAAAAAAGAAUAAAAAAAAAAAAGAAQAAAAAAAAAAAAGAAMAAAAAAAAAAAAGAAIAAAAAAAAAAAAGAAEAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAP//AAAAAAAAAAAGAP7/AAAAAAAAAAAFAAkAAAAAAAAAAAAFAAgAAAAAAAAAAAAFAAcAAAAAAAAAAAAFAAYAAAAAAAAAAAAFAAUAAAAAAAAAAAAFAAQAAAAAAAAAAAAFAAMAAAAAAAAAAAAFAAEAAAAAAAAAAAAFAAAAAAAAAAAAAAAFAP//AAAAAAAAAAAFAP7/AAAAAAAAAAAEAAkAAAAAAAAAAAAEAAgAAAAAAAAAAAAEAAcAAAAAAAAAAAAEAP//AAAAAAAAAAAEAP7/AAAAAAAAAAADAAkAAAAAAAAAAAADAAMAAAAAAAAAAAADAP//AAAAAAAAAAADAP7/AAAAAAAAAAACAAkAAAAAAAAAAAACAP//AAAAAAAAAAACAP7/AAAAAAAAAAABAAkAAAAAAAAAAAABAAgAAAAAAAAAAAABAP//AAAAAAAAAAABAP7/AAAAAAAAAAAFAAoAAAAAAAAAAAAEAAoAAAAAAAAAAAADAAoAAAAAAAAAAAACAAoAAAAAAAAAAAABAAoAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAP7/AAAAAAAAAAD//woAAAAAAAAAAAD//wkAAAAAAAAAAAD//wgAAAAAAAAAAAD//wcAAAAAAAAAAAD//wYAAAAAAAAAAAD//wUAAAAAAAAAAAD//wEAAAAAAAAAAAD//wAAAAAAAAAAAAD/////AAAAAAAAAAD///7/AAAAAAAAAAA=")
+tile_set = SubResource("TileSet_3hsmr")
+
+[node name="House01" type="Sprite2D" parent="." unique_id=298126260]
+position = Vector2(2166, 363)
+texture = ExtResource("3_emj6c")
+
+[node name="Barrel01" type="Sprite2D" parent="." unique_id=312359536]
+position = Vector2(1742, 473)
+texture = ExtResource("4_mrac1")
+
+[node name="PalmTree" type="Sprite2D" parent="." unique_id=1679735732]
+position = Vector2(2766, 502)
+texture = ExtResource("5_2q4k0")
